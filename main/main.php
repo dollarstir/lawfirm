@@ -52,7 +52,7 @@
         <link rel="stylesheet" href="main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="main/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body>
@@ -95,7 +95,7 @@
                         <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                             <div class="logo-area">
                                 <a href="main/index.html">
-                                    <img src="img/logo.png" alt="logo">
+                                    <img src="main/img/logo.png" alt="logo">
                                 </a>
                             </div>
                         </div>
@@ -344,8 +344,8 @@
         <div class="slider-area">
             <div class="bend niceties preview-2">
                 <div id="ensign-nivoslider" class="slides">
-                    <img src="img/slides/slide1.jpg" alt="image" title="#slider-direction-1" />
-                    <img src="img/slides/slide2.jpg" alt="image" title="#slider-direction-2" />
+                    <img src="main/img/slides/slide1.jpg" alt="image" title="#slider-direction-1" />
+                    <img src="main/img/slides/slide2.jpg" alt="image" title="#slider-direction-2" />
                 </div>
                 <!-- direction 1 -->
                 <div id="slider-direction-1" class="t-cn slider-direction">
@@ -454,7 +454,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="about-lawyer-featured-image">
                             <a href="main/about.html">
-                                <img src="img/about.png" alt="about">
+                                <img src="main/img/about.png" alt="about">
                             </a>
                         </div>
                     </div>
@@ -618,7 +618,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/0.jpg" alt="">
+                                            <img src="main/img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -658,7 +658,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/00.jpg" alt="">
+                                            <img src="main/img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -698,7 +698,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/01.jpg" alt="">
+                                            <img src="main/img/clients/01.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -738,7 +738,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/00.jpg" alt="">
+                                            <img src="main/img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -778,7 +778,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/0.jpg" alt="">
+                                            <img src="main/img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -818,7 +818,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/00.jpg" alt="">
+                                            <img src="main/img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -858,7 +858,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/01.jpg" alt="">
+                                            <img src="main/img/clients/01.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -898,7 +898,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/00.jpg" alt="">
+                                            <img src="main/img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -938,7 +938,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/0.jpg" alt="">
+                                            <img src="main/img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -978,7 +978,7 @@
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
                                         <a href="main/index.html#">
-                                            <img src="img/clients/00.jpg" alt="">
+                                            <img src="main/img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
@@ -1034,7 +1034,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/3.jpg" alt="">
+                                <img src="main/img/attorney/3.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1076,7 +1076,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/1.jpg" alt="">
+                                <img src="main/img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1118,7 +1118,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/2.jpg" alt="">
+                                <img src="main/img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1160,7 +1160,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/4.jpg" alt="">
+                                <img src="main/img/attorney/4.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1202,7 +1202,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/1.jpg" alt="">
+                                <img src="main/img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1244,7 +1244,7 @@
                     <div class="single-attorney">
                         <div class="attorney-picture">
                             <a href="main/index.html#">
-                                <img src="img/attorney/2.jpg" alt="">
+                                <img src="main/img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
@@ -1304,7 +1304,7 @@
                         <div class="single-news-area">
                             <div class="news-featured-image">
                                 <a href="main/index.html#">
-                                    <img src="img/blog/1.jpg" alt="image">
+                                    <img src="main/img/blog/1.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
@@ -1330,7 +1330,7 @@
                         <div class="single-news-area">
                             <div class="news-featured-image">
                                 <a href="main/index.html#">
-                                    <img src="img/blog/2.jpg" alt="image">
+                                    <img src="main/img/blog/2.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
@@ -1356,7 +1356,7 @@
                         <div class="single-news-area">
                             <div class="news-featured-image">
                                 <a href="main/index.html#">
-                                    <img src="img/blog/3.jpg" alt="image">
+                                    <img src="main/img/blog/3.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
@@ -1387,52 +1387,52 @@
                 <div class="client-logo">
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/1.jpg" alt="">
+                            <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/2.jpg" alt="">
+                            <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/3.jpg" alt="">
+                            <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/4.jpg" alt="">
+                            <img src="main/img/client/4.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/5.jpg" alt="">
+                            <img src="main/img/client/5.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/6.jpg" alt="">
+                            <img src="main/img/client/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/7.jpg" alt="">
+                            <img src="main/img/client/7.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/1.jpg" alt="">
+                            <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/2.jpg" alt="">
+                            <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/index.html#">
-                            <img src="img/client/3.jpg" alt="">
+                            <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -1542,27 +1542,27 @@
                                 <ul>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/1.jpg" alt=""> </a>
+                                            <img src="main/img/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/2.jpg" alt=""> </a>
+                                            <img src="main/img/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/3.jpg" alt=""> </a>
+                                            <img src="main/img/3.jpg" alt=""> </a>
                                     </li>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/1.jpg" alt=""> </a>
+                                            <img src="main/img/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/2.jpg" alt=""> </a>
+                                            <img src="main/img/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
                                         <a href="main/index.html#">
-                                            <img src="img/3.jpg" alt=""> </a>
+                                            <img src="main/img/3.jpg" alt=""> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -1593,35 +1593,35 @@
         <!-- Preloader End Here -->
         <!-- jquery
 		============================================ -->
-        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="main/js/vendor/jquery-1.11.3.min.js"></script>
         <!-- bootstrap JS
 		============================================ -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="main/js/bootstrap.min.js"></script>
         <!-- wow JS
 		============================================ -->
-        <script src="js/wow.min.js"></script>
+        <script src="main/js/wow.min.js"></script>
         <!-- price-slider JS
 		============================================ -->
-        <script src="js/jquery-price-slider.js"></script>
+        <script src="main/js/jquery-price-slider.js"></script>
         <!-- meanmenu JS
 		============================================ -->
-        <script src="js/jquery.meanmenu.js"></script>
+        <script src="main/js/jquery.meanmenu.js"></script>
         <!-- owl.carousel JS
 		============================================ -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="main/js/owl.carousel.min.js"></script>
         <!-- scrollUp JS
 		============================================ -->
-        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="main/js/jquery.scrollUp.min.js"></script>
         <!-- plugins JS
 		============================================ -->
-        <script src="js/plugins.js"></script>
+        <script src="main/js/plugins.js"></script>
         <!-- Nivo slider js
         ============================================ -->
-        <script src="custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="custom-slider/home.js" type="text/javascript"></script>
+        <script src="main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="main/custom-slider/home.js" type="text/javascript"></script>
         <!-- main JS
 		============================================ -->
-        <script src="js/main.js"></script>
+        <script src="main/js/main.js"></script>
     </body>
 
 </html>
