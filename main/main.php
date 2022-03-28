@@ -9,47 +9,47 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
 		============================================ -->
-        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="main/img/favicon.png">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="main/css/bootstrap.min.css">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="main/css/font-awesome.min.css">
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- owl.carousel CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/owl.carousel.css">
-        <link rel="stylesheet" href="css/owl.theme.css">
-        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="main/css/owl.carousel.css">
+        <link rel="stylesheet" href="main/css/owl.theme.css">
+        <link rel="stylesheet" href="main/css/owl.transitions.css">
         <!-- jquery-ui CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="main/css/jquery-ui.css">
         <!-- meanmenu CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <link rel="stylesheet" href="main/css/meanmenu.min.css">
         <!-- animate CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="main/css/animate.css">
         <!-- normalize CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="main/css/normalize.css">
         <!-- main CSS
 		============================================ -->
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="main/css/main.css">
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- style CSS
 		============================================ -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="main/style.css">
         <!-- Responsive CSS
         ============================================ -->
-        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -57,7 +57,7 @@
 
     <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
@@ -77,10 +77,10 @@
                                 <nav>
                                     <ul>
                                         <li>
-                                            <a href="login.html">Login</a>
+                                            <a href="main/login.html">Login</a>
                                         </li>
                                         <li>
-                                            <a href="registration.html">Register</a>
+                                            <a href="main/registration.html">Register</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -94,7 +94,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                             <div class="logo-area">
-                                <a href="index.html">
+                                <a href="main/index.html">
                                     <img src="img/logo.png" alt="logo">
                                 </a>
                             </div>
@@ -104,97 +104,97 @@
                                 <nav>
                                     <ul>
                                         <li class="current">
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-home"></i>
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="index.html">Home Page 1</a>
+                                                    <a href="main/index.html">Home Page 1</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index1.html">Home Page 2</a>
+                                                    <a href="main/index1.html">Home Page 2</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index2.html">Home Page 3</a>
+                                                    <a href="main/index2.html">Home Page 3</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index3.html">Home Page 4</a>
+                                                    <a href="main/index3.html">Home Page 4</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a href="main/about.html">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="practice.html">PRACTICE AREAS</a>
+                                            <a href="main/practice.html">PRACTICE AREAS</a>
                                             <ul>
                                                 <li>
-                                                    <a href="single-practice.html">Family Law</a>
+                                                    <a href="main/single-practice.html">Family Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice-left-sidebar.html">Crime Law</a>
+                                                    <a href="main/single-practice-left-sidebar.html">Crime Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Divorce Law</a>
+                                                    <a href="main/single-practice.html">Divorce Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Insdustrial Law</a>
+                                                    <a href="main/single-practice.html">Insdustrial Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Business Law</a>
+                                                    <a href="main/single-practice.html">Business Law</a>
                                                 </li>
                                                 <li class="has-child-menu">
-                                                    <a href="index.html#">Demo</a>
+                                                    <a href="main/index.html#">Demo</a>
                                                     <ul class="thired-level">
                                                         <li>
-                                                            <a href="index.html#">Demo 1</a>
+                                                            <a href="main/index.html#">Demo 1</a>
                                                         </li>
                                                         <li>
-                                                            <a href="index.html#">Demo 2</a>
+                                                            <a href="main/index.html#">Demo 2</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="awards.html">Awards</a>
+                                            <a href="main/awards.html">Awards</a>
                                         </li>
                                         <li>
-                                            <a href="blog.html">BLOG</a>
+                                            <a href="main/blog.html">BLOG</a>
                                             <ul>
                                                 <li>
-                                                    <a href="single.html">Single Blog</a>
+                                                    <a href="main/single.html">Single Blog</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Pages</a>
+                                            <a href="main/index.html#">Pages</a>
                                             <ul class="mega-menu-style1">
                                                 <li>
-                                                    <a href="index.html">Home Page 1</a>
-                                                    <a href="index1.html">Home Page 2</a>
-                                                    <a href="index2.html">Home Page 3</a>
-                                                    <a href="index3.html">Home Page 4</a>
-                                                    <a href="about.html">About Us</a>
+                                                    <a href="main/index.html">Home Page 1</a>
+                                                    <a href="main/index1.html">Home Page 2</a>
+                                                    <a href="main/index2.html">Home Page 3</a>
+                                                    <a href="main/index3.html">Home Page 4</a>
+                                                    <a href="main/about.html">About Us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="practice.html">PRACTICE AREAS</a>
-                                                    <a href="single-practice.html">Family Law</a>
-                                                    <a href="single-practice-left-sidebar.html">Crime Law</a>
-                                                    <a href="awards.html">Awards</a>
-                                                    <a href="blog.html">Blog</a>
+                                                    <a href="main/practice.html">PRACTICE AREAS</a>
+                                                    <a href="main/single-practice.html">Family Law</a>
+                                                    <a href="main/single-practice-left-sidebar.html">Crime Law</a>
+                                                    <a href="main/awards.html">Awards</a>
+                                                    <a href="main/blog.html">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single.html">Single Blog</a>
-                                                    <a href="single-attorney.html">Attorney Details</a>
-                                                    <a href="404.html">404 Page</a>
-                                                    <a href="login.html">Login</a>
-                                                    <a href="registration.html">Register</a>
+                                                    <a href="main/single.html">Single Blog</a>
+                                                    <a href="main/single-attorney.html">Attorney Details</a>
+                                                    <a href="main/404.html">404 Page</a>
+                                                    <a href="main/login.html">Login</a>
+                                                    <a href="main/registration.html">Register</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html">CONTACT US</a>
+                                            <a href="main/contact.html">CONTACT US</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -220,115 +220,115 @@
                                 <nav id="dropdown">
                                     <ul>
                                         <li class="current">
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-home"></i>
                                             </a>
                                             <ul>
                                                 <li>
-                                                    <a href="index.html">Home Page 1</a>
+                                                    <a href="main/index.html">Home Page 1</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index1.html">Home Page 2</a>
+                                                    <a href="main/index1.html">Home Page 2</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index2.html">Home Page 3</a>
+                                                    <a href="main/index2.html">Home Page 3</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index3.html">Home Page 4</a>
+                                                    <a href="main/index3.html">Home Page 4</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="about.html">About Us</a>
+                                            <a href="main/about.html">About Us</a>
                                         </li>
                                         <li>
-                                            <a href="practice.html">PRACTICE AREAS</a>
+                                            <a href="main/practice.html">PRACTICE AREAS</a>
                                             <ul>
                                                 <li>
-                                                    <a href="single-practice.html">Family Law</a>
+                                                    <a href="main/single-practice.html">Family Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Crime Law</a>
+                                                    <a href="main/single-practice.html">Crime Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Divorce Law</a>
+                                                    <a href="main/single-practice.html">Divorce Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Insdustrial Law</a>
+                                                    <a href="main/single-practice.html">Insdustrial Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-practice.html">Business Law</a>
+                                                    <a href="main/single-practice.html">Business Law</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index.html#">Demo</a>
+                                                    <a href="main/index.html#">Demo</a>
                                                     <ul>
                                                         <li>
-                                                            <a href="index.html#">Demo 1</a>
+                                                            <a href="main/index.html#">Demo 1</a>
                                                         </li>
                                                         <li>
-                                                            <a href="index.html#">Demo 2</a>
+                                                            <a href="main/index.html#">Demo 2</a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="awards.html">Awards</a>
+                                            <a href="main/awards.html">Awards</a>
                                         </li>
                                         <li>
-                                            <a href="blog.html">BLOG</a>
+                                            <a href="main/blog.html">BLOG</a>
                                             <ul>
                                                 <li>
-                                                    <a href="single.html">Single Blog</a>
+                                                    <a href="main/single.html">Single Blog</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="index.html#">Pages</a>
+                                            <a href="main/index.html#">Pages</a>
                                             <ul>
                                                 <li>
-                                                    <a href="index.html">Home Page 1</a>
+                                                    <a href="main/index.html">Home Page 1</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index1.html">Home Page 2</a>
+                                                    <a href="main/index1.html">Home Page 2</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index2.html">Home Page 3</a>
+                                                    <a href="main/index2.html">Home Page 3</a>
                                                 </li>
                                                 <li>
-                                                    <a href="index3.html">Home Page 4</a>
+                                                    <a href="main/index3.html">Home Page 4</a>
                                                 </li>
                                                 <li>
-                                                    <a href="about.html">About Us</a>
+                                                    <a href="main/about.html">About Us</a>
                                                 </li>
                                                 <li>
-                                                    <a href="practice.html">PRACTICE AREAS</a>
+                                                    <a href="main/practice.html">PRACTICE AREAS</a>
                                                 </li>
                                                 <li>
-                                                    <a href="awards.html">Awards</a>
+                                                    <a href="main/awards.html">Awards</a>
                                                 </li>
                                                 <li>
-                                                    <a href="blog.html">Blog</a>
+                                                    <a href="main/blog.html">Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single.html">Single Blog</a>
+                                                    <a href="main/single.html">Single Blog</a>
                                                 </li>
                                                 <li>
-                                                    <a href="single-attorney.html">Attorney Details</a>
+                                                    <a href="main/single-attorney.html">Attorney Details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="404.html">404 Page</a>
+                                                    <a href="main/404.html">404 Page</a>
                                                 </li>
                                                 <li>
-                                                    <a href="login.html">Login</a>
+                                                    <a href="main/login.html">Login</a>
                                                 </li>
                                                 <li>
-                                                    <a href="registration.html">Register</a>
+                                                    <a href="main/registration.html">Register</a>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li>
-                                            <a href="contact.html">CONTACT US</a>
+                                            <a href="main/contact.html">CONTACT US</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -365,7 +365,7 @@
                             </div>
                         </div>
                         <div data-wow-delay="0.4s" data-wow-duration="4s" class="button wow fadeIn" style="visibility: visible; animation-duration: 4s; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <a href="index.html#" class="btn btn-success">Read more</a>
+                            <a href="main/index.html#" class="btn btn-success">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +381,7 @@
                             </div>
                             <div style="visibility: visible; animation-duration: 4s; animation-delay: 0.4s;" class="button wow fadeIn" data-wow-duration="4s"
                                 data-wow-delay="0.4s">
-                                <a class="btn btn-success" href="index.html#">Contact Us</a>
+                                <a class="btn btn-success" href="main/index.html#">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -402,7 +402,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur.</p>
                                     <p class="call-now">Call Us Now</p>
                                     <p class="phone-number">
-                                        <a href="tel:+4411122233344">+44 (0)111 - 222 333 44</a>
+                                        <a href="main/tel:+4411122233344">+44 (0)111 - 222 333 44</a>
                                     </p>
                                 </div>
 
@@ -417,7 +417,7 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos, quod, earum aspernatur
                                     officiis.
                                 </p>
-                                <a href="contact.html" class="call-us-buttom">Make An Appointment</a>
+                                <a href="main/contact.html" class="call-us-buttom">Make An Appointment</a>
 
                             </div>
                         </div>
@@ -453,7 +453,7 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="about-lawyer-featured-image">
-                            <a href="about.html">
+                            <a href="main/about.html">
                                 <img src="img/about.png" alt="about">
                             </a>
                         </div>
@@ -474,7 +474,7 @@
                                 <li>Free Counciling</li>
                             </ul>
                             <div class="read-more-button">
-                                <a href="about.html">Read More</a>
+                                <a href="main/about.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -501,12 +501,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-users"></i>
                             <h3>
-                                <a href="single-practice.html">Political Law</a>
+                                <a href="main/single-practice.html">Political Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -514,12 +514,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-pencil-square-o"></i>
                             <h3>
-                                <a href="single-practice.html">Divorse Law</a>
+                                <a href="main/single-practice.html">Divorse Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -527,12 +527,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-briefcase"></i>
                             <h3>
-                                <a href="single-practice.html">Business Law</a>
+                                <a href="main/single-practice.html">Business Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -540,12 +540,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-users"></i>
                             <h3>
-                                <a href="single-practice.html">Industrial Law</a>
+                                <a href="main/single-practice.html">Industrial Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -553,12 +553,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-line-chart"></i>
                             <h3>
-                                <a href="single-practice.html">Political Law</a>
+                                <a href="main/single-practice.html">Political Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -566,12 +566,12 @@
                         <div class="single-practice-content">
                             <i class="fa fa-users"></i>
                             <h3>
-                                <a href="single-practice.html">Vechicle Law</a>
+                                <a href="main/single-practice.html">Vechicle Law</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
                                 libero possimus sapiente.</p>
                             <div class="read-more">
-                                <a href="single-practice.html">Read More</a>
+                                <a href="main/single-practice.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -613,36 +613,36 @@
                             <div class="client-section">
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -653,36 +653,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -693,36 +693,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Robin Albert</a>
+                                        <a href="main/index.html#">Robin Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/01.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -733,36 +733,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -773,36 +773,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Roza Albert</a>
+                                        <a href="main/index.html#">Roza Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -813,36 +813,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -853,36 +853,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Robin Albert</a>
+                                        <a href="main/index.html#">Robin Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/01.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -893,36 +893,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -933,36 +933,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Roza Albert</a>
+                                        <a href="main/index.html#">Roza Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/0.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -973,36 +973,36 @@
                                 </div>
                                 <div class="single-client-area">
                                     <h3>
-                                        <a href="index.html#">Runie Albert</a>
+                                        <a href="main/index.html#">Runie Albert</a>
                                     </h3>
                                     <p class="designation">CEO, Roza</p>
                                     <div class="picture">
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/clients/00.jpg" alt="">
                                         </a>
                                         <ul>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
                                             <li class="disable">
-                                                <a href="index.html#">
+                                                <a href="main/index.html#">
                                                     <i class="fa fa-star"></i>
                                                 </a>
                                             </li>
@@ -1033,32 +1033,32 @@
                 <div class="our-attorney">
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/3.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1068,39 +1068,39 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">Jhon Doe</a>
+                                <a href="main/index.html#">Jhon Doe</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1110,39 +1110,39 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">M.Albert</a>
+                                <a href="main/index.html#">M.Albert</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1152,39 +1152,39 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">Jhon Doe</a>
+                                <a href="main/index.html#">Jhon Doe</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/4.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1194,39 +1194,39 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">M.Albert</a>
+                                <a href="main/index.html#">M.Albert</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1236,39 +1236,39 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">Jhon Doe</a>
+                                <a href="main/index.html#">Jhon Doe</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="index.html#">
+                            <a href="main/index.html#">
                                 <img src="img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="index.html#">View Bio</a>
+                                    <a href="main/index.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1278,7 +1278,7 @@
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="index.html#">Jhon Doe</a>
+                                <a href="main/index.html#">Jhon Doe</a>
                             </h3>
                             <p>Lawyer & Founder</p>
                         </div>
@@ -1303,23 +1303,23 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
-                                <a href="index.html#">
+                                <a href="main/index.html#">
                                     <img src="img/blog/1.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-user"> </i> by admin</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-comments-o"></i> 02 </a>
                                     </li>
                                 </ul>
                             </div>
                             <h3>
-                                <a href="index.html#">Is Going To Get Ugly ITher</a>
+                                <a href="main/index.html#">Is Going To Get Ugly ITher</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
                                 culpa maxime provident quisquam, praesentium........</p>
@@ -1329,23 +1329,23 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
-                                <a href="index.html#">
+                                <a href="main/index.html#">
                                     <img src="img/blog/2.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-user"> </i> by admin</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-comments-o"></i> 02</a>
                                     </li>
                                 </ul>
                             </div>
                             <h3>
-                                <a href="index.html#">The Bond Market Is Going</a>
+                                <a href="main/index.html#">The Bond Market Is Going</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
                                 culpa maxime provident quisquam, praesentium........</p>
@@ -1355,23 +1355,23 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
-                                <a href="index.html#">
+                                <a href="main/index.html#">
                                     <img src="img/blog/3.jpg" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-user"> </i> by admin</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <i class="fa fa-comments-o"></i> 02</a>
                                     </li>
                                 </ul>
                             </div>
                             <h3>
-                                <a href="index.html#">Get Ugly ITher Isn't A Rebound</a>
+                                <a href="main/index.html#">Get Ugly ITher Isn't A Rebound</a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
                                 culpa maxime provident quisquam, praesentium........</p>
@@ -1386,52 +1386,52 @@
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/3.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/4.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/5.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/7.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="index.html#">
+                        <a href="main/index.html#">
                             <img src="img/client/3.jpg" alt="">
                         </a>
                     </div>
@@ -1450,7 +1450,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="contact.html">Get Free Consultation</a>
+                            <a href="main/contact.html">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
@@ -1471,22 +1471,22 @@
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="index.html#">
+                                            <a href="main/index.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -1499,22 +1499,22 @@
                                 <h2>Explore Our Work</h2>
                                 <ul>
                                     <li>
-                                        <a href="index.html#">Criminal law</a>
+                                        <a href="main/index.html#">Criminal law</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Accident law</a>
+                                        <a href="main/index.html#">Accident law</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Devorce law</a>
+                                        <a href="main/index.html#">Devorce law</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Industrial law</a>
+                                        <a href="main/index.html#">Industrial law</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Business law</a>
+                                        <a href="main/index.html#">Business law</a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">Familly law</a>
+                                        <a href="main/index.html#">Familly law</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1541,27 +1541,27 @@
                                 <h2>flickr GALLERY</h2>
                                 <ul>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/3.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="index.html#">
+                                        <a href="main/index.html#">
                                             <img src="img/3.jpg" alt=""> </a>
                                     </li>
                                 </ul>
@@ -1576,7 +1576,7 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="footer-buttom">
                                 <div class="scrollup">
-                                    <a href="index.html#">
+                                    <a href="main/index.html#">
                                         <i class="fa fa-chevron-up"></i>
                                     </a>
                                 </div>
