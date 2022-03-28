@@ -1382,7 +1382,7 @@
         </div>
         <!-- Latest News Area End Here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
+        <!-- <div class="client-logo-area">
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
@@ -1437,7 +1437,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
