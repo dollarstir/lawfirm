@@ -461,7 +461,7 @@
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                         <div class="about-content-area">
                             <h1>About
-                                <span>Miako Legal</span>
+                                <span>Prestige Law Firm</span>
                             </h1>
                             <p>There are many variations of passages of Lorem Ipsum availabbut the humourrandomisedwords.There
                                 are many variations of passages of Lorem Ipsum availablebut the majority.Lorem ipsum dolor
