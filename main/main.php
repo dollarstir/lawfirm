@@ -4,8 +4,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Welcome | Home One</title>
-        <meta name="description" content="">
+        <title>Welcome | Prestige Law Firm</title>
+        <meta name="description" content="Law ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
 		============================================ -->
@@ -1580,7 +1580,7 @@
                                         <i class="fa fa-chevron-up"></i>
                                     </a>
                                 </div>
-                                <p>Miakolegal © All Rights Reserved</p>
+                                <p>Prestige Law Firm © All Rights Reserved</p>
                             </div>
                         </div>
                     </div>
