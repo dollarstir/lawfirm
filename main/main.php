@@ -1012,7 +1012,7 @@
         </div>
         <!-- Our Attorney End Here -->
         <!-- Latest News Area Start Here -->
-        <div class="latest-news-area">
+        <!-- <div class="latest-news-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -1103,7 +1103,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Latest News Area End Here -->
         <!-- Partner Logo Area Start Here -->
         <!-- <div class="client-logo-area">
