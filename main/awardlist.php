@@ -115,7 +115,7 @@
                                 <div class="single-wining-section">
                                     <div class="image">
                                         <a href="main/awards.html#">';
-                                            echo $row['image']== "" ? '<img src="main/img/awards.png" alt="images">' : '<img src="main/img/awards.png" alt="images">
+                                    echo $row['image'] == '' ? '<img src="main/img/awards.png" alt="images">' : '<img src="yolkassets/upload/'.$row['image'].'" alt="images">';
                                     echo '</a>
                                     </div>
                                     <p>'.$row['content'].'</p>
