@@ -39,7 +39,7 @@ echo ' <header>
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
-                    <a href="/home">';
+                    <a href="home">';
                     echo ($logo == '') ? '<img src="main/img/logo.png" alt="logo">' : '<img src="yolkassets/upload/'.$logo.'" alt="logo">';
                     echo'</a>
                 </div>
@@ -88,17 +88,7 @@ echo ' <header>
                                     <li>
                                         <a href="main/single-practice.html">Business Law</a>
                                     </li>
-                                    <li class="has-child-menu">
-                                        <a href="main/index.html#">Demo</a>
-                                        <ul class="thired-level">
-                                            <li>
-                                                <a href="main/index.html#">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="main/index.html#">Demo 2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li>
@@ -123,11 +113,11 @@ echo ' <header>
                                         <a href="main/about.html">About Us</a>
                                     </li>
                                     <li>
-                                        <a href="main/practice.html">PRACTICE AREAS</a>
-                                        <a href="main/single-practice.html">Family Law</a>
-                                        <a href="main/single-practice-left-sidebar.html">Crime Law</a>
-                                        <a href="main/awards.html">Awards</a>
-                                        <a href="main/blog.html">Blog</a>
+                                        <a href="">PRACTICE AREAS</a>
+                                        <a href="">Family Law</a>
+                                        <a href="">Crime Law</a>
+                                        <a href="">Awards</a>
+                                        <a href="">Blog</a>
                                     </li>
                                     <li>
                                         <a href="main/single.html">Single Blog</a>
@@ -187,13 +177,13 @@ echo ' <header>
                                 <a href="main/about.html">About Us</a>
                             </li>
                             <li>
-                                <a href="main/practice.html">PRACTICE AREAS</a>
+                                <a href=">PRACTICE AREAS</a>
                                 <ul>
                                     <li>
-                                        <a href="main/single-practice.html">Family Law</a>
+                                        <a href="">Family Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Crime Law</a>
+                                        <a href="">Crime Law</a>
                                     </li>
                                     <li>
                                         <a href="main/single-practice.html">Divorce Law</a>
@@ -204,17 +194,7 @@ echo ' <header>
                                     <li>
                                         <a href="main/single-practice.html">Business Law</a>
                                     </li>
-                                    <li>
-                                        <a href="main/index.html#">Demo</a>
-                                        <ul>
-                                            <li>
-                                                <a href="main/index.html#">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="main/index.html#">Demo 2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li>
