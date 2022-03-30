@@ -49,23 +49,10 @@ echo ' <header>
                     <nav>
                         <ul>
                             <li class="current">
-                                <a href="main/index.html#">
+                                <a href="home">
                                     <i class="fa fa-home"></i>
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="main/index.html">Home Page 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/index1.html">Home Page 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/index2.html">Home Page 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/index3.html">Home Page 4</a>
-                                    </li>
-                                </ul>
+                                
                             </li>
                             <li>
                                 <a href="about">About Us</a>
