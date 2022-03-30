@@ -1,7 +1,6 @@
 
 <?php involve('title.php');
-$g = new Sel();
-$aw = $g->getall('awards');
+
 ?>
 <!doctype html>
 <html class="no-js" lang="">
@@ -104,82 +103,29 @@ $aw = $g->getall('awards');
                 </div>
                 <div class="wining-section">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="">
-                                        <?php
-                                            foreach ($aw as $row) {
-                                            }
-
-                                        ?>
-                                    </a>
+                        
+                        <?php
+                            $g = new Sel();
+                            $aw = $g->getall('awards');
+                            foreach ($aw as $row) {
+                                if (empty($aw)) {
+                                    echo 'no records';
+                                } else {
+                                    echo '<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <div class="single-wining-section">
+                                    <div class="image">
+                                        <a href="main/awards.html#">
+                                            <img src="main/img/awards.png" alt="images">
+                                        </a>
+                                    </div>
+                                    <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
+                                        or search historyThere are variations of passages of Lorem Ipsum but the majority have
+                                        suffered humouror randomised words which.</p>
                                 </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
-                                    </a>
-                                </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
-                                    </a>
-                                </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
-                                    </a>
-                                </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
-                                    </a>
-                                </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-wining-section">
-                                <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
-                                    </a>
-                                </div>
-                                <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                    or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                    suffered humouror randomised words which.</p>
-                            </div>
-                        </div>
+                            </div>';
+                                }
+                            }
+                        ?>
                     </div>
                 </div>
             </div>
