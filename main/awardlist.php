@@ -109,6 +109,8 @@ $aw = $g->getall('awards');
                                 <div class="image">
                                     <a href="">
                                         <?php
+                                            foreach ($aw as $row) {
+                                            }
 
                                         ?>
                                     </a>
