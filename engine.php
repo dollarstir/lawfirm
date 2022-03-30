@@ -8,6 +8,13 @@ $router = new Router([
             return Viewer::view('main/main.php', $context);
         }
     ),
+
+    new Route(
+        '/home',
+        function ($context) {
+            return Viewer::view('main/main.php', $context);
+        }
+    ),
     new Route('/about', function ($context) {
         return Viewer::view('main/aboutus.php', $context);
     }),
