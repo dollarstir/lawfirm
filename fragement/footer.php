@@ -77,7 +77,7 @@ echo '   <footer>
                         <li>
                             <i class="fa fa-phone"></i> '.$add[0]['phone'].'</li>
                         <li>
-                            <i class="fa fa-envelope-o"></i> '.$add.'</li>
+                            <i class="fa fa-envelope-o"></i> '.$add[0]['email'].'</li>
                         <li>
                             <i class="fa fa-fax"></i> (123) 00 8888 999</li>
                     </ul>
