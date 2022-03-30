@@ -3,6 +3,8 @@
 $a = new Sel();
 $response = $a->getall('settings');
 $footer = $response[0]['footertext'];
+$add = $a->getall('contact');
+
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">
@@ -71,11 +73,11 @@ echo '   <footer>
                         <li>
                             <i class="fa fa-clock-o"></i> Sat-Mon</li>
                         <li>
-                            <i class="fa fa-map-marker"></i> 150 Torrent Court Street, UK</li>
+                            <i class="fa fa-map-marker"></i> '.$add[0]['address'].'</li>
                         <li>
-                            <i class="fa fa-phone"></i> (123) 00 8888 999</li>
+                            <i class="fa fa-phone"></i> '.$add[0]['phone'].'</li>
                         <li>
-                            <i class="fa fa-envelope-o"></i> info@miakolwfirm.com</li>
+                            <i class="fa fa-envelope-o"></i> '.$add.'</li>
                         <li>
                             <i class="fa fa-fax"></i> (123) 00 8888 999</li>
                     </ul>
