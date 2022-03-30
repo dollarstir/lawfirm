@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__.'/../core/includes.php';
-require __DIR__.'/../core/includes.php';
+require __DIR__.'/../core/include.php';
  Config::init();
 
 spl_autoload_register(function ($class) {
