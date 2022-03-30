@@ -104,8 +104,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <div class="single-wining-section">
                                 <div class="image">
-                                    <a href="main/awards.html#">
-                                        <img src="main/img/awards.png" alt="images">
+                                    <a href="">
+                                        <?php ?>
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
