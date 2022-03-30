@@ -1,5 +1,8 @@
 
-<?php involve('title.php'); ?>
+<?php involve('title.php');
+$g = new Sel();
+$aw = $g->getall('awards');
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
@@ -105,7 +108,9 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="">
-                                        <?php ?>
+                                        <?php
+
+                                        ?>
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
