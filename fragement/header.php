@@ -97,15 +97,15 @@ echo ' <header>
                             <li>
                                 <a href="main/awards.html">Awards</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a href="main/blog.html">BLOG</a>
                                 <ul>
                                     <li>
                                         <a href="main/single.html">Single Blog</a>
                                     </li>
                                 </ul>
-                            </li>
-                            <li>
+                            </li>-->
+                           <!-- <li>
                                 <a href="main/index.html#">Pages</a>
                                 <ul class="mega-menu-style1">
                                     <li>
@@ -130,7 +130,7 @@ echo ' <header>
                                         <a href="main/registration.html">Register</a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li>-->
                             <li>
                                 <a href="main/contact.html">CONTACT US</a>
                             </li>

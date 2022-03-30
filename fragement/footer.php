@@ -1,4 +1,8 @@
 <?php
+
+$a = new Sel();
+$response = $a->getall('settings');
+$footer = $resposne
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">
