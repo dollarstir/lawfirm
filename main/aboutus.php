@@ -114,7 +114,7 @@ $res = $a->getall('aboutpage');
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="about-page-featured-image">
                             <a href="">
-                                <?php echo ($res[0]['image'] == '') ? '<img src="main/img/about-feature.png" alt="">' : '<img src="yolkassets/images/'.$res[0]['image'].'" alt="">'; ?>
+                                <?php echo ($res[0]['image'] == '') ? '<img src="main/img/about-feature.png" alt="">' : '<img src="yolkassets/upload/'.$res[0]['image'].'" alt="">'; ?>
                             </a>
                         </div>
                     </div>
