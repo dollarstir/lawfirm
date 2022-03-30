@@ -18,12 +18,12 @@ echo '   <footer>
                     <div class="social-media">
                         <ul>
                             <li>
-                                <a href="main/index.html#">
+                                <a href="'.$add[0]['facebook'].'">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="main/index.html#">
+                                <a href="'.$add[0]['twitter'].'">
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </li>
@@ -79,7 +79,7 @@ echo '   <footer>
                         <li>
                             <i class="fa fa-envelope-o"></i> '.$add[0]['email'].'</li>
                         <li>
-                            <i class="fa fa-fax"></i> (123) 00 8888 999</li>
+                            <i class="fa fa-fax"></i> '.$add[0]['telephone'].'</li>
                     </ul>
                 </div>
             </div>
