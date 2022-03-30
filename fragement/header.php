@@ -4,6 +4,7 @@ $a = new Sel();
 $response = $a->getall('settings');
 $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
+$favicon = $response[0]['favicon'];
 
 echo ' <header>
 <div class="header-area-top-area">
