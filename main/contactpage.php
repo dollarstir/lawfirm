@@ -1,6 +1,6 @@
 <?php involve('title.php');
 $a = new Sel();
-$add = $a->getall('contact');
+$re = $a->getall('contact');
 ?>
 <!doctype html>
 <html class="no-js" lang="">
