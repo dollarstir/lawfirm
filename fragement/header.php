@@ -2,6 +2,7 @@
 
 $a = new Sel();
 $response = $a->getall('settings');
+$pe = $a->getall('contact');
 $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
 $favicon = $response[0]['favicon'];
@@ -13,7 +14,7 @@ echo ' <header>
             <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
                 <div class="header-top-left">
                     <p>
-                        <i class="fa fa-map-marker"></i>80 San Francisco Boulevard, San Francisco U.S. ZIP 123 556</p>
+                        <i class="fa fa-map-marker"></i>'.$pe[0]['address'].'</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
@@ -144,14 +145,14 @@ echo ' <header>
                     </nav>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 hidden-sm col-sm-12">
+            <!--<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm col-sm-12">
                 <div class="search-area">
                     <span>
                         <i class="fa fa-search"></i>
                     </span>
                     <input type="text" placeholder="Search Here....">
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
