@@ -125,7 +125,7 @@
         <!-- About Page Lawyer Section Area End here -->
 
         <!-- Experience Area Start here -->
-        <div class="experince-area">
+        <!-- <div class="experince-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
@@ -172,7 +172,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Experience Area End here -->
         <!-- Make An Appointment Area Start here -->
         <div class="make-appointment-area">
@@ -458,7 +458,7 @@
         </div>
         <!-- Our Attorney End Here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
+        <!-- <div class="client-logo-area">
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
@@ -513,7 +513,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
