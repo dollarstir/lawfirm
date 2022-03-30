@@ -12,28 +12,27 @@ echo '   <footer>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="footer footer-one">
                     <h2>About Us</h2>
-                    <p>Thereare aswrta serttrmany variations of passages of Lorem Ipsum available, but the majority
-                        have suffered setyu..</p>
-                    <p>Thereare aswrta serttrmany variations of passages of Lorem Ipsum available.</p>
+                    <p>'.$response[0]['shortnote'].'</p>
+                   
                     <div class="social-media">
                         <ul>
                             <li>
-                                <a href="'.$add[0]['facebook'].'">
+                                <a href="'.$response[0]['facebook'].'">
                                     <i class="fa fa-facebook"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="'.$add[0]['twitter'].'">
+                                <a href="'.$response[0]['twitter'].'">
                                     <i class="fa fa-twitter"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="main/index.html#">
+                                <a href="'.$response[0]['linkedin'].'">
                                     <i class="fa fa-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="main/index.html#">
+                                <a href="'.$response[0]['skype'].'">
                                     <i class="fa fa-skype"></i>
                                 </a>
                             </li>

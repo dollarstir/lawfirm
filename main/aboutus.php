@@ -1,5 +1,11 @@
  
-<?php involve('title.php'); ?>
+<?php involve('title.php');
+$a = new Sel();
+$res = $a->getall('aboutpage');
+
+?>
+
+
 
 
 <!doctype html>
@@ -78,7 +84,7 @@
                             <div class="breadcumb">
                                 <ul>
                                     <li>
-                                        <a href="main/index.html">Home</a>
+                                        <a href="/home">Home</a>
                                     </li>
                                     <li>About Us</li>
                                 </ul>
@@ -98,24 +104,17 @@
                             <h2>About Our
                                 <span> History</span>
                             </h2>
-                            <p class="text-blod">Dhere are many variations of passages of Lorem Ipsum availabbut the humourrandomisedwords.There
-                                are many variations of passages of Lorem Ipsum availablebut the majority.</p>
-                            <p>Derdiam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam. Claritas est etiam processus
-                                dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica,
-                                quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta
-                                decima et quinta decima. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                                doming id quod mazim placerat facer possim assum. anteposuerit litterarum formas humanitatis
-                                per seacula quarta decima et quinta decima. Nam liber tempor cum soluta nobis eleifend.</p>
+                            <p class=""><?php echo $res[0]['content']; ?></p>
 
                             <div class="contact-us-button">
-                                <a href="main/contact.html">Contact Us</a>
+                                <a href="contactus">Contact Us</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="about-page-featured-image">
-                            <a href="main/about.html#">
-                                <img src="main/img/about-feature.png" alt="">
+                            <a href="">
+                                <?php ($res[0]['image'] == '') ? '<img src="main/img/about-feature.png" alt="">' : '<img src="yolkassets/images/'.$res[0]['image'].'" alt="">'; ?>
                             </a>
                         </div>
                     </div>
@@ -181,7 +180,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="make-appointment">
                             <h2>Need An Appointment For Legal HElp?</h2>
-                            <a href="main/about.html#">Make An Appointment</a>
+                            <a href="contactus">Make An Appointment</a>
                         </div>
                     </div>
                 </div>
