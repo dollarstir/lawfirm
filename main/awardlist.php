@@ -54,7 +54,7 @@
         <link rel="stylesheet" href="main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="main/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body class="Home-three about-us awards">
@@ -105,7 +105,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -117,7 +117,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -129,7 +129,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -141,7 +141,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -153,7 +153,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -165,7 +165,7 @@
                             <div class="single-wining-section">
                                 <div class="image">
                                     <a href="main/awards.html#">
-                                        <img src="img/awards.png" alt="images">
+                                        <img src="main/img/awards.png" alt="images">
                                     </a>
                                 </div>
                                 <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
@@ -192,7 +192,7 @@
                                         maiores deleniti ab sit. Accusantium, modi ipsam.</p>
                                     <div class="picture">
                                         <a href="main/awards.html#">
-                                            <img alt="" src="img/clients/00.jpg">
+                                            <img alt="" src="main/img/clients/00.jpg">
                                         </a>
                                         <h3>
                                             <a href="main/awards.html#">Robert</a>
@@ -208,7 +208,7 @@
                                         maiores deleniti ab sit. Accusantium, modi ipsam.</p>
                                     <div class="picture">
                                         <a href="main/awards.html#">
-                                            <img alt="" src="img/clients/0.jpg">
+                                            <img alt="" src="main/img/clients/0.jpg">
                                         </a>
                                         <h3>
                                             <a href="main/awards.html#">Robert</a>
@@ -224,7 +224,7 @@
                                         maiores deleniti ab sit. Accusantium, modi ipsam.</p>
                                     <div class="picture">
                                         <a href="main/awards.html#">
-                                            <img alt="" src="img/clients/01.jpg">
+                                            <img alt="" src="main/img/clients/01.jpg">
                                         </a>
                                         <h3>
                                             <a href="main/awards.html#">Robert</a>
@@ -247,52 +247,52 @@
                 <div class="client-logo">
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/1.jpg" alt="">
+                            <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/2.jpg" alt="">
+                            <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/3.jpg" alt="">
+                            <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/4.jpg" alt="">
+                            <img src="main/img/client/4.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/5.jpg" alt="">
+                            <img src="main/img/client/5.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/6.jpg" alt="">
+                            <img src="main/img/client/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/7.jpg" alt="">
+                            <img src="main/img/client/7.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/1.jpg" alt="">
+                            <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/2.jpg" alt="">
+                            <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
                         <a href="main/awards.html#">
-                            <img src="img/client/3.jpg" alt="">
+                            <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -325,35 +325,35 @@
         <!-- Preloader End Here -->
         <!-- jquery
 		============================================ -->
-        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="main/js/vendor/jquery-1.11.3.min.js"></script>
         <!-- bootstrap JS
 		============================================ -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="main/js/bootstrap.min.js"></script>
         <!-- wow JS
 		============================================ -->
-        <script src="js/wow.min.js"></script>
+        <script src="main/js/wow.min.js"></script>
         <!-- price-slider JS
 		============================================ -->
-        <script src="js/jquery-price-slider.js"></script>
+        <script src="main/js/jquery-price-slider.js"></script>
         <!-- meanmenu JS
 		============================================ -->
-        <script src="js/jquery.meanmenu.js"></script>
+        <script src="main/js/jquery.meanmenu.js"></script>
         <!-- owl.carousel JS
 		============================================ -->
-        <script src="js/owl.carousel.min.js"></script>
+        <script src="main/js/owl.carousel.min.js"></script>
         <!-- scrollUp JS
 		============================================ -->
-        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="main/js/jquery.scrollUp.min.js"></script>
         <!-- plugins JS
 		============================================ -->
-        <script src="js/plugins.js"></script>
+        <script src="main/js/plugins.js"></script>
         <!-- Nivo slider js
         ============================================ -->
-        <script src="custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="custom-slider/home.js" type="text/javascript"></script>
+        <script src="main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="main/custom-slider/home.js" type="text/javascript"></script>
         <!-- main JS
 		============================================ -->
-        <script src="js/main.js"></script>
+        <script src="main/js/main.js"></script>
     </body>
 
 </html>
