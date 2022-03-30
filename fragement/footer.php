@@ -2,7 +2,7 @@
 
 $a = new Sel();
 $response = $a->getall('settings');
-$footer = $resposne
+$footer = $response[0]['appname'];
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">
@@ -125,7 +125,7 @@ echo '   <footer>
                             <i class="fa fa-chevron-up"></i>
                         </a>
                     </div>
-                    <p> Law Firm © All Rights Reserved</p>
+                    <p> Copyright &copy; '.date('Y').'  '.$footer.' All Rights Reserved</p>
                 </div>
             </div>
         </div>
