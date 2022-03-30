@@ -15,5 +15,9 @@ $router = new Router([
     new Route('/contactus', function ($context) {
         return Viewer::view('main/contactpage.php', $context);
     }),
+
+    new Route('/chat', function ($context) {
+        return Viewer::view('ab.html', $context);
+    }),
 ]);
 $router->launch();
