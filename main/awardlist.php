@@ -108,7 +108,7 @@
                             $g = new Sel();
                             $aw = $g->getall('awards');
                             foreach ($aw as $row) {
-                                if (empty($aw)) {
+                                if ($row == '') {
                                     echo 'no records';
                                 } else {
                                     echo '<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
@@ -118,9 +118,7 @@
                                             <img src="main/img/awards.png" alt="images">
                                         </a>
                                     </div>
-                                    <p>Pages you view in incognito tabs won’t stick around in your browser’s history cookie store,
-                                        or search historyThere are variations of passages of Lorem Ipsum but the majority have
-                                        suffered humouror randomised words which.</p>
+                                    <p>'.$row['content'].'</p>
                                 </div>
                             </div>';
                                 }
