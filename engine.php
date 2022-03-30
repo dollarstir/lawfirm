@@ -16,8 +16,8 @@ $router = new Router([
         return Viewer::view('main/contactpage.php', $context);
     }),
 
-    new Route('/chat', function ($context) {
-        return Viewer::view('ab.html', $context);
+    new Route('/awards', function ($context) {
+        return Viewer::view('main/awardlist.php', $context);
     }),
 ]);
 $router->launch();
