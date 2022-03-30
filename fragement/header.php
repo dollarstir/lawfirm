@@ -38,7 +38,7 @@ echo ' <header>
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
                     <a href="">';
-                    echo ($logo == '') ? '<img src="main/img/logo.png" alt="logo">' : '<img src="yolkassets/img/'.$logo.'" alt="logo">';
+                    echo ($logo == '') ? '<img src="main/img/logo.png" alt="logo">' : '<img src="yolkassets/images/'.$logo.'" alt="logo">';
                     echo'</a>
                 </div>
             </div>
