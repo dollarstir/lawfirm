@@ -138,25 +138,25 @@ $re = $a->getall('contact');
                                 <li>
                                     <a href="main/contact.html#">
                                         <i class="fa fa-map-marker"></i>
-                                        <span>80 San Francisco Boulevard,San Francisco AU. ZIP 123 556</span>
+                                        <span><?php echo $re[0]['address']; ?></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="main/contact.html#">
                                         <i class="fa fa-phone"></i>
-                                        <span>(123) 00 8888 999</span>
+                                        <span><?php echo $re[0]['phone']; ?></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="main/contact.html#">
                                         <i class="fa fa-envelope-o"></i>
-                                        <span>info@miakolegalr.com</span>
+                                        <span><?php echo $re[0]['email']; ?></span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="main/contact.html#">
                                         <i class="fa fa-building-o"></i>
-                                        <span>(123) 456 789 0000</span>
+                                        <span><?php echo $re[0]['telephone']; ?></span>
                                     </a>
                                 </li>
                             </ul>
