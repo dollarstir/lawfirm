@@ -1,10 +1,15 @@
+<?php
+$a = new Sel();
+$response = $a->getall('settings');
+$title = $response[0]['appname'];
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Welcome | Prestige Law Firm</title>
+        <title>Welcome | <?php echo $title; ?></title>
         <meta name="description" content="Law ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
