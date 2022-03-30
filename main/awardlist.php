@@ -96,8 +96,8 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="wining-section-area">
                             <h2>Our Winning Awards</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                humouror randomised words which don't look</p>
+                            <!-- <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                                humouror randomised words which don't look</p> -->
                         </div>
                     </div>
                 </div>
@@ -193,62 +193,7 @@
         </div>
         <!-- Testimonial Section End Here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
-            <div class="container">
-                <div class="client-logo">
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/7.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/awards.html#">
-                            <img src="main/img/client/3.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
