@@ -11,5 +11,9 @@ $router = new Router([
     new Route('/about', function ($context) {
         return Viewer::view('main/aboutus.php', $context);
     }),
+
+    new Route('/about', function ($context) {
+        return Viewer::view('main/aboutus.php', $context);
+    }),
 ]);
 $router->launch();
