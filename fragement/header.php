@@ -77,10 +77,10 @@ echo ' <header>
                                         <a href="">Family Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice-left-sidebar.html">Crime Law</a>
+                                        <a href="">Crime Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Divorce Law</a>
+                                        <a href="">Divorce Law</a>
                                     </li>
                                     <li>
                                         <a href="main/single-practice.html">Insdustrial Law</a>
