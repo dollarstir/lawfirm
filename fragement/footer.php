@@ -2,7 +2,7 @@
 
 $a = new Sel();
 $response = $a->getall('settings');
-$footer = $response[0]['appname'];
+$footer = $response[0]['footertext'];
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">

@@ -1,5 +1,9 @@
 <?php
 
+$a = new Sel();
+$response = $a->getall('settings');
+$title = $response[0]['appname'];
+
 echo ' <header>
 <div class="header-area-top-area">
     <div class="container">
