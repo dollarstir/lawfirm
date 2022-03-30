@@ -83,10 +83,10 @@ echo ' <header>
                                         <a href="">Divorce Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Insdustrial Law</a>
+                                        <a href="">Insdustrial Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Business Law</a>
+                                        <a href="">Business Law</a>
                                     </li>
                                     
                                 </ul>
@@ -95,32 +95,7 @@ echo ' <header>
                                 <a href="awards">Awards</a>
                             </li>
                            
-                           <!-- <li>
-                                <a href="main/index.html#">Pages</a>
-                                <ul class="mega-menu-style1">
-                                    <li>
-                                        <a href="main/index.html">Home Page 1</a>
-                                        <a href="main/index1.html">Home Page 2</a>
-                                        <a href="main/index2.html">Home Page 3</a>
-                                        <a href="main/index3.html">Home Page 4</a>
-                                        <a href="main/about.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="">PRACTICE AREAS</a>
-                                        <a href="">Family Law</a>
-                                        <a href="">Crime Law</a>
-                                        <a href="">Awards</a>
-                                        <a href="">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/single.html">Single Blog</a>
-                                        <a href="main/single-attorney.html">Attorney Details</a>
-                                        <a href="main/404.html">404 Page</a>
-                                        <a href="main/login.html">Login</a>
-                                        <a href="main/registration.html">Register</a>
-                                    </li>
-                                </ul>
-                            </li>-->
+                           
                             <li>
                                 <a href="contactus">CONTACT US</a>
                             </li>
