@@ -186,13 +186,13 @@ echo ' <header>
                                         <a href="">Crime Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Divorce Law</a>
+                                        <a href="">Divorce Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Insdustrial Law</a>
+                                        <a href="">Insdustrial Law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-practice.html">Business Law</a>
+                                        <a href="">Business Law</a>
                                     </li>
                                     
                                 </ul>
