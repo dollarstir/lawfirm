@@ -114,9 +114,9 @@
                                     echo '<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="single-wining-section">
                                     <div class="image">
-                                        <a href="main/awards.html#">
-                                            <img src="main/img/awards.png" alt="images">
-                                        </a>
+                                        <a href="main/awards.html#">';
+                                            echo $row['image']== "" ? '<img src="main/img/awards.png" alt="images">' : '<img src="main/img/awards.png" alt="images">
+                                    echo '</a>
                                     </div>
                                     <p>'.$row['content'].'</p>
                                 </div>
