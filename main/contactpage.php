@@ -1,10 +1,11 @@
+<?php involve('title.php'); ?>
 <!doctype html>
 <html class="no-js" lang="">
 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Welcome | Contact Us </title>
+        <title><?php title('Contact Us'); ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
