@@ -37,7 +37,7 @@ echo ' <header>
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
-                    <a href="/">';
+                    <a href="">';
                     echo ($logo == '') ? '<img src="main/img/logo.png" alt="logo">' : '<img src="yolkassets/img/'.$logo.'" alt="logo">';
                     echo'</a>
                 </div>
@@ -66,7 +66,7 @@ echo ' <header>
                                 </ul>
                             </li>
                             <li>
-                                <a href="main/about.html">About Us</a>
+                                <a href="about">About Us</a>
                             </li>
                             <li>
                                 <a href="main/practice.html">PRACTICE AREAS</a>
