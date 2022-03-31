@@ -39,9 +39,9 @@ echo '  <header>
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
-                    <a href="index.html">
-                        <img src="main/img/logo.png" alt="logo">
-                    </a>
+                    <a href="index.html">';
+                        echo $logo == '' ? '<img src="main/img/logo.png" alt="logo">' : '<img src="main/img/logo.png" alt="logo">';
+                   echo' </a>
                 </div>
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-sm-12">
