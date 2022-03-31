@@ -110,115 +110,42 @@ echo '  <header>
                     <nav id="dropdown">
                         <ul>
                             <li class="current">
-                                <a href="404.html#">
+                                <a href="home">
                                     <i class="fa fa-home"></i>
                                 </a>
-                                <ul>
-                                    <li>
-                                        <a href="index.html">Home Page 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index1.html">Home Page 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Home Page 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Home Page 4</a>
-                                    </li>
-                                </ul>
+                                
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about">About Us</a>
                             </li>
                             <li>
-                                <a href="practice.html">PRACTICE AREAS</a>
+                                <a href="">PRACTICE AREAS</a>
                                 <ul>
                                     <li>
-                                        <a href="single-practice.html">Family Law</a>
+                                        <a href="">Family Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Crime Law</a>
+                                        <a href="">Crime Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Divorce Law</a>
+                                        <a href="">Divorce Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Insdustrial Law</a>
+                                        <a href="">Insdustrial Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Business Law</a>
+                                        <a href="">Business Law</a>
                                     </li>
-                                    <li>
-                                        <a href="404.html#">Demo</a>
-                                        <ul>
-                                            <li>
-                                                <a href="404.html#">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.html#">Demo 2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li>
                                 <a href="awards.html">Awards</a>
                             </li>
+                            
+                            
                             <li>
-                                <a href="blog.html">BLOG</a>
-                                <ul>
-                                    <li>
-                                        <a href="single.html">Single Blog</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="404.html#">Pages</a>
-                                <ul>
-                                    <li>
-                                        <a href="index.html">Home Page 1</a>
-                                    </li>
-                                    <li>
-                                        <a href="index1.html">Home Page 2</a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Home Page 3</a>
-                                    </li>
-                                    <li>
-                                        <a href="index3.html">Home Page 4</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="practice.html">PRACTICE AREAS</a>
-                                    </li>
-                                    <li>
-                                        <a href="awards.html">Awards</a>
-                                    </li>
-                                    <li>
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="single.html">Single Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="single-attorney.html">Attorney Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="404.html">404 Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="login.html">Login</a>
-                                    </li>
-                                    <li>
-                                        <a href="registration.html">Register</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">CONTACT US</a>
+                                <a href="contactus">CONTACT US</a>
                             </li>
                         </ul>
                     </nav>
