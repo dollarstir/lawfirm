@@ -55,37 +55,27 @@ echo '  <header>
                                 
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about">About Us</a>
                             </li>
                             <li>
                                 <a href="practice.html">PRACTICE AREAS</a>
                                 <ul>
                                     <li>
-                                        <a href="single-practice.html">Family Law</a>
+                                        <a href="">Family Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice-left-sidebar.html">Crime Law</a>
+                                        <a href="">Crime Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Divorce Law</a>
+                                        <a href="">Divorce Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice-left-sidebar.html">Insdustrial Law</a>
+                                        <a href="">Insdustrial Law</a>
                                     </li>
                                     <li>
-                                        <a href="single-practice.html">Business Law</a>
+                                        <a href="">Business Law</a>
                                     </li>
-                                    <li class="has-child-menu">
-                                        <a href="404.html#">Demo</a>
-                                        <ul class="thired-level">
-                                            <li>
-                                                <a href="404.html#">Demo 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.html#">Demo 2</a>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                    
                                 </ul>
                             </li>
                             <li>
