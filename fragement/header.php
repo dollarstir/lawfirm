@@ -7,152 +7,57 @@ $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
 $favicon = $response[0]['favicon'];
 
-echo ' <header>
-<div class="header-area-top-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
-                <div class="header-top-left">
-                    <p>
-                        <i class="fa fa-map-marker"></i>'.$pe[0]['address'].'</p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
-                <div class="header-top-right">
-                    <nav>
-                        <ul>
-                            <li>
-                                <a href="main/login.html">Login</a>
-                            </li>
-                            <li>
-                                <a href="main/registration.html">Register</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="main-header-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
-                <div class="logo-area">
-                    <a href="home">';
-                    echo ($logo == '') ? '<img src="main/img/logo.png" alt="logo">' : '<img src="yolkassets/upload/'.$logo.'" alt="logo">';
-                    echo'</a>
-                </div>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 col-sm-12">
-                <div class="main-menu-area">
-                    <nav>
-                        <ul>
-                            <li class="current">
-                                <a href="home">
-                                    <i class="fa fa-home"></i>
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="about">About Us</a>
-                            </li>
-                            <li>
-                                <a href="">PRACTICE AREAS</a>
-                                <ul>
-                                    <li>
-                                        <a href="">Family Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Crime Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Divorce Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Insdustrial Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Business Law</a>
-                                    </li>
-                                    
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="awards">Awards</a>
-                            </li>
-                           
-                           
-                            <li>
-                                <a href="contactus">CONTACT US</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <!--<div class="col-lg-2 col-md-2 col-sm-2 hidden-sm col-sm-12">
-                <div class="search-area">
-                    <span>
-                        <i class="fa fa-search"></i>
-                    </span>
-                    <input type="text" placeholder="Search Here....">
-                </div>
-            </div>-->
-        </div>
-    </div>
-</div>
-<!-- mobile-menu-area start -->
-<div class="mobile-menu-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mobile-menu">
-                    <nav id="dropdown">
-                        <ul>
-                            <li class="current">
-                                <a href="home">
-                                    <i class="fa fa-home"></i>
-                                </a>
-                                
-                            </li>
-                            <li>
-                                <a href="about">About Us</a>
-                            </li>
-                            <li>
-                                <a href=">PRACTICE AREAS</a>
-                                <ul>
-                                    <li>
-                                        <a href="">Family Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Crime Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Divorce Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Insdustrial Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Business Law</a>
-                                    </li>
-                                    
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="awards">Awards</a>
-                            </li>
-                            
-                            
-                            <li>
-                                <a href="contactus">CONTACT US</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- mobile-menu-area end -->
-</header>';
+echo '  <head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>Welcome | 404 Page </title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- favicon
+============================================ -->
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+<!-- Bootstrap CSS
+============================================ -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Bootstrap CSS
+============================================ -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- nivo slider CSS
+============================================ -->
+<link rel="stylesheet" href="custom-slider/css/nivo-slider.css" type="text/css" />
+<link rel="stylesheet" href="custom-slider/css/preview.css" type="text/css" media="screen" />
+<!-- owl.carousel CSS
+============================================ -->
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.css">
+<link rel="stylesheet" href="css/owl.transitions.css">
+<!-- jquery-ui CSS
+============================================ -->
+<link rel="stylesheet" href="css/jquery-ui.css">
+<!-- meanmenu CSS
+============================================ -->
+<link rel="stylesheet" href="css/meanmenu.min.css">
+<!-- animate CSS
+============================================ -->
+<link rel="stylesheet" href="css/animate.css">
+<!-- normalize CSS
+============================================ -->
+<link rel="stylesheet" href="css/normalize.css">
+<!-- main CSS
+============================================ -->
+<link rel="stylesheet" href="css/main.css">
+<!-- nivo slider CSS
+============================================ -->
+<link rel="stylesheet" href="custom-slider/css/nivo-slider.css" type="text/css" />
+<link rel="stylesheet" href="custom-slider/css/preview.css" type="text/css" media="screen" />
+<!-- style CSS
+============================================ -->
+<link rel="stylesheet" href="style.css">
+<!-- Responsive CSS
+============================================ -->
+<link rel="stylesheet" href="css/responsive.css">
+<!-- modernizr JS
+============================================ -->
+<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>';
