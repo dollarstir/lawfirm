@@ -52,7 +52,7 @@
 </div>
 <ul id="sidebar_menu">
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 
 <img src="img/menu-icon/1.svg" alt="">
 <span>Dashboard</span>
@@ -63,18 +63,18 @@
 </ul>
 </li>
 <li class="mm-active">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/2.svg" alt="">
 <span>Pages</span>
 </a>
 <ul>
-<li><a class="active" href="login.html">Login</a></li>
-<li><a href="resister.html">Register</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a class="active" href="resister.html">Register</a></li>
 <li><a href="forgot_pass.html">Forgot Password</a></li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/3.svg" alt="">
 <span>Applications</span>
 </a>
@@ -85,12 +85,12 @@
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/4.svg" alt="">
 <span>UI Component</span>
 </a>
 <ul>
-<li><a href="login.html#">Elements</a>
+<li><a href="resister.html#">Elements</a>
 <ul>
 <li><a href="buttons.html">Buttons</a></li>
 <li><a href="dropdown.html">Dropdowns</a></li>
@@ -98,7 +98,7 @@
 <li><a href="Loading_Indicators.html">Loading Indicators</a></li>
 </ul>
 </li>
-<li><a href="login.html#">Components</a>
+<li><a href="resister.html#">Components</a>
 <ul>
 <li><a href="notification.html">Notifications</a></li>
 <li><a href="progress.html">Progress Bar</a></li>
@@ -110,7 +110,7 @@
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/5.svg" alt="">
 <span>Widgets</span>
 </a>
@@ -120,19 +120,19 @@
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/6.svg" alt="">
 <span>Forms</span>
 </a>
 <ul>
-<li><a href="login.html#">Elements</a>
+<li><a href="resister.html#">Elements</a>
 <ul>
 <li><a href="data_table.html">Data Tables</a></li>
 <li><a href="bootstrap_table.html">Grid Tables</a></li>
 <li><a href="datepicker.html">Date Picker</a></li>
 </ul>
 </li>
-<li><a href="login.html#">Widgets</a>
+<li><a href="resister.html#">Widgets</a>
 <ul>
 <li><a href="Input_Selects.html">Input Selects</a></li>
 <li><a href="Input_Mask.html">Input Mask</a></li>
@@ -141,7 +141,7 @@
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="login.html#" aria-expanded="false">
+<a class="has-arrow" href="resister.html#" aria-expanded="false">
 <img src="img/menu-icon/7.svg" alt="">
 <span>Charts</span>
 </a>
@@ -177,10 +177,10 @@
 <div class="header_right d-flex justify-content-between align-items-center">
 <div class="header_notification_warp d-flex align-items-center">
 <li>
-<a href="login.html#"> <img src="img/icon/bell.svg" alt=""> </a>
+<a href="resister.html#"> <img src="img/icon/bell.svg" alt=""> </a>
 </li>
 <li>
-<a href="login.html#"> <img src="img/icon/msg.svg" alt=""> </a>
+<a href="resister.html#"> <img src="img/icon/msg.svg" alt=""> </a>
 </li>
 </div>
 <div class="profile_info">
@@ -189,9 +189,9 @@
  <p>Welcome Admin!</p>
 <h5>Travor James</h5>
 <div class="profile_info_details">
-<a href="login.html#">My Profile <i class="ti-user"></i></a>
-<a href="login.html#">Settings <i class="ti-settings"></i></a>
-<a href="login.html#">Log Out <i class="ti-shift-left"></i></a>
+<a href="resister.html#">My Profile <i class="ti-user"></i></a>
+<a href="resister.html#">Settings <i class="ti-settings"></i></a>
+<a href="resister.html#">Log Out <i class="ti-shift-left"></i></a>
 </div>
 </div>
 </div>
@@ -200,7 +200,6 @@
 </div>
 </div>
 </div>
-
 <div class="main_content_iner ">
 <div class="container-fluid plr_30 body_white_bg pt_30">
 <div class="row justify-content-center">
@@ -211,20 +210,23 @@
 
 <div class="modal-content cs_modal">
 <div class="modal-header">
-<h5 class="modal-title">Log in</h5>
+<h5 class="modal-title">Resister</h5>
 </div>
 <div class="modal-body">
 <form>
 <div class="form-row social_login_btn">
 <div class="form-group col-md-12 text-center">
-<a href="login.html#" class="btn_1 full_width"><i class="fab fa-facebook-square"></i>Log in with Facebook</a>
+<a href="resister.html#" class="btn_1 full_width"><i class="fab fa-facebook-square"></i>Log in with Facebook</a>
 </div>
 <div class="form-group col-md-12 text-center">
-<a href="login.html#" class="btn_1 full_width"><i class="fab fa-google"></i>Log in with Google</a>
+<a href="resister.html#" class="btn_1 full_width"><i class="fab fa-google"></i>Log in with Google</a>
 </div>
 </div>
 <div class="border_style">
 <span>Or</span>
+</div>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Full Name">
 </div>
 <div class="form-group">
 <input type="email" class="form-control" placeholder="Enter your email">
@@ -232,10 +234,16 @@
 <div class="form-group">
 <input type="password" class="form-control" placeholder="Password">
 </div>
-<a href="login.html#" class="btn_1 full_width text-center">Log in</a>
-<p>Need an account? <a data-toggle="modal" data-target="#sing_up" data-dismiss="modal" href="login.html#"> Sign Up</a></p>
+<div class="form-group cs_check_box">
+<input type="checkbox" id="check_box" class="common_checkbox">
+<label for="check_box">
+Keep me up to date
+</label>
+</div>
+<a href="resister.html#" class="btn_1 full_width text-center"> Sign Up</a>
+<p>Need an account? <a data-toggle="modal" data-target="#sing_up" data-dismiss="modal" href="resister.html#">Log in</a></p>
 <div class="text-center">
-<a href="login.html#" data-toggle="modal" data-target="#forgot_password" data-dismiss="modal" class="pass_forget_btn">Forget Password?</a>
+<a href="resister.html#" data-toggle="modal" data-target="#forgot_password" data-dismiss="modal" class="pass_forget_btn">Forget Password?</a>
 </div>
 </form>
 </div>
@@ -252,8 +260,8 @@
 <div class="row">
 <div class="col-lg-12">
 <div class="footer_iner text-center">
-<p>2020 © Influence - Designed by <a href="login.html#"> <i class="ti-heart"></i> </a><a href="login.html#"> Dashboard</a></p>
-</div> 
+<p>2020 © Influence - Designed by <a href="resister.html#"> <i class="ti-heart"></i> </a><a href="resister.html#"> Dashboard</a></p>
+</div>
 </div>
 </div>
 </div>
@@ -300,11 +308,8 @@
 <script src="vendors/tagsinput/tagsinput.js"></script>
 
 <script src="vendors/text_editor/summernote-bs4.js"></script>
+<script src="vendors/apex_chart/apexcharts.js"></script>
 
 <script src="js/custom.js"></script>
-
-
-<script src="js/active_chart.js"></script>
-
 </body>
 </html>
