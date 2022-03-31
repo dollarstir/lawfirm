@@ -39,7 +39,7 @@ echo '  <header>
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
-                    <a href="index.html">';
+                    <a href="home">';
                         echo $logo != '' ? '<img src="yolkassets/upload/'.$logo.'" alt="logo">' : '<img src="main/img/logo.png" alt="logo">';
                    echo' </a>
                 </div>
