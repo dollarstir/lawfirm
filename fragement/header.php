@@ -14,7 +14,7 @@ echo '  <header>
             <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
                 <div class="header-top-left">
                     <p>
-                        <i class="fa fa-map-marker"></i>80 San Francisco Boulevard, San Francisco U.S. ZIP 123 556</p>
+                        <i class="fa fa-map-marker"></i>'.$pe[0]['address'].'</p>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-sm-12">
@@ -40,7 +40,7 @@ echo '  <header>
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
                     <a href="index.html">
-                        <img src="img/logo.png" alt="logo">
+                        <img src="main/img/logo.png" alt="logo">
                     </a>
                 </div>
             </div>
