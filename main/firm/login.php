@@ -65,25 +65,16 @@
 </div>
 <div class="modal-body">
 <form>
-<div class="form-row social_login_btn">
-<div class="form-group col-md-12 text-center">
-<a href="main/firm/login.html#" class="btn_1 full_width"><i class="fab fa-facebook-square"></i>Log in with Facebook</a>
-</div>
-<div class="form-group col-md-12 text-center">
-<a href="main/firm/login.html#" class="btn_1 full_width"><i class="fab fa-google"></i>Log in with Google</a>
-</div>
-</div>
-<div class="border_style">
-<span>Or</span>
-</div>
+
+
 <div class="form-group">
 <input type="email" class="form-control" placeholder="Enter your email">
 </div>
 <div class="form-group">
 <input type="password" class="form-control" placeholder="Password">
 </div>
-<a href="main/firm/login.html#" class="btn_1 full_width text-center">Log in</a>
-<p>Need an account? <a data-toggle="modal" data-target="#sing_up" data-dismiss="modal" href="main/firm/login.html#"> Sign Up</a></p>
+<input type="submit"  class="btn_1 full_width text-center blueb" value="Login">
+
 <div class="text-center">
 <a href="main/firm/login.html#" data-toggle="modal" data-target="#forgot_password" data-dismiss="modal" class="pass_forget_btn">Forget Password?</a>
 </div>
