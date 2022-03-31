@@ -27,8 +27,8 @@ $router = new Router([
         return Viewer::view('main/awardlist.php', $context);
     }),
 
-    new Route('/awards', function ($context) {
-        return Viewer::view('main/awardlist.php', $context);
+    new Route('/adminauth', function ($context) {
+        return Viewer::view('main/firm/login.php', $context);
     }),
 ]);
 $router->launch();
