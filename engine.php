@@ -26,5 +26,9 @@ $router = new Router([
     new Route('/awards', function ($context) {
         return Viewer::view('main/awardlist.php', $context);
     }),
+
+    new Route('/awards', function ($context) {
+        return Viewer::view('main/awardlist.php', $context);
+    }),
 ]);
 $router->launch();
