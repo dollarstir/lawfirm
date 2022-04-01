@@ -43,7 +43,7 @@
 
 
 
-<?php involve('adminnav.php')
+<?php involve('adminnav.php'); ?>
 
 
 <section class="main_content dashboard_part">
