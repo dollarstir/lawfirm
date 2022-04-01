@@ -149,12 +149,12 @@ $('.welcome').submit(function(e){
 });
 
 
-$('.cc').click(function(e){
+$('.sd').submit(function(e){
 
   e.preventDefault();
   // before();
   var staff = {
-      url: 'processor/processor.php?action=welcome',
+      url: 'processor/processor.php?action=adminlogin',
       type: 'post',
       data: new FormData(this),
       cache: false,
