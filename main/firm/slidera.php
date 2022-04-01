@@ -57,7 +57,7 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h3 class="mb-0">Input select 1</h3>
+<h2 class="mb-0 center-text">Name of Page</h2>
 </div>
 </div>
 <form>
