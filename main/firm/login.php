@@ -76,7 +76,7 @@
 <div class="form-group">
 <input type="password" class="form-control" placeholder="Password">
 </div>
-<button type="submit"  class="btn btn-primary cc" >Login</button>
+<button type="submit"   class="btn btn-primary cc" >Login</button>
 
 <div class="text-center">
 <a href="main/firm/login.html#" data-toggle="modal" data-target="#forgot_password" data-dismiss="modal" class="pass_forget_btn">Forget Password?</a>
@@ -96,7 +96,7 @@
 <div class="row">
 <div class="col-lg-12">
 <div class="footer_iner text-center">
-<p>2020 © Influence - Designed by <a href="main/firm/login.html#"> <i class="ti-heart"></i> </a><a href="main/firm/login.html#"> Dashboard</a></p>
+<!-- <p>2020 © Influence - Designed by <a href="main/firm/login.html#"> <i class="ti-heart"></i> </a><a href="main/firm/login.html#"> Dashboard</a></p> -->
 </div> 
 </div>
 </div>
@@ -150,6 +150,7 @@
 
 <script src="main/firm/js/active_chart.js"></script>
 <?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 
 
 </body>

@@ -149,6 +149,25 @@ $('.welcome').submit(function(e){
 });
 
 
+$('.cc').click(function(e){
+
+  e.preventDefault();
+  // before();
+  var staff = {
+      url: 'processor/processor.php?action=welcome',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
 
 
 
