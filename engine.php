@@ -34,8 +34,8 @@ $router = new Router([
         return Viewer::view('main/firm/main.php', $context);
     }),
 
-    new Route('/adminhome', function ($context) {
-        return Viewer::view('main/firm/main.php', $context);
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
     }),
 ]);
 $router->launch();
