@@ -149,6 +149,8 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
+<?php echo Yolk::uicore('jsa'); ?>
+
 
 </body>
 </html>
