@@ -63,15 +63,15 @@ $router = new Router([
     }),
 
     new Route('/editabout', function ($context) {
+        return Viewer::view('main/firm/newabout.php', $context);
+    }),
+
+    new Route('/addattorney', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
 
     new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
-    }),
-
-    new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+        return Viewer::view('main/firm/newattorney.php', $context);
     }),
 
     new Route('/addslider', function ($context) {
