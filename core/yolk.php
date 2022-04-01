@@ -44,7 +44,6 @@ class Yolk
                 <link rel="stylesheet" href="'.Path::rebase('ui/css/all.min.css').'">
                 <link rel="stylesheet" href="'.Path::rebase('ui/css/sweetalert2.min.css').'">
                 ';
-               
 
                 // break;
             case 'corejs':
@@ -53,7 +52,6 @@ class Yolk
                 <script src="'.Path::rebase('ui/js/all.min.js').'"></script>
                 <script src="'.Path::rebase('ui/js/sweetalert2.all.min.js').'"></script>
                 <script src="'.Path::rebase('processor/processor.js').'"></script>';
-                
 
                 // break;
         }
@@ -103,7 +101,7 @@ class Yolk
                 return '
                 <label for="'.$id.'" class="form-label">'.$label.'</label>
                 <input type="text" name="'.$name.'" value="'.$value.'" class="form-control '.$class.'" id="'.$id.'" onclick="'.$onclick.'" '.$other.'>';
-                
+
             case 'password':
                 return'
                 <label for="'.$id.'" class="form-label">'.$label.'</label>

@@ -39,7 +39,6 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
-<?php echo Yolk::uicore('corejs');?>
 </head>
 <body class="crm_body_bg">
 
@@ -74,7 +73,7 @@
 <div class="form-group">
 <input type="password" class="form-control" placeholder="Password">
 </div>
-<?php echo Yolk::input('submit', 'btnlogin', 'primary', '', 'Login'); ?>
+<button type="submit"  class="btn btn-primary cc" >Login</button>
 
 <div class="text-center">
 <a href="main/firm/login.html#" data-toggle="modal" data-target="#forgot_password" data-dismiss="modal" class="pass_forget_btn">Forget Password?</a>
