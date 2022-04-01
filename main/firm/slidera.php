@@ -75,94 +75,19 @@
 </select>
 </div>
 <div class="form-group">
-<label for="exampleFormControlSelect1">Example select</label>
-<select class="form-control" id="exampleFormControlSelect1">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-</select>
+    <?php echo inputfile::basic(); ?>   
 </div>
-<div class="form-group">
-<label for="exampleFormControlSelect2">Example multiple select</label>
-<select multiple class="form-control" id="exampleFormControlSelect2">
-<option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-</select>
-</div>
+<?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
+
+
+
 </form>
 </div>
 </div>
-<div class="col-md-6">
-<div class="white_box mb_30">
-<div class="box_header ">
-<div class="main-title">
-<h3 class="mb-0">Input select 2</h3>
-</div>
-</div>
-<select class="nice_Select mb_30">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
-</div>
-</div>
-<div class="col-md-6">
-<div class="white_box mb_30">
-<div class="box_header ">
-<div class="main-title">
-<h3 class="mb-0">Input select 3</h3>
-</div>
-</div>
-<select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
-</div>
-</div>
-<div class="col-md-6">
-<div class="white_box mb_30">
-<div class="box_header ">
-<div class="main-title">
-<h3 class="mb-0">Input select 4</h3>
-</div>
-</div>
-<select class="default_sel mb_30">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
-</div>
-</div>
-<div class="col-md-6">
-<div class="white_box mb_30">
-<div class="box_header ">
-<div class="main-title">
-<h3 class="mb-0">Input select 5</h3>
-</div>
-</div>
-<select class="form-control form-control-lg mb_30">
-<option>Large select</option>
-</select>
-<select class="form-control mb_30">
-<option>Default select</option>
-</select>
-<select class="form-control form-control-sm">
-<option>Small select</option>
-</select>
-</div>
-</div>
+
+
+
+
 </div>
 </div>
 
