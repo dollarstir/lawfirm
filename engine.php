@@ -37,5 +37,45 @@ $router = new Router([
     new Route('/addslider', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addpractice', function ($context) {
+        return Viewer::view('main/firm/newpractice.php', $context);
+    }),
+
+    new Route('/addawards', function ($context) {
+        return Viewer::view('main/firm/newawards.php', $context);
+    }),
+
+    new Route('/addtestimoney', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
 ]);
 $router->launch();
