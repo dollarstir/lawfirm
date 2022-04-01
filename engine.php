@@ -30,5 +30,8 @@ $router = new Router([
     new Route('/adminauth', function ($context) {
         return Viewer::view('main/firm/login.php', $context);
     }),
+    new Route('/adminhome', function ($context) {
+        return Viewer::view('main/firm/main.php', $context);
+    }),
 ]);
 $router->launch();
