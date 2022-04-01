@@ -9,7 +9,7 @@ echo '<nav class="sidebar">
 </div>
 <ul id="sidebar_menu">
 <li>
-    <a class="has-arrow" href="adminhome" >
+    <a class="" href="adminhome" >
 
     <img src="main/firm/img/menu-icon/1.svg" alt="">
     <span>Dashboard</span>
