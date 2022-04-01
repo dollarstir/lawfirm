@@ -67,7 +67,7 @@ $router = new Router([
     }),
 
     new Route('/addattorney', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+        return Viewer::view('main/firm/newattorney.php', $context);
     }),
 
     new Route('/addslider', function ($context) {
