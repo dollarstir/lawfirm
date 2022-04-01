@@ -51,18 +51,18 @@ $router = new Router([
     }),
 
     new Route('/addtestimoney', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+        return Viewer::view('main/firm/newtest.php', $context);
     }),
 
     new Route('/addslider', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
 
-    new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+    new Route('/editceo', function ($context) {
+        return Viewer::view('main/firm/newceo.php', $context);
     }),
 
-    new Route('/addslider', function ($context) {
+    new Route('/editabout', function ($context) {
         return Viewer::view('main/firm/slidera.php', $context);
     }),
 
