@@ -39,6 +39,9 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+
+<?php echo Yolk::uicore('cssa'); ?>
+
 </head>
 <body class="crm_body_bg">
 
