@@ -22,15 +22,15 @@ if (isset($_GET['action'])) {
 
             //url-ify the data for the POST
             // $dd = http_build_query($fields);
-            $usermail =str_replace('.com','dotcom',$usermail);
-            $usermail =str_replace('@','yolk',$usermail);
-            $rep =file_get_contents('http://phpyolk.com/newuser/'.$usermail);
+            $usermail = str_replace('.com', 'dotcom', $usermail);
+            $usermail = str_replace('@', 'yolk', $usermail);
+            $rep = file_get_contents('http://phpyolk.com/newuser/'.$usermail);
             // echo 'helllo';
             $rr = json_decode($rep);
-            if($rr =='success'){
-                $user ='user';
+            if ($rr == 'success') {
+                $user = 'user';
                 $value = 'success';
-                setcookie($user,$value,86400 * 30000,'/');
+                setcookie($user, $value, 86400 * 30000, '/');
                 echo 'success';
             }
 
@@ -39,7 +39,15 @@ if (isset($_GET['action'])) {
             // echo $response;
 
             break;
+        case 'adminlogin':
+            $a = new login();
+            extract($_POST);
+            $response = $a->authenticate('supper',[
+                ['email','=',$email]
+            ])
+            break;
 
+            // no break
         default:
 
         break;
