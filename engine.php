@@ -86,16 +86,12 @@ $router = new Router([
         return Viewer::view('main/firm/newlogo.php', $context);
     }),
 
-    new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+    new Route('/social', function ($context) {
+        return Viewer::view('main/firm/newsocial.php', $context);
     }),
 
-    new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
-    }),
-
-    new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/slidera.php', $context);
+    new Route('/newadmin', function ($context) {
+        return Viewer::view('main/firm/newadmin.php', $context);
     }),
 ]);
 $router->launch();
