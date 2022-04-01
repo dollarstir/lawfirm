@@ -7,37 +7,37 @@
 <title>Finance</title>
 
 
-<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="main/firm/css/bootstrap.min.css" />
 
-<link rel="stylesheet" href="vendors/themefy_icon/themify-icons.css" />
+<link rel="stylesheet" href="main/firm/vendors/themefy_icon/themify-icons.css" />
 
-<link rel="stylesheet" href="vendors/swiper_slider/css/swiper.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/swiper_slider/css/swiper.min.css" />
 
-<link rel="stylesheet" href="vendors/select2/css/select2.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/select2/css/select2.min.css" />
 
-<link rel="stylesheet" href="vendors/niceselect/css/nice-select.css" />
+<link rel="stylesheet" href="main/firm/vendors/niceselect/css/nice-select.css" />
 
-<link rel="stylesheet" href="vendors/owl_carousel/css/owl.carousel.css" />
+<link rel="stylesheet" href="main/firm/vendors/owl_carousel/css/owl.carousel.css" />
 
-<link rel="stylesheet" href="vendors/gijgo/gijgo.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/gijgo/gijgo.min.css" />
 
-<link rel="stylesheet" href="vendors/font_awesome/css/all.min.css" />
-<link rel="stylesheet" href="vendors/tagsinput/tagsinput.css" />
+<link rel="stylesheet" href="main/firm/vendors/font_awesome/css/all.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/tagsinput/tagsinput.css" />
 
-<link rel="stylesheet" href="vendors/datatable/css/jquery.dataTables.min.css" />
-<link rel="stylesheet" href="vendors/datatable/css/responsive.dataTables.min.css" />
-<link rel="stylesheet" href="vendors/datatable/css/buttons.dataTables.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/datatable/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/datatable/css/responsive.dataTables.min.css" />
+<link rel="stylesheet" href="main/firm/vendors/datatable/css/buttons.dataTables.min.css" />
 
-<link rel="stylesheet" href="vendors/text_editor/summernote-bs4.css" />
+<link rel="stylesheet" href="main/firm/vendors/text_editor/summernote-bs4.css" />
 
-<link rel="stylesheet" href="vendors/morris/morris.css">
+<link rel="stylesheet" href="main/firm/vendors/morris/morris.css">
 
-<link rel="stylesheet" href="vendors/material_icon/material-icons.css" />
+<link rel="stylesheet" href="main/firm/vendors/material_icon/material-icons.css" />
 
-<link rel="stylesheet" href="css/metisMenu.css">
+<link rel="stylesheet" href="main/firm/css/metisMenu.css">
 
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/colors/default.css" id="colorSkinCSS">
+<link rel="stylesheet" href="main/firm/css/style.css" />
+<link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
 </head>
 <body class="crm_body_bg">
 
@@ -45,110 +45,110 @@
 
 <nav class="sidebar">
 <div class="logo d-flex justify-content-between">
-<a href="index.html"><img src="img/logo.png" alt=""></a>
+<a href="main/firm/index.html"><img src="main/firm/img/logo.png" alt=""></a>
 <div class="sidebar_close_icon d-lg-none">
 <i class="ti-close"></i>
 </div>
 </div>
 <ul id="sidebar_menu">
 <li class="mm-active">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
 
-<img src="img/menu-icon/1.svg" alt="">
+<img src="main/firm/img/menu-icon/1.svg" alt="">
 <span>Dashboard</span>
 </a>
 <ul>
-<li><a class="active" href="index.html">Classic</a></li>
-<li><a href="index_2.html">Minimal</a></li>
+<li><a class="active" href="main/firm/index.html">Classic</a></li>
+<li><a href="main/firm/index_2.html">Minimal</a></li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/2.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/img/menu-icon/2.svg" alt="">
 <span>Pages</span>
 </a>
 <ul>
-<li><a href="login.html">Login</a></li>
-<li><a href="resister.html">Register</a></li>
-<li><a href="forgot_pass.html">Forgot Password</a></li>
+<li><a href="main/firm/login.html">Login</a></li>
+<li><a href="main/firm/resister.html">Register</a></li>
+<li><a href="main/firm/forgot_pass.html">Forgot Password</a></li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/3.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/main/firm/main/firm/img/menu-icon/3.svg" alt="">
 <span>Applications</span>
 </a>
 <ul>
-<li><a href="mail_box.html">Mail Box</a></li>
-<li><a href="chat.html">Chat</a></li>
-<li><a href="faq.html">FAQ</a></li>
+<li><a href="main/firm/mail_box.html">Mail Box</a></li>
+<li><a href="main/firm/chat.html">Chat</a></li>
+<li><a href="main/firm/faq.html">FAQ</a></li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/4.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/main/firm/main/firm/img/menu-icon/4.svg" alt="">
 <span>UI Component</span>
 </a>
 <ul>
-<li><a href="index.html#">Elements</a>
+<li><a href="main/firm/index.html#">Elements</a>
 <ul>
-<li><a href="buttons.html">Buttons</a></li>
-<li><a href="dropdown.html">Dropdowns</a></li> 
-<li><a href="Badges.html">Badges</a></li>
-<li><a href="Loading_Indicators.html">Loading Indicators</a></li>
+<li><a href="main/firm/buttons.html">Buttons</a></li>
+<li><a href="main/firm/dropdown.html">Dropdowns</a></li> 
+<li><a href="main/firm/Badges.html">Badges</a></li>
+<li><a href="main/firm/Loading_Indicators.html">Loading Indicators</a></li>
 </ul>
 </li>
-<li><a href="index.html#">Components</a>
+<li><a href="main/firm/index.html#">Components</a>
 <ul>
-<li><a href="notification.html">Notifications</a></li>
-<li><a href="progress.html">Progress Bar</a></li>
-<li><a href="carousel.html">Carousel</a></li>
-<li><a href="cards.html">cards</a></li>
-<li><a href="Pagination.html">Pagination</a></li>
+<li><a href="main/firm/notification.html">Notifications</a></li>
+<li><a href="main/firm/progress.html">Progress Bar</a></li>
+<li><a href="main/firm/carousel.html">Carousel</a></li>
+<li><a href="main/firm/cards.html">cards</a></li>
+<li><a href="main/firm/Pagination.html">Pagination</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/5.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/main/firm/main/firm/img/menu-icon/5.svg" alt="">
 <span>Widgets</span>
 </a>
 <ul>
-<li><a href="chart_box_1.html">Chart Boxes 1</a></li>
-<li><a href="profilebox.html">Profile Box</a></li>
+<li><a href="main/firm/chart_box_1.html">Chart Boxes 1</a></li>
+<li><a href="main/firm/profilebox.html">Profile Box</a></li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/6.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/main/firm/main/firm/img/menu-icon/6.svg" alt="">
 <span>Forms</span>
 </a>
 <ul>
-<li><a href="index.html#">Elements</a>
+<li><a href="main/firm/index.html#">Elements</a>
 <ul>
-<li><a href="data_table.html">Data Tables</a></li>
-<li><a href="bootstrap_table.html">Grid Tables</a></li>
-<li><a href="datepicker.html">Date Picker</a></li>
+<li><a href="main/firm/data_table.html">Data Tables</a></li>
+<li><a href="main/firm/bootstrap_table.html">Grid Tables</a></li>
+<li><a href="main/firm/datepicker.html">Date Picker</a></li>
 </ul>
 </li>
-<li><a href="index.html#">Widgets</a>
+<li><a href="main/firm/index.html#">Widgets</a>
 <ul>
-<li><a href="Input_Selects.html">Input Selects</a></li>
-<li><a href="Input_Mask.html">Input Mask</a></li>
+<li><a href="main/firm/Input_Selects.html">Input Selects</a></li>
+<li><a href="main/firm/Input_Mask.html">Input Mask</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="">
-<a class="has-arrow" href="index.html#" aria-expanded="false">
-<img src="img/menu-icon/7.svg" alt="">
+<a class="has-arrow" href="main/firm/index.html#" aria-expanded="false">
+<img src="main/firm/main/firm/main/firm/img/menu-icon/7.svg" alt="">
 <span>Charts</span>
 </a>
 <ul>
-<li><a href="chartjs.html">ChartJS</a></li>
-<li><a href="apex_chart.html">Apex Charts</a></li>
-<li><a href="chart_sparkline.html">chart sparkline</a></li>
+<li><a href="main/firm/chartjs.html">ChartJS</a></li>
+<li><a href="main/firm/apex_chart.html">Apex Charts</a></li>
+<li><a href="main/firm/chart_sparkline.html">chart sparkline</a></li>
 </ul>
 </li>
 </ul>
@@ -170,28 +170,28 @@
 <div class="search_field">
 <input type="text" placeholder="Search here...">
 </div>
-<button type="submit"> <img src="img/icon/icon_search.svg" alt=""> </button>
+<button type="submit"> <img src="main/firm/main/firm/main/firm/img/icon/icon_search.svg" alt=""> </button>
 </form>
 </div>
 </div>
 <div class="header_right d-flex justify-content-between align-items-center">
 <div class="header_notification_warp d-flex align-items-center">
 <li>
-<a href="index.html#"> <img src="img/icon/bell.svg" alt=""> </a>
+<a href="main/firm/index.html#"> <img src="main/firm/main/firm/main/firm/img/icon/bell.svg" alt=""> </a>
 </li>
 <li>
-<a href="index.html#"> <img src="img/icon/msg.svg" alt=""> </a>
+<a href="main/firm/index.html#"> <img src="main/firm/main/firm/main/firm/img/icon/msg.svg" alt=""> </a>
 </li>
 </div>
 <div class="profile_info">
-<img src="img/client_img.png" alt="#">
+<img src="main/firm/main/firm/main/firm/img/client_img.png" alt="#">
 <div class="profile_info_iner">
  <p>Welcome Admin!</p>
 <h5>Travor James</h5>
 <div class="profile_info_details">
-<a href="index.html#">My Profile <i class="ti-user"></i></a>
-<a href="index.html#">Settings <i class="ti-settings"></i></a>
-<a href="index.html#">Log Out <i class="ti-shift-left"></i></a>
+<a href="main/firm/index.html#">My Profile <i class="ti-user"></i></a>
+<a href="main/firm/index.html#">Settings <i class="ti-settings"></i></a>
+<a href="main/firm/index.html#">Log Out <i class="ti-shift-left"></i></a>
 </div>
 </div>
 </div>
@@ -277,7 +277,7 @@
 </div>
 </div>
 <div class="radial_bottom">
-<p><a href="index.html#">View Full Report</a></p>
+<p><a href="main/firm/index.html#">View Full Report</a></p>
 </div>
 </div>
 </div>
@@ -302,7 +302,7 @@
 </div>
 </div>
 <div class="radial_bottom">
-<p><a href="index.html#">View Full Report</a></p>
+<p><a href="main/firm/index.html#">View Full Report</a></p>
 </div>
 </div>
 </div>
@@ -361,10 +361,10 @@
 </div>
 <div class="title_btn">
 <ul>
-<li><a class="active" href="index.html#">All time</a></li>
-<li><a href="index.html#">This year</a></li>
-<li><a href="index.html#">This week</a></li>
-<li><a href="index.html#">Today</a></li>
+<li><a class="active" href="main/firm/index.html#">All time</a></li>
+<li><a href="main/firm/index.html#">This year</a></li>
+<li><a href="main/firm/index.html#">This week</a></li>
+<li><a href="main/firm/index.html#">Today</a></li>
 </ul>
 </div>
 <canvas height="120px" id="sales-chart"></canvas>
@@ -419,7 +419,7 @@
 <div class="row">
 <div class="col-lg-12">
 <div class="footer_iner text-center">
-<p>2020 © Influence - Designed by <a href="index.html#"> <i class="ti-heart"></i> </a><a href="index.html#"> Dashboard</a></p>
+<p>2020 © Influence - Designed by <a href="main/firm/index.html#"> <i class="ti-heart"></i> </a><a href="main/firm/index.html#"> Dashboard</a></p>
 </div>
 </div>
 </div>
@@ -429,55 +429,55 @@
 
 
 
-<script src="js/jquery-3.4.1.min.js"></script>
+<script src="main/firm/main/firm/main/firm/js/jquery-3.4.1.min.js"></script>
 
-<script src="js/popper.min.js"></script>
+<script src="main/firm/main/firm/main/firm/js/popper.min.js"></script>
 
-<script src="js/bootstrap.min.js"></script>
+<script src="main/firm/main/firm/main/firm/js/bootstrap.min.js"></script>
 
-<script src="js/metisMenu.js"></script>
+<script src="main/firm/main/firm/main/firm/js/metisMenu.js"></script>
 
-<script src="vendors/count_up/jquery.waypoints.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/count_up/jquery.waypoints.min.js"></script>
 
-<script src="vendors/chartlist/Chart.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/chartlist/Chart.min.js"></script>
 
-<script src="vendors/count_up/jquery.counterup.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/count_up/jquery.counterup.min.js"></script>
 
-<script src="vendors/swiper_slider/js/swiper.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/swiper_slider/js/swiper.min.js"></script>
 
-<script src="vendors/niceselect/js/jquery.nice-select.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/niceselect/js/jquery.nice-select.min.js"></script>
 
-<script src="vendors/owl_carousel/js/owl.carousel.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/owl_carousel/js/owl.carousel.min.js"></script>
 
-<script src="vendors/gijgo/gijgo.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/gijgo/gijgo.min.js"></script>
 
-<script src="vendors/datatable/js/jquery.dataTables.min.js"></script>
-<script src="vendors/datatable/js/dataTables.responsive.min.js"></script>
-<script src="vendors/datatable/js/dataTables.buttons.min.js"></script>
-<script src="vendors/datatable/js/buttons.flash.min.js"></script>
-<script src="vendors/datatable/js/jszip.min.js"></script>
-<script src="vendors/datatable/js/pdfmake.min.js"></script>
-<script src="vendors/datatable/js/vfs_fonts.js"></script>
-<script src="vendors/datatable/js/buttons.html5.min.js"></script>
-<script src="vendors/datatable/js/buttons.print.min.js"></script>
-<script src="js/chart.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/jquery.dataTables.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/dataTables.responsive.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/dataTables.buttons.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/buttons.flash.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/jszip.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/pdfmake.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/vfs_fonts.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/buttons.html5.min.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/datatable/js/buttons.print.min.js"></script>
+<script src="main/firm/main/firm/main/firm/js/chart.min.js"></script>
 
-<script src="vendors/progressbar/jquery.barfiller.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/progressbar/jquery.barfiller.js"></script>
 
-<script src="vendors/tagsinput/tagsinput.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/tagsinput/tagsinput.js"></script>
 
-<script src="vendors/text_editor/summernote-bs4.js"></script>
-<script src="vendors/apex_chart/apexcharts.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/text_editor/summernote-bs4.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/apex_chart/apexcharts.js"></script>
 
-<script src="js/custom.js"></script>
+<script src="main/firm/main/firm/main/firm/js/custom.js"></script>
 
-<script src="js/active_chart.js"></script>
-<script src="vendors/apex_chart/radial_active.js"></script>
-<script src="vendors/apex_chart/stackbar.js"></script>
-<script src="vendors/apex_chart/area_chart.js"></script>
+<script src="main/firm/main/firm/main/firm/js/active_chart.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/apex_chart/radial_active.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/apex_chart/stackbar.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/apex_chart/area_chart.js"></script>
 
-<script src="vendors/apex_chart/bar_active_1.js"></script>
-<script src="vendors/chartjs/chartjs_active.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/apex_chart/bar_active_1.js"></script>
+<script src="main/firm/main/firm/main/firm/vendors/chartjs/chartjs_active.js"></script>
 
 </body>
 </html>
