@@ -69,7 +69,7 @@ $(function(){
                   swal.showLoading();
                 },
               }).then(function (result) {
-                window.location="/tms/home";
+                window.location="adminhome";
               });
 
         }
