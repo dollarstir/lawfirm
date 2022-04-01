@@ -71,10 +71,10 @@
 
 
 <div class="form-group">
-<input type="email" class="form-control" placeholder="Enter your email">
+<input type="email" name="email" class="form-control" placeholder="Enter your email">
 </div>
 <div class="form-group">
-<input type="password" class="form-control" placeholder="Password">
+<input type="password" name="password" class="form-control" placeholder="Password">
 </div>
 <button type="submit"   class="btn btn-primary cc" >Login</button>
 

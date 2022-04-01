@@ -34,10 +34,6 @@ if (isset($_GET['action'])) {
                 echo 'success';
             }
 
-            // $mail = new Mail();
-            // $response = $mail->sendmail('www.phpyolk.com', 'New user', 'New user has started using yolk', 'Yolk User', ['kpin463@gmail.com']);
-            // echo $response;
-
             break;
         case 'adminlogin':
             $a = new login();
@@ -46,7 +42,12 @@ if (isset($_GET['action'])) {
                 ['email', '=', $email],
                 ['password', '=', md5($password)],
             ], 'AND');
-            break;
+            if ($response == 'success') {
+                echo 'loginsuccess';
+            } else {
+                echo $response;
+            }
+                break;
 
         default:
 
