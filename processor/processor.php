@@ -42,12 +42,12 @@ if (isset($_GET['action'])) {
         case 'adminlogin':
             $a = new login();
             extract($_POST);
-            $response = $a->authenticate('supper',[
-                ['email','=',$email]
-            ])
+            $response = $a->authenticate('supper', [
+                ['email', '=', $email],
+                ['password', '=', md5($password)],
+            ], 'AND');
             break;
 
-            // no break
         default:
 
         break;
