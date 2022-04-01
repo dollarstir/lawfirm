@@ -99,8 +99,8 @@ echo '<nav class="sidebar">
     <span>Attorney</span>
     </a>
     <ul>
-    <li><a href="main/firm/login.html">Login</a></li>
-    <li><a href="main/firm/resister.html">Register</a></li>
+    <li><a href="addattorney">Add Attorney</a></li>
+    <li><a href="viewattorney">View Attorney</a></li>
     
     </ul>
 </li>
@@ -108,12 +108,12 @@ echo '<nav class="sidebar">
 <li class="">
     <a class="has-arrow" href="#" aria-expanded="false">
     <img src="main/firm/img/menu-icon/2.svg" alt="">
-    <span>Pages</span>
+    <span>Contact Info</span>
     </a>
     <ul>
-    <li><a href="main/firm/login.html">Login</a></li>
-    <li><a href="main/firm/resister.html">Register</a></li>
-    <li><a href="main/firm/forgot_pass.html">Forgot Password</a></li>
+    <li><a href="editcontact">Edit Contact</a></li>
+    <li><a href="viewcontact">View Contact</a></li>
+    
     </ul>
 </li>
 
