@@ -70,8 +70,28 @@ $router = new Router([
         return Viewer::view('main/firm/newattorney.php', $context);
     }),
 
+    new Route('/editcontact', function ($context) {
+        return Viewer::view('main/firm/newcontact.php', $context);
+    }),
+
+    new Route('/profile', function ($context) {
+        return Viewer::view('main/firm/newprofile.php', $context);
+    }),
+
+    new Route('/appname', function ($context) {
+        return Viewer::view('main/firm/newappname.php', $context);
+    }),
+
+    new Route('/applogo', function ($context) {
+        return Viewer::view('main/firm/newlogo.php', $context);
+    }),
+
     new Route('/addslider', function ($context) {
-        return Viewer::view('main/firm/newattorney.php', $context);
+        return Viewer::view('main/firm/slidera.php', $context);
+    }),
+
+    new Route('/addslider', function ($context) {
+        return Viewer::view('main/firm/slidera.php', $context);
     }),
 
     new Route('/addslider', function ($context) {
