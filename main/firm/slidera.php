@@ -1,3 +1,4 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>

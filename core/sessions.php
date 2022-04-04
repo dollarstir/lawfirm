@@ -29,7 +29,10 @@ class sessions
 
     public function viewsession($sessionvariable)
     {
-        return $_SESSION[$sessionvariable];
+        // session_start();
+        $dd = $_SESSION[$sessionvariable];
+
+        return $dd;
     }
 
     public function deletesession($sessionvariable = '')

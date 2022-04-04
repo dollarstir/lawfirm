@@ -73,6 +73,23 @@ $(function(){
               });
 
         }
+
+        else if(response == 'logout'){
+
+          swal({
+              title: "Logout Successful!",
+              text: "will be redirected soon",
+              timer: 2000,
+              type: 'success',
+              padding: "2em",
+              onOpen: function () {
+                swal.showLoading();
+              },
+            }).then(function (result) {
+              window.location="adminauth";
+            });
+
+      }
         else if(response == 'Updated Successfully'){
 
             swal({
