@@ -17,7 +17,7 @@ class killsession
         return $msg;
     }
 
-    public function session($sessionvariable)
+    public function addsession($sessionvariable, $value)
     {
     }
 }
