@@ -86,7 +86,17 @@ if (isset($_GET['action'])) {
 
         case 'addtestimony':
                 extract($_POST);
-                echo  $res = insert('awards',
+                echo  $res = insert('testimony',
+                [
+                    'name' => $name,
+                    'position' => $position,
+                    'comment' => $comment,
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
+        case 'editabout':
+                extract($_POST);
+                echo  $res = insert('testimony',
                 [
                     'name' => $name,
                     'position' => $position,
