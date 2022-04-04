@@ -60,10 +60,20 @@
 <h2 class="center-text">Name of Page</h2>
 </div>
 </div>
-<form>
+<form class="addtestimony">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1">Name of Cleint</label>
+<input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Occupation</label>
+<input type="text" name="position" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Occupation</label>
+<textarea  name="comment" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
 <div class="form-group">
     <select class="default_sel mb_30 w-100">
