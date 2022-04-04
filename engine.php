@@ -93,5 +93,9 @@ $router = new Router([
     new Route('/newadmin', function ($context) {
         return Viewer::view('main/firm/newadmin.php', $context);
     }),
+
+    new Route('/adminlogout', function ($context) {
+        return Viewer::view('main/firm/logout.php', $context);
+    }),
 ]);
 $router->launch();

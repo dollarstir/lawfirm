@@ -47,6 +47,13 @@ if (isset($_GET['action'])) {
             }
                 break;
 
+        case 'adminlogout':
+            $r = logout('admin');
+            if ($r == 'success') {
+                echo 'logout';
+            }
+                break;
+
         default:
 
         break;

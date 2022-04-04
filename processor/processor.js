@@ -184,6 +184,25 @@ $('.sd').submit(function(e){
   $.ajax(staff);
 });
 
+// logout
+$('.logi').click(function(e){
+
+  e.preventDefault();
+  // before();
+  var staff = {
+      url: 'processor/processor.php?action=adminlogout',
+      type: 'post',
+      // data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 
 
 

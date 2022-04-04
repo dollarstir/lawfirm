@@ -29,14 +29,14 @@ echo '<div class="container-fluid no-gutters">
 </li>
 </div>
 <div class="profile_info">
-<img src="main/firm/img/client_img.png" alt="#">
+<img src="yolkassets/upload/'.$admin['pic'].'" alt="amin">
 <div class="profile_info_iner">
  <p>Welcome Admin!</p>
 <h5>'.$admin['name'].'</h5>
 <div class="profile_info_details">
 <a href="main/firm/index.html#">My Profile <i class="ti-user"></i></a>
 <a href="main/firm/index.html#">Settings <i class="ti-settings"></i></a>
-<a href="logout">Log Out <i class="ti-shift-left"></i></a>
+<button class="logi">Log Out <i class="ti-shift-left"></i></button>
 </div>
 </div>
 </div>

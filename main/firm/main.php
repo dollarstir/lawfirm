@@ -39,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -318,6 +319,7 @@
 
 <script src="main/firm/vendors/apex_chart/bar_active_1.js"></script>
 <script src="main/firm/vendors/chartjs/chartjs_active.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
