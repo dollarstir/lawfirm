@@ -1,3 +1,4 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -60,12 +62,12 @@
 <h2 class="center-text">Name of Page</h2>
 </div>
 </div>
-<form>
+<form class="addaward">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1">Describe the award</label>
+<input type="text" name="content" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
-<div class="form-group">
+<!-- <div class="form-group">
     <select class="default_sel mb_30 w-100">
 <option data-display="Select">Nothing</option>
 <option value="1">Some option</option>
@@ -73,9 +75,9 @@
 <option value="3" disabled>A disabled option</option>
 <option value="4">Potato</option>
 </select>
-</div>
+</div> -->
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('image', 'Upload image of award'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
@@ -139,6 +141,9 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
+
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 
 </body>
 </html>
