@@ -96,12 +96,10 @@ if (isset($_GET['action'])) {
 
         case 'editabout':
                 extract($_POST);
-                echo  $res = insert('testimony',
+                echo  $res = update('aboutpage',
                 [
-                    'name' => $name,
-                    'position' => $position,
-                    'comment' => $comment,
-                ], $_FILES, '../yolkassets/upload/');
+                    'content' => $content,
+                ], '', $_FILES, '../yolkassets/upload/');
             break;
 
         default:
