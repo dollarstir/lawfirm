@@ -59,26 +59,22 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">About Company Page</h2>
 </div>
 </div>
 <form class="editabout">
 <div class="form-group">
 <label for="exampleFormControlInput1">About Company</label>
 <?php $row = fetchall('aboutpage'); ?>
-<textarea  class="form-control" id="exampleFormControlInput1" placeholder=""><?php echo $row['content']; ?></textarea>
+<textarea  class="form-control" name="content" id="exampleFormControlInput1" placeholder=""><?php echo $row[0]['content']; ?></textarea>
 </div>
 <div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
+   <?php
+        $row[0]['image'] == '' ? '' : '<img src="yolkassets/upload/'.$row[0]['image'].'" alt="about picture>';
+   ?>
 </div>
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('image', 'Upload Image for about page'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
