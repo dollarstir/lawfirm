@@ -22,8 +22,9 @@ class killsession
         $_SESSION[$sessionvariable] = $value;
     }
 
-    public function addsession($sessionvariable, $value)
+    public function viewsession($sessionvariable)
     {
-        $_SESSION[$sessionvariable] = $value;
+
+        return $_SESSION[$sessionvariable]
     }
 }
