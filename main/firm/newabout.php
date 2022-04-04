@@ -1,3 +1,4 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -60,10 +62,11 @@
 <h2 class="center-text">Name of Page</h2>
 </div>
 </div>
-<form>
+<form class="editabout">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1">About Company</label>
+<?php $row = fetchall('aboutpage'); ?>
+<textarea  class="form-control" id="exampleFormControlInput1" placeholder=""><?php echo $row['content']; ?></textarea>
 </div>
 <div class="form-group">
     <select class="default_sel mb_30 w-100">
@@ -139,6 +142,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
