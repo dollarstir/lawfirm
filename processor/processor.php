@@ -99,7 +99,7 @@ if (isset($_GET['action'])) {
                 echo  $res = update('aboutpage',
                 [
                     'content' => $content,
-                ], '', $_FILES, '../yolkassets/upload/');
+                ], [], $_FILES, '../yolkassets/upload/');
             break;
 
         default:
