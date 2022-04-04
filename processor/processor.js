@@ -288,7 +288,7 @@ $('.editabout').submit(function(e){
   e.preventDefault();
   // before();
   var staff = {
-      url: 'processor/processor.php?action=addtestimony',
+      url: 'processor/processor.php?action=editabout',
       type: 'post',
       data: new FormData(this),
       cache: false,
