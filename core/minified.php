@@ -142,18 +142,28 @@ function mainchecker($sessionvariable, $notloginlocation = '')
 
      function addsession($sessionvariable, $value)
      {
+         $init = new sessions();
+         $response = $init->addsession($sessionvariable, $value);
      }
 
      function updatesession($sessionvariable, $value)
      {
+         $init = new sessions();
+         $response = $init->updatesession($sessionvariable, $value);
      }
 
      function viewsession($sessionvariable)
      {
+         $init = new sessions();
+         $response = $init->viewsession($sessionvariable);
+
+         return $response;
      }
 
      function deletesession($sessionvariable = '')
      {
+         $init = new sessions();
+         $response = $init->deletesession($sessionvariable);
      }
 
      function initsession()
