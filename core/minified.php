@@ -132,3 +132,30 @@ function mainchecker($sessionvariable, $notloginlocation = '')
 
     return $response;
 }
+ function logout($sessionvariable = '')
+ {
+     $init = new sessions();
+     $response = $init->logout($sessionvariable);
+
+     return $response;
+ }
+
+     function addsession($sessionvariable, $value)
+     {
+     }
+
+     function updatesession($sessionvariable, $value)
+     {
+     }
+
+     function viewsession($sessionvariable)
+     {
+     }
+
+     function deletesession($sessionvariable = '')
+     {
+     }
+
+     function initsession()
+     {
+     }

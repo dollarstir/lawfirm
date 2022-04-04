@@ -1,6 +1,6 @@
 <?php
 
-class killsession
+class sessions
 {
     public function logout($sessionvariable = '')
     {
