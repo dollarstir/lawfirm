@@ -68,13 +68,11 @@ if (isset($_GET['action'])) {
 
         case 'addpractice':
                 extract($_POST);
-                echo  $res = insert('homeslide',
+                echo  $res = insert('practiceareas',
                 [
-                    'slidetitle' => $slidetitle,
-                    'slidesubtitle' => $slidesubtitle,
+                    'title' => $title,
+                    'content' => $content,
                     'btntitle' => $btntitle,
-                    'btnlink' => $btnlink,
-                    'status' => $status,
                 ], $_FILES, '../yolkassets/upload/');
             break;
 
