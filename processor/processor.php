@@ -54,19 +54,31 @@ if (isset($_GET['action'])) {
             }
                 break;
 
-        default:
-
         case 'addslide':
             extract($_POST);
-           echo  $res = insert('homeslide',
-           [
-               'slidetitle' => $slidetitle,
-               'slidesubtitle' => $slidesubtitle,
-               'btntitle' => $btntitle,
-               'btnlink' => $btnlink,
-               'status' => $status,
-           ], $_FILES, '../yolkassets/upload/');
+            echo  $res = insert('homeslide',
+            [
+                'slidetitle' => $slidetitle,
+                'slidesubtitle' => $slidesubtitle,
+                'btntitle' => $btntitle,
+                'btnlink' => $btnlink,
+                'status' => $status,
+            ], $_FILES, '../yolkassets/upload/');
             break;
+
+        case 'addpractice':
+                extract($_POST);
+                echo  $res = insert('homeslide',
+                [
+                    'slidetitle' => $slidetitle,
+                    'slidesubtitle' => $slidesubtitle,
+                    'btntitle' => $btntitle,
+                    'btnlink' => $btnlink,
+                    'status' => $status,
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
+        default:
 
         break;
     }
