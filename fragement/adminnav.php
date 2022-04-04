@@ -1,7 +1,7 @@
 <?php
 
 $get = fetchAll('settings');
-var_dump($get[0]['logo']);
+
 $lo = $get[0]['logo'];
 $logo = $lo == '' ? '<img src="main/firm/img/logo.png" alt="">' : '<img src="yolkassets/upload/'.$lo.'" alt="">';
 echo '<nav class="sidebar">
