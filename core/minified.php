@@ -93,10 +93,26 @@ function paginate($table, $order = [], $numperpage, $ct)
 
     return $response;
 }
-function pagecount($table, $perpage,$ct)
+function pagecount($table, $perpage, $ct)
 {
     $init = new Pagination();
     $response = $init->pagecount($table, $perpage, $ct);
+
+    return $response;
+}
+
+function loginauth($table, $sessionvariable, $target, $conjunction = '')
+{
+    $init = new Auth();
+    $response = $init->loginauthenticate($table, $sessionvariable, $target, $conjunction);
+
+    return $response;
+}
+
+function authenticate($table, $target, $conjunction = '')
+{
+    $init = new Auth();
+    $response = $init->authenticate($table, $target, $conjunction);
 
     return $response;
 }
