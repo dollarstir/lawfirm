@@ -1,4 +1,5 @@
 <?php
+
 echo '<div class="container-fluid no-gutters">
 <div class="row">
 <div class="col-lg-12 p-0">
