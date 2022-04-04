@@ -116,3 +116,19 @@ function authenticate($table, $target, $conjunction = '')
 
     return $response;
 }
+
+function loginpagechecker($sessionvariable, $isloggedinlocation = '')
+{
+    $init = new session();
+    $response = $init->authpagechecker($sessionvariable, $isloggedinlocation);
+
+    return $response;
+}
+
+function mainchecker($sessionvariable, $notloginlocation = '')
+{
+    $init = new session();
+    $response = $init->mainpagechecker($sessionvariable, $notloginlocation);
+
+    return $response;
+}
