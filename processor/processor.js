@@ -244,12 +244,12 @@ $('.addpractice').submit(function(e){
 
 // add award 
 
-$('.addpractice').submit(function(e){
+$('.addaward').submit(function(e){
 
   e.preventDefault();
   // before();
   var staff = {
-      url: 'processor/processor.php?action=addpractice',
+      url: 'processor/processor.php?action=addaward',
       type: 'post',
       data: new FormData(this),
       cache: false,
@@ -261,6 +261,8 @@ $('.addpractice').submit(function(e){
   };
   $.ajax(staff);
 });
+
+// add testimony
 
 
 

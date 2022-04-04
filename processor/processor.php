@@ -76,6 +76,24 @@ if (isset($_GET['action'])) {
                 ], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'addaward':
+                extract($_POST);
+                echo  $res = insert('awards',
+                [
+                    'content' => $content,
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
+        case 'addtestimony':
+                extract($_POST);
+                echo  $res = insert('awards',
+                [
+                    'name' => $name,
+                    'position' => $position,
+                    'comment' => $comment,
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;
