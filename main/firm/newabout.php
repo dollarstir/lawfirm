@@ -74,7 +74,7 @@
    ?>
 </div>
 <div class="form-group">
-    <?php echo inputfile::basic('image', 'Upload Image for about page', '', ); ?>   
+    <?php echo inputfile::basic('image', 'Upload Image for about page', '', 'value="'.$row[0]['image'].'"'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 

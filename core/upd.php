@@ -2,7 +2,7 @@
 
 class Upd extends Database
 {
-    public function update($table, $records, $target = '', $files = null, $uploadto = 'yolkassets/upload')
+    public function update($table, $records, $target = [], $files = null, $uploadto = 'yolkassets/upload')
     {
         try {
             $vu = '';
@@ -36,7 +36,16 @@ class Upd extends Database
                     $vu .= $key.'= :'.$key.',';
                 }
                 $vu = rtrim($vu, ',');
-                $up = $this->conn->prepare("UPDATE $table SET $vu WHERE $target");
+
+                $coco = '';
+                if ($target != []) {
+                    foreach ($target as $key => $value) {
+                        $coco .= "WHERE  $key = $value";
+                    }
+                } else {
+                    $coco = '';
+                }
+                $up = $this->conn->prepare("UPDATE $table SET $vu $coco");
                 // var_dump($up);
                 foreach ($records as $key => $value) {
                     $up->bindValue(':'.$key, $value);

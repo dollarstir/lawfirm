@@ -42,7 +42,7 @@ function sendmail($domain, $subject, $message, $from_name = 'Yolk Mailer', $to, 
 function update($table, $records, $target = '', $files = null, $uploadto = 'yolkassets/upload')
 {
     $init = new Upd();
-    $response = $init->update($table, $records, $target, $files, $uploadto = 'yolkassets/upload');
+    $response = $init->update($table, $records, $target, $files, $uploadto);
 
     return $response;
 }
