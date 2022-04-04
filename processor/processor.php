@@ -38,9 +38,7 @@ if (isset($_GET['action'])) {
         case 'adminlogin':
 
             extract($_POST);
-            $response = loginauth('supper', 'admin', [
-                ['email', '=', $email],
-                ['password', '=', md5($password)],
+            $response = loginauth('supper', 'admin', [['email', '=', $email], ['password', '=', md5($password)],
             ], 'AND');
             if ($response == 'success') {
                 echo 'loginsuccess';
