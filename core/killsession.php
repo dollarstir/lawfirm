@@ -24,7 +24,6 @@ class killsession
 
     public function viewsession($sessionvariable)
     {
-
-        return $_SESSION[$sessionvariable]
+        return $_SESSION[$sessionvariable];
     }
 }
