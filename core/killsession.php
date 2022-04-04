@@ -22,6 +22,11 @@ class killsession
         $_SESSION[$sessionvariable] = $value;
     }
 
+    public function updatesession($sessionvariable, $value)
+    {
+        $_SESSION[$sessionvariable] = $value;
+    }
+
     public function viewsession($sessionvariable)
     {
         return $_SESSION[$sessionvariable];
@@ -34,5 +39,10 @@ class killsession
         } else {
             unset($_SESSION[$sessionvariable]);
         }
+    }
+
+    public function initsession()
+    {
+        session_start();
     }
 }
