@@ -73,7 +73,7 @@
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Occupation</label>
-<textarea  name="comment" class="form-control" id="exampleFormControlInput1" placeholder="">
+<textarea  name="comment" class="form-control" id="exampleFormControlInput1" placeholder=""></textarea>
 </div>
 <div class="form-group">
     <select class="default_sel mb_30 w-100">
