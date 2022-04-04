@@ -19,5 +19,11 @@ class killsession
 
     public function addsession($sessionvariable, $value)
     {
+        $_SESSION[$sessionvariable] = $value;
+    }
+
+    public function addsession($sessionvariable, $value)
+    {
+        $_SESSION[$sessionvariable] = $value;
     }
 }
