@@ -1,8 +1,12 @@
 <?php
 
+$get = fetchAll('settings');
+var_dump($get[0]['logo']);
+$lo = $get[0]['logo'];
+$logo = $lo == '' ? '<img src="main/firm/img/logo.png" alt="">' : '<img src="yolkassets/upload/'.$lo.'" alt="">';
 echo '<nav class="sidebar">
 <div class="logo d-flex justify-content-between">
-<a href="adminhome"><img src="main/firm/img/logo.png" alt=""></a>
+<a href="adminhome">'.$logo.'</a>
 <div class="sidebar_close_icon d-lg-none">
 <i class="ti-close"></i>
 </div>

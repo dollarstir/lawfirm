@@ -2,8 +2,21 @@
 
 class Sel extends database
 {
-    public function select($table, $target, $conjunction = '',$limit='')
+    public function select($table, $target, $conjunction = '', $order = [], $limit = '')
     {
+        if (is_array($order)) {
+        } else {
+            $order = [$order];
+        }
+
+        $kof = '';
+        if ($order != []) {
+            foreach ($order as $key => $value) {
+                $kof .= "ORDER BY $key $value";
+            }
+        } else {
+            $kof = '';
+        }
         $vs = '';
         // $allval = []
         foreach ($target as $value) {
@@ -23,11 +36,10 @@ class Sel extends database
         // echo "SELECT * FROM $table $vs $limit";
         // $vs = rtrim($vs, $conjunction);
         // echo $vs;
-        if($limit == ''){
-            $sel = $this->conn->prepare("SELECT * FROM $table $vs");
-        }
-        else{
-            $sel = $this->conn->prepare("SELECT * FROM $table $vs $limit");
+        if ($limit == '') {
+            $sel = $this->conn->prepare("SELECT * FROM $table $vs $kof ");
+        } else {
+            $sel = $this->conn->prepare("SELECT * FROM $table $vs $kof LIMIT $limit");
         }
         foreach ($target as $value) {
             if (is_array($value)) {
@@ -36,29 +48,37 @@ class Sel extends database
                 }
             }
         }
-        try{
-
+        try {
             $sel->execute();
-            
+
             return $sel->fetchAll(PDO::FETCH_ASSOC);
-        }catch(PDOException $e){
+        } catch (PDOException $e) {
             echo $e;
         }
     }
 
-    public function getall($table, $order = '',$limit='')
+    public function getall($table, $order = [], $limit = '')
     {
-        
-        if($limit == ''){
-            $sel = $this->conn->prepare("SELECT * FROM $table $order");
+        if (is_array($order)) {
+        } else {
+            $order = [$order];
         }
-        else{
-            $sel = $this->conn->prepare("SELECT * FROM $table $order $limit");
+        $kof = '';
+        if ($order != []) {
+            foreach ($order as $key => $value) {
+                $kof .= "ORDER BY $key $value";
+            }
+        } else {
+            $kof = '';
         }
+        if ($limit == '') {
+            $sel = $this->conn->prepare("SELECT * FROM $table $kof");
+        } else {
+            $sel = $this->conn->prepare("SELECT * FROM $table $kof  LIMIT $limit");
+        }
+
         $sel->execute();
 
         return $sel->fetchAll(PDO::FETCH_ASSOC);
     }
-
-    
 }
