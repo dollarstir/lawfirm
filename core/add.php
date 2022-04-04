@@ -2,8 +2,13 @@
 
 class Add extends database
 {
-    public function insert($table, $records, $files = null, $uploadto = 'yolkassets/upload')
+    public $uploaddef = __DIR__.'/../yolkassets/upload';
+
+    public function insert($table, $records, $files = null, $uploadto = '')
     {
+        if ($uploadto == '') {
+            $uploadto = $this->uploaddef;
+        }
         $man = '';
         $vv = '';
         $flag = false;

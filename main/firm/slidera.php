@@ -59,25 +59,41 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">Adding Homepage Slider Image</h2>
 </div>
 </div>
-<form>
+<form class="addslide">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="rr">Tile of Slide</label>
+<input type="text" class="form-control" id="tt" placeholder="slider title" name="slidetitle">
+</div>
+
+<div class="form-group">
+<label for="rr">Subtitle of Slide</label>
+<input type="text" class="form-control" id="tt" placeholder="slide subtitle" name="slidesubtitle">
+</div>
+
+
+<div class="form-group">
+<label for="rr">Slide Button Title</label>
+<input type="text" class="form-control" id="tt" placeholder="button label" name="btntitle">
+</div>
+
+<div class="form-group">
+<label for="rr">Slide Button link</label>
+<input type="text" class="form-control" id="tt" placeholder="button link" name="btnlink">
 </div>
 <div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
+    <select name="status" class="default_sel mb_30 w-100">
+<!-- <option data-display="Select">Nothing</option> -->
+<option value="">status</option>
+<option value="active">Active</option>
+
+<option value="inactive">Inactive</option>
 </select>
 </div>
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('slideimage', 'Upload the slider image'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 

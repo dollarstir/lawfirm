@@ -203,6 +203,25 @@ $('.logi').click(function(e){
   $.ajax(staff);
 });
 
+// add slide
+$('.addslide').submit(function(e){
+
+  e.preventDefault();
+  // before();
+  var staff = {
+      url: 'processor/processor.php?action=addslide',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 
 
 

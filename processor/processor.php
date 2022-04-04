@@ -56,6 +56,18 @@ if (isset($_GET['action'])) {
 
         default:
 
+        case 'addslide':
+            extract($_POST);
+           echo  $res = insert('homeslide',
+           [
+               'slidetitle' => $slidetitle,
+               'slidesubtitle' => $slidesubtitle,
+               'btntitle' => $btntitle,
+               'btnlink' => $btnlink,
+               'status' => $status,
+           ], $_FILES);
+            break;
+
         break;
     }
 }

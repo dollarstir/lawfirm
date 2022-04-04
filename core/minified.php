@@ -46,7 +46,7 @@ function update($table, $records, $target = '', $files = null, $uploadto = 'yolk
 
     return $response;
 }
-function insert($table, $records, $files = null, $uploadto = 'yolkassets/upload')
+function insert($table, $records, $files = null, $uploadto = '')
 {
     $init = new Add();
     $response = $init->insert($table, $records, $files, $uploadto);
