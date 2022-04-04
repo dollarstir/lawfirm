@@ -242,6 +242,26 @@ $('.addpractice').submit(function(e){
   $.ajax(staff);
 });
 
+// add award 
+
+$('.addpractice').submit(function(e){
+
+  e.preventDefault();
+  // before();
+  var staff = {
+      url: 'processor/processor.php?action=addpractice',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
 
 
 
