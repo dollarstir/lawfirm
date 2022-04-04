@@ -26,4 +26,13 @@ class killsession
     {
         return $_SESSION[$sessionvariable];
     }
+
+    public function deletesession($sessionvariable = '')
+    {
+        if ($sessionvariable == '') {
+            session_destroy();
+        } else {
+            unset($_SESSION[$sessionvariable]);
+        }
+    }
 }
