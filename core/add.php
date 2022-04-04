@@ -22,11 +22,11 @@ class Add extends database
         return "/$root/$path";
     }
 
-    public function insert($table, $records, $files = null, $uploadto = '')
+    public function insert($table, $records, $files = null, $uploadto = 'yolkassets/upload')
     {
-        if ($uploadto == '') {
-            $uploadto = $this->rebase('yolkassets/upload');
-        }
+        // if ($uploadto == '') {
+        //     $uploadto = $this->rebase('yolkassets/upload');
+        // }
         $man = '';
         $vv = '';
         $flag = false;

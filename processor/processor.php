@@ -65,7 +65,7 @@ if (isset($_GET['action'])) {
                'btntitle' => $btntitle,
                'btnlink' => $btnlink,
                'status' => $status,
-           ], $_FILES);
+           ], $_FILES, '../yolkassets/upload/');
             break;
 
         break;
