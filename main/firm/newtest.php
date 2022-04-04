@@ -1,3 +1,4 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -57,7 +59,7 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">Testimony</h2>
 </div>
 </div>
 <form class="addtestimony">
@@ -75,17 +77,9 @@
 <label for="exampleFormControlInput1">Occupation</label>
 <textarea  name="comment" class="form-control" id="exampleFormControlInput1" placeholder=""></textarea>
 </div>
+
 <div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
-</div>
-<div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('image', 'Upload Client Image'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
