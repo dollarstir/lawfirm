@@ -168,4 +168,6 @@ function mainchecker($sessionvariable, $notloginlocation = '')
 
      function initsession()
      {
+         $init = new sessions();
+         $response = $init->initsession();
      }
