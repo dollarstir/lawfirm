@@ -36,9 +36,9 @@ if (isset($_GET['action'])) {
 
             break;
         case 'adminlogin':
-            $a = new login();
+
             extract($_POST);
-            $response = $a->authenticate('supper', [
+            $response = loginauth('supper', 'admin', [
                 ['email', '=', $email],
                 ['password', '=', md5($password)],
             ], 'AND');

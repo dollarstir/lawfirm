@@ -1,4 +1,4 @@
-<?php ?>
+<?php loginpagechecker('admin', 'adminhome'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
