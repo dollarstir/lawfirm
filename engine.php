@@ -82,6 +82,10 @@ $router = new Router([
         return Viewer::view('main/firm/newappname.php', $context);
     }),
 
+    new Route('/appsettings', function ($context) {
+        return Viewer::view('main/firm/newappname.php', $context);
+    }),
+
     new Route('/applogo', function ($context) {
         return Viewer::view('main/firm/newlogo.php', $context);
     }),
