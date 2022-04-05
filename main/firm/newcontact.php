@@ -1,10 +1,11 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>Edit Contact</title>
+<title>Contact Settings</title>
 
 
 <link rel="stylesheet" href="main/firm/css/bootstrap.min.css" />
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -57,15 +59,47 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">Contact Setings</h2>
 </div>
 </div>
-<form>
+
+<?php
+
+$row = fetchall('contact');
+
+?>
+
+
+<form class="contactsetting">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1"> Address</label>
+<input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['address']; ?>">
+
+</div>
+
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Email</label>
+<input type="number" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['phone']; ?>">
 </div>
 <div class="form-group">
+<label for="exampleFormControlInput1">Email</label>
+<input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['email']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Email</label>
+<input type="number" name="telephone" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['telephone']; ?>">
+</div>
+
+
+
+
+
+
+
+
+<!-- <div class="form-group">
     <select class="default_sel mb_30 w-100">
 <option data-display="Select">Nothing</option>
 <option value="1">Some option</option>
@@ -73,10 +107,13 @@
 <option value="3" disabled>A disabled option</option>
 <option value="4">Potato</option>
 </select>
-</div>
+</div> -->
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('pic', 'Upload Profile pic', '', 'value="'.$row[0]['pic'].'"'); ?>   
 </div>
+
+
+
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
 
@@ -139,6 +176,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
