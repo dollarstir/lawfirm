@@ -1,10 +1,11 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>Edit CEO</title>
+<title>CEO Page</title>
 
 
 <link rel="stylesheet" href="main/firm/css/bootstrap.min.css" />
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -57,25 +59,22 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">About CEO Page</h2>
 </div>
 </div>
-<form>
+<form class="editceo">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
+<label for="exampleFormControlInput1">About Company</label>
+<?php $row = fetchall('ceo'); ?>
+<textarea  class="form-control" name="content" id="exampleFormControlInput1" placeholder=""><?php echo $row[0]['content']; ?></textarea>
 </div>
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+   <?php
+        $row[0]['image'] == '' ? '' : '<img src="yolkassets/upload/'.$row[0]['image'].'" alt="about picture>';
+   ?>
+</div>
+<div class="form-group">
+    <?php echo inputfile::basic('image', 'Upload Image for about page', '', 'value="'.$row[0]['image'].'"'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
@@ -139,6 +138,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
