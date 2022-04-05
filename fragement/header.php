@@ -156,3 +156,23 @@ echo '  <header>
 </div>
 <!-- mobile-menu-area end -->
 </header>';
+
+function practice()
+{
+    $p = fetchall('practiceareas');
+    foreach ($p as $row) {
+        echo '<div class="single-practice">
+        <div class="single-practice-content">
+            <i class="fa fa-briefcase"></i>
+            <h3>
+                <a href="">'.$row['title'].'</a>
+            </h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
+                libero possimus sapiente.</p>
+            <div class="read-more">
+                <a href="main/single-practice.html">Read More</a>
+            </div>
+        </div>
+    </div>';
+    }
+}
