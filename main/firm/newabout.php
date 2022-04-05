@@ -70,7 +70,7 @@
 </div>
 
    <?php
-        $row[0]['image'] != '' ? '<img src="yolkassets/upload/'.$row[0]['image'].'" alt="about picture>' : '';
+     echo   ($row[0]['image'] != '') ? '<img src="yolkassets/upload/'.$row[0]['image'].'"/>' : '';
    ?>
 
 <div class="form-group">
