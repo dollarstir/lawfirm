@@ -68,11 +68,11 @@
 <?php $row = fetchall('aboutpage'); ?>
 <textarea  class="form-control" name="content" id="exampleFormControlInput1" placeholder=""><?php echo $row[0]['content']; ?></textarea>
 </div>
-<div class="form-group">
+
    <?php
-        $row[0]['image'] == '' ? '' : '<img src="yolkassets/upload/'.$row[0]['image'].'" alt="about picture>';
+        $row[0]['image'] != '' ? '<img src="yolkassets/upload/'.$row[0]['image'].'" alt="about picture>' : '';
    ?>
-</div>
+
 <div class="form-group">
     <?php echo inputfile::basic('image', 'Upload Image for about page', '', 'value="'.$row[0]['image'].'"'); ?>   
 </div>
