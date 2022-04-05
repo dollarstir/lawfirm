@@ -128,13 +128,8 @@ if (isset($_GET['action'])) {
                 extract($_POST);
                 echo  $res = update('supper',
                 [
-                    'appname' => $appname,
-                    'footertext' => $footertext,
-                    'facebook' => $facebook,
-                    'twitter' => $twitter,
-                    'linkedin' => $linkedin,
-                    'skype' => $skype,
-                    'shortnote' => $shortnote,
+                    'name' => $name,
+                    'email' => $email,
                 ], ['id' => $id], $_FILES, '../yolkassets/upload/');
             break;
 

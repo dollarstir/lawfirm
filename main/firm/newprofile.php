@@ -67,7 +67,7 @@
 $s = viewsession('admin');
 $id = $s['id'];
 $row = customfetch('supper', [['id', '=', $id]]);
-echo  $row[0]['pic'] != '' ? '<h4> Profile Pic</h4><img src="yolkassets/upload/'.$row[0]['pic'].'"/>' : '';
+echo  $row[0]['pic'] != '' ? '<h4> Profile Pic</h4><img src="yolkassets/upload/'.$row[0]['pic'].'" width="200px"/>' : '';
 
 ?>
 
@@ -76,6 +76,7 @@ echo  $row[0]['pic'] != '' ? '<h4> Profile Pic</h4><img src="yolkassets/upload/'
 <div class="form-group">
 <label for="exampleFormControlInput1"> Name</label>
 <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['name']; ?>">
+<input type="hidden" name="id" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['id']; ?>">
 </div>
 
 <div class="form-group">
