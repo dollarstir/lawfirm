@@ -102,6 +102,14 @@ if (isset($_GET['action'])) {
                 ], [], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'editceo':
+                extract($_POST);
+                echo  $res = update('ceo',
+                [
+                    'content' => $content,
+                ], [], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;
