@@ -167,11 +167,107 @@ function practice()
             <h3>
                 <a href="">'.$row['title'].'</a>
             </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
-                libero possimus sapiente.</p>
+            <p>'.substr($row['content'], 0, 100).'...</p>
             <div class="read-more">
                 <a href="main/single-practice.html">Read More</a>
             </div>
+        </div>
+    </div>';
+    }
+}
+
+function testimony($type)
+{
+    $t = fetchall('testimony');
+    foreach ($t as $row) {
+        if ($type == 1) {
+            echo '<div class="single-client-area">
+                <h3>
+                    <a href="">'.$row['name'].'t</a>
+                </h3>
+                <p class="designation">'.$row['position'].'</p>
+                <div class="picture">
+                    <a href="">
+                        <img src="yolkassets/upload/'.$row['image'].'" alt="">
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </li>
+                        <li class="disable">
+                            <a href="">
+                                <i class="fa fa-star"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>'.$row['comment'].'</p>
+            </div>';
+        }
+    }
+}
+function attorney()
+{
+    $a = fetchall('attorney');
+
+    foreach ($a as $row) {
+        echo '<div class="single-attorney">
+        <div class="attorney-picture">
+            <a href="">
+                <img src="yolkassets/upload/'.$row['image'].'" alt="">
+            </a>
+            <div class="overlay">
+                <!--<h2>
+                    <a href="main/index.html#">View Bio</a>
+                </h2>-->
+                <div class="social-media">
+                    <ul>
+                        <li>
+                            <a href="'.$row['facebook'].'">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['twitter'].'">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['linkedin'].'">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['skype'].'">
+                                <i class="fa fa-skype"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="attorney-content">
+            <h3>
+                <a href="">'.$row['name'].'</a>
+            </h3>
+            <p>'.$row['position'].'</p>
         </div>
     </div>';
     }
