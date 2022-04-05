@@ -1,3 +1,4 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -57,26 +59,60 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">Add Attorney</h2>
 </div>
 </div>
-<form>
+
+
+
+
+<form class="addattorney">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1"> Name</label>
+<input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
+
 <div class="form-group">
-    <select class="default_sel mb_30 w-100">
-<option data-display="Select">Nothing</option>
-<option value="1">Some option</option>
-<option value="2">Another option</option>
-<option value="3" disabled>A disabled option</option>
-<option value="4">Potato</option>
-</select>
+<label for="exampleFormControlInput1">Position</label>
+<input type="text" name="position" class="form-control" id="exampleFormControlInput1" placeholder="">
 </div>
+
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+<label for="exampleFormControlInput1">Bio</label>
+<textarea  name="bio" class="form-control" id="exampleFormControlInput1" placeholder=""></textarea>
 </div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Facebook Link</label>
+<input type="text" name="facebook" class="form-control" id="exampleFormControlInput1" placeholder="" >
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Twitter Link</label>
+<input type="text" name="twitter" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Linkedin Link</label>
+<input type="text" name="linkedin" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Skype Link</label>
+<input type="text" name="skype" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+
+
+
+
+
+<div class="form-group">
+    <?php echo inputfile::basic('image', 'Upload Attourney\'s Picture'); ?>   
+</div>
+
+
+
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
 
@@ -139,6 +175,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
