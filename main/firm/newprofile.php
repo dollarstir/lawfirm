@@ -66,47 +66,27 @@
 <?php
 $s = viewsession('admin');
 $id = $s['id'];
-$row = fetchall('settings');
-echo  $row[0]['logo'] != '' ? '<h4>App logo</h4><img src="yolkassets/upload/'.$row[0]['logo'].'"/>' : '';
-echo $row[0]['favicon'] != '' ? '<h4>App Favicon</h4><img src="yolkassets/upload/'.$row[0]['favicon'].'"/>' : '';
+$row = customfetch('supper', [['id', '=', $id]]);
+echo  $row[0]['pic'] != '' ? '<h4> Profile Pic</h4><img src="yolkassets/upload/'.$row[0]['pic'].'"/>' : '';
+
 ?>
 
 
-<form class="appsettings">
+<form class="profilesettings">
 <div class="form-group">
-<label for="exampleFormControlInput1">App Name</label>
-<input type="text" name="appname" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['appname']; ?>">
+<label for="exampleFormControlInput1"> Name</label>
+<input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['name']; ?>">
 </div>
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Footer Text</label>
-<input type="text" name="footertext" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['footertext']; ?>">
+<label for="exampleFormControlInput1">Email</label>
+<input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['email']; ?>">
 </div>
 
-<div class="form-group">
-<label for="exampleFormControlInput1">Facebook Link</label>
-<input type="text" name="facebook" class="form-control" id="exampleFormControlInput1" placeholder=""  value="<?php echo $row[0]['facebook']; ?>">
-</div>
 
-<div class="form-group">
-<label for="exampleFormControlInput1">Twitter Link</label>
-<input type="text" name="twitter" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['twitter']; ?>">
-</div>
 
-<div class="form-group">
-<label for="exampleFormControlInput1">Linkedin Link</label>
-<input type="text" name="linkedin" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['linkedin']; ?>">
-</div>
 
-<div class="form-group">
-<label for="exampleFormControlInput1">Skype Link</label>
-<input type="text" name="skype" class="form-control" id="exampleFormControlInput1" placeholder=""  value="<?php echo $row[0]['skype']; ?>">
-</div>
 
-<div class="form-group">
-<label for="exampleFormControlInput1">Short Description of app</label>
-<textarea  name="shortnote" class="form-control" id="exampleFormControlInput1" placeholder=""><?php echo $row[0]['shortnote']; ?></textarea>
-</div>
 
 
 
@@ -120,13 +100,11 @@ echo $row[0]['favicon'] != '' ? '<h4>App Favicon</h4><img src="yolkassets/upload
 </select>
 </div> -->
 <div class="form-group">
-    <?php echo inputfile::basic('logo', 'Upload App logo', '', 'value="'.$row[0]['logo'].'"'); ?>   
+    <?php echo inputfile::basic('pic', 'Upload Profile pic', '', 'value="'.$row[0]['pic'].'"'); ?>   
 </div>
 
 
-<div class="form-group">
-    <?php echo inputfile::basic('favicon', 'Upload favicon', '', 'value="'.$row[0]['favicon'].'"'); ?>   
-</div>
+
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
 
