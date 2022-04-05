@@ -110,12 +110,12 @@
 </select>
 </div> -->
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('logo', 'Upload App logo', ); ?>   
 </div>
 
 
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('favicon', 'Upload favicon'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
