@@ -143,6 +143,17 @@ if (isset($_GET['action'])) {
                 ], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'contactsetting':
+                extract($_POST);
+                echo  $res = update('contact',
+                [
+                    'address' => $address,
+                    'email' => $email,
+                    'phone' => $phone,
+                    'telephone' => $telephone,
+                ], ['id' => $id], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;
