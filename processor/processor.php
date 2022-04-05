@@ -124,6 +124,20 @@ if (isset($_GET['action'])) {
                 ], [], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'profilesettings':
+                extract($_POST);
+                echo  $res = update('supper',
+                [
+                    'appname' => $appname,
+                    'footertext' => $footertext,
+                    'facebook' => $facebook,
+                    'twitter' => $twitter,
+                    'linkedin' => $linkedin,
+                    'skype' => $skype,
+                    'shortnote' => $shortnote,
+                ], ['id' => $id], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;

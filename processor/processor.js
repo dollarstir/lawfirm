@@ -347,7 +347,7 @@ $('.profilesettings').submit(function(e){
   e.preventDefault();
   
   var staff = {
-      url: 'processor/processor.php?action=appsettings',
+      url: 'processor/processor.php?action=profilesettings',
       type: 'post',
       data: new FormData(this),
       cache: false,
