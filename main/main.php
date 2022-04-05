@@ -65,7 +65,7 @@
         <div class="slider-area">
             <div class="bend niceties preview-2">
                 <div id="ensign-nivoslider" class="slides">
-                    <img src="main/img/slides/slide1.jpg" alt="image" title="#slider-direction-1" />
+                    
                     <img src="main/img/slides/slide2.jpg" alt="image" title="#slider-direction-2" />
                 </div>
                 <!-- direction 1 -->
@@ -170,33 +170,23 @@
         <!-- Slider Buttom Area End Here -->
         <!-- About Lawyer Area Start Here -->
         <div class="about-lawyer-area">
+            <?php $law = fetchall('ceo'); ?>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="about-lawyer-featured-image">
-                            <a href="main/about.html">
-                                <img src="main/img/about.png" alt="about">
+                            <a href="home">
+                                <img src="yolkassets/upload/<?php echo $law[0]['image']; ?>" alt="about">
                             </a>
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                         <div class="about-content-area">
                             <h1>About
-                                <span>Prestige Law Firm</span>
+                                <span>CEO</span>
                             </h1>
-                            <p>There are many variations of passages of Lorem Ipsum availabbut the humourrandomisedwords.There
-                                are many variations of passages of Lorem Ipsum availablebut the majority.Lorem ipsum dolor
-                                sit amet, consectetur adipiscing elit. Nulla varius consequat magna, id molestie ipsum volutpat
-                                quis. Suspendisse consectetur fringilla suctus.</p>
-                            <ul>
-                                <li>Expert Lawyer</li>
-                                <li>Quick Complate Case</li>
-                                <li>Fast Support</li>
-                                <li>Free Counciling</li>
-                            </ul>
-                            <div class="read-more-button">
-                                <a href="main/about.html">Read More</a>
-                            </div>
+                            <p><?php echo $law[0]['content']; ?></p>
+                            
                         </div>
                     </div>
                 </div>
@@ -210,8 +200,8 @@
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="section-title-area">
                             <h2>Our PRACTICE AREAS</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
-                                libero possimus sapiente.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
+                                libero possimus sapiente.</p> -->
                         </div>
                     </div>
                 </div>

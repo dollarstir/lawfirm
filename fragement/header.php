@@ -156,6 +156,3 @@ echo '  <header>
 </div>
 <!-- mobile-menu-area end -->
 </header>';
-function getslides()
-{
-}
