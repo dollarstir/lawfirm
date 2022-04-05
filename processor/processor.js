@@ -382,6 +382,27 @@ $('.addadmin').submit(function(e){
 });
 
 
+// edit contact info
+
+$('.contactsetting').submit(function(e){
+
+  e.preventDefault();
+  
+  var staff = {
+      url: 'processor/processor.php?action=contactsetting',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
 
 
 

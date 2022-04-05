@@ -79,7 +79,7 @@ $row = fetchall('contact');
 
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Email</label>
+<label for="exampleFormControlInput1">Contact</label>
 <input type="number" name="phone" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['phone']; ?>">
 </div>
 <div class="form-group">
@@ -88,7 +88,7 @@ $row = fetchall('contact');
 </div>
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Email</label>
+<label for="exampleFormControlInput1">Telephone</label>
 <input type="number" name="telephone" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['telephone']; ?>">
 </div>
 
@@ -108,9 +108,6 @@ $row = fetchall('contact');
 <option value="4">Potato</option>
 </select>
 </div> -->
-<div class="form-group">
-    <?php echo inputfile::basic('pic', 'Upload Profile pic', '', 'value="'.$row[0]['pic'].'"'); ?>   
-</div>
 
 
 
