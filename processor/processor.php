@@ -151,7 +151,7 @@ if (isset($_GET['action'])) {
                     'email' => $email,
                     'phone' => $phone,
                     'telephone' => $telephone,
-                ], ['id' => $id], $_FILES, '../yolkassets/upload/');
+                ]);
             break;
 
         default:
