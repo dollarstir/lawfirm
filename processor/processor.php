@@ -133,6 +133,16 @@ if (isset($_GET['action'])) {
                 ], ['id' => $id], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'addadmin':
+                extract($_POST);
+                echo  $res = insert('supper',
+                [
+                    'name' => $name,
+                    'email' => $email,
+                    'password' => md5($password),
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;
