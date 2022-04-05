@@ -361,6 +361,27 @@ $('.profilesettings').submit(function(e){
 });
 
 
+// add admin
+
+$('.addadmin').submit(function(e){
+
+  e.preventDefault();
+  
+  var staff = {
+      url: 'processor/processor.php?action=addadmin',
+      type: 'post',
+      data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
 
 
 
