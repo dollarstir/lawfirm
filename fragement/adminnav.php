@@ -76,7 +76,7 @@ echo '<nav class="sidebar">
     </a>
     <ul>
     <li><a href="editceo">Edit CEO</a></li>
-    <li><a href="ceo">View CEO</a></li>
+   
     
     </ul>
 </li>
@@ -88,7 +88,7 @@ echo '<nav class="sidebar">
     </a>
     <ul>
     <li><a href="editabout">Edit About Page </a></li>
-    <li><a href="viewabout">View  About Page </a></li>
+   
     
     </ul>
 </li>
@@ -124,9 +124,8 @@ echo '<nav class="sidebar">
     </a>
     <ul>
     <li><a href="profile">Profile</a></li>
-    <li><a href="appname">App Name</a></li>
-    <li><a href="applogo">App Logo</a></li>
-    <li><a href="social">Social Links</a></li>
+    <li><a href="appsettings">App Settings</a></li>
+    
     </ul>
 </li>
 

@@ -1,10 +1,11 @@
+<?php mainchecker('admin', 'adminauth'); ?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>Profile</title>
+<title>Profile Settings</title>
 
 
 <link rel="stylesheet" href="main/firm/css/bootstrap.min.css" />
@@ -38,6 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
+<?php echo Yolk::uicore('cssa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -57,15 +59,58 @@
 <div class="white_box mb_30">
 <div class="box_header ">
 <div class="main-title">
-<h2 class="center-text">Name of Page</h2>
+<h2 class="center-text">Profile Setings</h2>
 </div>
 </div>
-<form>
+
+<?php
+$s = viewsession('admin');
+$id = $s['id'];
+$row = fetchall('settings');
+echo  $row[0]['logo'] != '' ? '<h4>App logo</h4><img src="yolkassets/upload/'.$row[0]['logo'].'"/>' : '';
+echo $row[0]['favicon'] != '' ? '<h4>App Favicon</h4><img src="yolkassets/upload/'.$row[0]['favicon'].'"/>' : '';
+?>
+
+
+<form class="appsettings">
 <div class="form-group">
-<label for="exampleFormControlInput1">Email address</label>
-<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<label for="exampleFormControlInput1">App Name</label>
+<input type="text" name="appname" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['appname']; ?>">
 </div>
+
 <div class="form-group">
+<label for="exampleFormControlInput1">Footer Text</label>
+<input type="text" name="footertext" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['footertext']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Facebook Link</label>
+<input type="text" name="facebook" class="form-control" id="exampleFormControlInput1" placeholder=""  value="<?php echo $row[0]['facebook']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Twitter Link</label>
+<input type="text" name="twitter" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['twitter']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Linkedin Link</label>
+<input type="text" name="linkedin" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['linkedin']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Skype Link</label>
+<input type="text" name="skype" class="form-control" id="exampleFormControlInput1" placeholder=""  value="<?php echo $row[0]['skype']; ?>">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Short Description of app</label>
+<textarea  name="shortnote" class="form-control" id="exampleFormControlInput1" placeholder=""><?php echo $row[0]['shortnote']; ?></textarea>
+</div>
+
+
+
+<!-- <div class="form-group">
     <select class="default_sel mb_30 w-100">
 <option data-display="Select">Nothing</option>
 <option value="1">Some option</option>
@@ -73,9 +118,14 @@
 <option value="3" disabled>A disabled option</option>
 <option value="4">Potato</option>
 </select>
-</div>
+</div> -->
 <div class="form-group">
-    <?php echo inputfile::basic(); ?>   
+    <?php echo inputfile::basic('logo', 'Upload App logo', '', 'value="'.$row[0]['logo'].'"'); ?>   
+</div>
+
+
+<div class="form-group">
+    <?php echo inputfile::basic('favicon', 'Upload favicon', '', 'value="'.$row[0]['favicon'].'"'); ?>   
 </div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
@@ -139,6 +189,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-
+<?php echo Yolk::uicore('jsa'); ?>
+<script src="processor/processor.js"></script>
 </body>
 </html>
