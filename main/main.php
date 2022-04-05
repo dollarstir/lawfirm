@@ -57,11 +57,7 @@
     </head>
 
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
+       
         <!-- Header Area Start Here -->
        <?php involve('header.php'); ?>
         <!-- Header Area End Here -->
