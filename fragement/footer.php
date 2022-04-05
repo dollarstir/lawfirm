@@ -82,7 +82,7 @@ echo '   <footer>
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <!--<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                 <div class="footer footer-four">
                     <h2>flickr GALLERY</h2>
                     <ul>
@@ -112,7 +112,7 @@ echo '   <footer>
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
