@@ -137,54 +137,7 @@
                         <div class="section-title-area">
                             <h2>Testimonials</h2>
                             <div class="testimonial">
-                                <div class="single-testimonial">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus eius provident
-                                        dolores ratione, iure laboriosam laborum odit nulla. Eaque repudiandae amet officia
-                                        maiores deleniti ab sit. Accusantium, modi ipsam.</p>
-                                    <div class="picture">
-                                        <a href="main/awards.html#">
-                                            <img alt="" src="main/img/clients/00.jpg">
-                                        </a>
-                                        <h3>
-                                            <a href="main/awards.html#">Robert</a>
-                                        </h3>
-                                        <h4>
-                                            <a href="main/awards.html#">Manger</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="single-testimonial">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus eius provident
-                                        dolores ratione, iure laboriosam laborum odit nulla. Eaque repudiandae amet officia
-                                        maiores deleniti ab sit. Accusantium, modi ipsam.</p>
-                                    <div class="picture">
-                                        <a href="main/awards.html#">
-                                            <img alt="" src="main/img/clients/0.jpg">
-                                        </a>
-                                        <h3>
-                                            <a href="main/awards.html#">Robert</a>
-                                        </h3>
-                                        <h4>
-                                            <a href="main/awards.html#">Manger</a>
-                                        </h4>
-                                    </div>
-                                </div>
-                                <div class="single-testimonial">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat temporibus eius provident
-                                        dolores ratione, iure laboriosam laborum odit nulla. Eaque repudiandae amet officia
-                                        maiores deleniti ab sit. Accusantium, modi ipsam.</p>
-                                    <div class="picture">
-                                        <a href="main/awards.html#">
-                                            <img alt="" src="main/img/clients/01.jpg">
-                                        </a>
-                                        <h3>
-                                            <a href="main/awards.html#">Robert</a>
-                                        </h3>
-                                        <h4>
-                                            <a href="main/awards.html#">Manger</a>
-                                        </h4>
-                                    </div>
-                                </div>
+                                <?php testimony(2); ?>
                             </div>
                         </div>
                     </div>
@@ -206,7 +159,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="main/contact.html">Get Free Consultation</a>
+                            <a href="contactus">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
