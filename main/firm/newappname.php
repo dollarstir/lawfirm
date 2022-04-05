@@ -90,12 +90,17 @@
 
 <div class="form-group">
 <label for="exampleFormControlInput1">Skype Link</label>
-<input type="text" name="facebook" class="form-control" id="exampleFormControlInput1" placeholder="">
+<input type="text" name="skype" class="form-control" id="exampleFormControlInput1" placeholder="">
+</div>
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Short Description of app</label>
+<textarea  name="shortnote" class="form-control" id="exampleFormControlInput1" placeholder=""></textarea>
 </div>
 
 
 
-<div class="form-group">
+<!-- <div class="form-group">
     <select class="default_sel mb_30 w-100">
 <option data-display="Select">Nothing</option>
 <option value="1">Some option</option>
@@ -103,7 +108,7 @@
 <option value="3" disabled>A disabled option</option>
 <option value="4">Potato</option>
 </select>
-</div>
+</div> -->
 <div class="form-group">
     <?php echo inputfile::basic(); ?>   
 </div>
