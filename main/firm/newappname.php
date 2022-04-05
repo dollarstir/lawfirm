@@ -112,6 +112,11 @@
 <div class="form-group">
     <?php echo inputfile::basic(); ?>   
 </div>
+
+
+<div class="form-group">
+    <?php echo inputfile::basic(); ?>   
+</div>
 <?php echo inputs::input('submit', 'bnt', 'primary', 'cener-button', 'Submit'); ?>
 
 
