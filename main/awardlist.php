@@ -105,8 +105,8 @@
                     <div class="row">
                         
                         <?php
-                            $g = new Sel();
-                            $aw = $g->getall('awards');
+
+                            $aw = fetchall('awards');
                             foreach ($aw as $row) {
                                 if ($row == '') {
                                     echo 'no records';

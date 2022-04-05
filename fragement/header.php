@@ -220,6 +220,21 @@ function testimony($type)
                 </div>
                 <p>'.$row['comment'].'</p>
             </div>';
+        } elseif ($type == 2) {
+            echo '<div class="single-testimonial">
+            <p>'.$row['comment'].'</p>
+            <div class="picture">
+                <a href="">
+                    <img alt="" src="yolkassets/upload/'.$row['image'].'">
+                </a>
+                <h3>
+                    <a href="">'.$row['name'].'</a>
+                </h3>
+                <h4>
+                    <a href="">'.$row['position'].'</a>
+                </h4>
+            </div>
+        </div>';
         }
     }
 }
