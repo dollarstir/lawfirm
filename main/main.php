@@ -86,7 +86,7 @@
                             </div>
                         </div>
                         <div data-wow-delay="0.4s" data-wow-duration="4s" class="button wow fadeIn" style="visibility: visible; animation-duration: 4s; animation-delay: 0.4s; animation-name: fadeIn;">
-                            <a href="main/index.html#" class="btn btn-success">Read more</a>
+                            <a href="about" class="btn btn-success">Read more</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                             </div>
                             <div style="visibility: visible; animation-duration: 4s; animation-delay: 0.4s;" class="button wow fadeIn" data-wow-duration="4s"
                                 data-wow-delay="0.4s">
-                                <a class="btn btn-success" href="main/index.html#">Contact Us</a>
+                                <a class="btn btn-success" href="contactus">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -120,10 +120,13 @@
                             <div class="content-area">
                                 <div class="first-box-content">
                                     <h3>Emergency Cases</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                    <!-- <p>Lorem ipsum dolor sit amet, consectetur.</p> -->
                                     <p class="call-now">Call Us Now</p>
                                     <p class="phone-number">
-                                        <a href="main/tel:+4411122233344">+44 (0)111 - 222 333 44</a>
+                                        <?php $tel = fetchall('contact');
+                                       echo ' <a href="tel:'.$tel[0]['phone'].'">'.$tel[0]['phone'].'</a>';
+                                        ?>
+                                        
                                     </p>
                                 </div>
 
@@ -135,10 +138,10 @@
                             <div class="slider-buttom-overlay"></div>
                             <div class="content-area">
                                 <h3>Need Legal Help?</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos, quod, earum aspernatur
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos, quod, earum aspernatur
                                     officiis.
-                                </p>
-                                <a href="main/contact.html" class="call-us-buttom">Make An Appointment</a>
+                                </p> -->
+                                <a href="contactus" class="call-us-buttom">Make An Appointment</a>
 
                             </div>
                         </div>
