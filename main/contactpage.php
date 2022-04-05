@@ -170,7 +170,7 @@ $re = $a->getall('contact');
             <div id="googleMap" style="width:100%;height:470px;"></div>
         </div>
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
+        <!-- <div class="client-logo-area">
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
@@ -225,7 +225,7 @@ $re = $a->getall('contact');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
@@ -238,7 +238,7 @@ $re = $a->getall('contact');
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="main/contact.html">Get Free Consultation</a>
+                            <a href="contactus">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
