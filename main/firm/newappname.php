@@ -110,7 +110,7 @@
 </select>
 </div> -->
 <div class="form-group">
-    <?php echo inputfile::basic('logo', 'Upload App logo', ); ?>   
+    <?php echo inputfile::basic('logo', 'Upload App logo'); ?>   
 </div>
 
 

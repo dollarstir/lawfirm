@@ -110,11 +110,17 @@ if (isset($_GET['action'])) {
                 ], [], $_FILES, '../yolkassets/upload/');
             break;
 
-        case 'editceo':
+        case 'appsettings':
                 extract($_POST);
                 echo  $res = update('settings',
                 [
-                    'content' => $content,
+                    'appname' => $appname,
+                    'footertext' => $footertext,
+                    'facebook' => $facebook,
+                    'twitter' => $twitter,
+                    'linkedin' => $linkedin,
+                    'skype' => $skype,
+                    'shortnote' => $shortnote,
                 ], [], $_FILES, '../yolkassets/upload/');
             break;
 
