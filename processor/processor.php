@@ -154,6 +154,20 @@ if (isset($_GET['action'])) {
                 ]);
             break;
 
+        case 'addattorney':
+                extract($_POST);
+                echo  $res = insert('attorney',
+                [
+                    'name' => $name,
+                    'position' => $position,
+                    'bio' => $bio,
+                    'facebook' => $facebook,
+                    'twitter' => $twitter,
+                    'linkedin' => $linkedin,
+                    'skype' => $skype,
+                ], $_FILES, '../yolkassets/upload/');
+            break;
+
         default:
 
         break;
