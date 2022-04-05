@@ -342,7 +342,7 @@ $('.appsettings').submit(function(e){
 });
 // profile setting
 
-$('.appsettings').submit(function(e){
+$('.profilesettings').submit(function(e){
 
   e.preventDefault();
   
