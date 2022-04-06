@@ -219,10 +219,15 @@ function adminattorney()
         echo '<tr>
         
       
+       
         <td>'.$row['name'].'</td>
         <td>'.$row['position'].'</td>
-        <td>'.substr($row['comment'], 0, 100).' .....</td>
         <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
+        <td>'.substr($row['bio'], 0, 100).' .....</td>
+        <td>'.$row['facebook'].'</td>
+        <td>'.$row['twitter'].'</td>
+        <td>'.$row['name'].'</td>
+        <td>'.$row['name'].'</td>
        
        
         <td><button class="btn btn-danger delattorney" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
