@@ -105,5 +105,29 @@ $router = new Router([
     new Route('/viewsliders', function ($context) {
         return Viewer::view('main/firm/vslide.php', $context);
     }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
+
+    new Route('/viewpractices', function ($context) {
+        return Viewer::view('main/firm/vpractice.php', $context);
+    }),
 ]);
 $router->launch();
