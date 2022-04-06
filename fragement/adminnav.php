@@ -155,7 +155,7 @@ function adminslide()
         <td><img src="yolkassets/upload/'.$row['slideimage'].'" width="100px"/></td>
         <td>16</td>
         <td>$25.00</td>
-        <td><button class="btn btn-danger delslide">'.Icons::far('trash').'</button></td>
+        <td><button class="btn btn-danger delslide" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
         </tr>';
     }
 }
