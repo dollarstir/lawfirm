@@ -114,7 +114,7 @@ $router = new Router([
         return Viewer::view('main/firm/vawards.php', $context);
     }),
 
-    new Route('/viewtestimoney', function ($context) {
+    new Route('/Viewtestimoney', function ($context) {
         return Viewer::view('main/firm/vtestimony.php', $context);
     }),
 
@@ -122,12 +122,12 @@ $router = new Router([
         return Viewer::view('main/firm/vpractice.php', $context);
     }),
 
-    new Route('/viewpractices', function ($context) {
-        return Viewer::view('main/firm/vpractice.php', $context);
+    new Route('/viewattorney', function ($context) {
+        return Viewer::view('main/firm/vattorney.php', $context);
     }),
 
-    new Route('/viewpractices', function ($context) {
-        return Viewer::view('main/firm/vpractice.php', $context);
+    new Route('/viewadmins', function ($context) {
+        return Viewer::view('main/firm/vadmin.php', $context);
     }),
 ]);
 $router->launch();
