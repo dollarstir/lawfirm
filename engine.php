@@ -110,12 +110,12 @@ $router = new Router([
         return Viewer::view('main/firm/vpractice.php', $context);
     }),
 
-    new Route('/viewpractices', function ($context) {
-        return Viewer::view('main/firm/vpractice.php', $context);
+    new Route('/viewawards', function ($context) {
+        return Viewer::view('main/firm/vawards.php', $context);
     }),
 
-    new Route('/viewpractices', function ($context) {
-        return Viewer::view('main/firm/vpractice.php', $context);
+    new Route('/viewtestimoney', function ($context) {
+        return Viewer::view('main/firm/vtestimony.php', $context);
     }),
 
     new Route('/viewpractices', function ($context) {
