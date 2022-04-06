@@ -183,10 +183,10 @@ function adminawards()
     foreach ($s as $row) {
         echo '<tr>
         
-        <td>'.$row['title'].'e</td>
-        <td>'.substr($row['content'], 0, 100).' .....</td>
-        <td>'.$row['btntitle'].'</td>
+      
+        
         <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
+        <td>'.substr($row['content'], 0, 100).' .....</td>
        
        
         <td><button class="btn btn-danger delawards" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
