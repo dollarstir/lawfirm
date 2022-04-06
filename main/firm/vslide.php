@@ -92,7 +92,7 @@
 <tbody>
 <tr>
 <!-- <th> <a href="main/firm/data_table.html#" class="question_content"> title here 1</a></th> -->
-<td>Category name</td>
+<td>SLide Title</td>
 <td>Teacher James</td>
 <td>Lessons name</td>
 <td>16</td>

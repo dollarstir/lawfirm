@@ -334,3 +334,11 @@ function slider()
 </div>';
     }
 }
+
+function adminslide()
+{
+    $s = fetchall('homeslide');
+    foreach ($s as $row) {
+        echo '';
+    }
+}
