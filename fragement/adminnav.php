@@ -211,3 +211,21 @@ function admintestimony()
         </tr>';
     }
 }
+
+function adminattorney()
+{
+    $s = fetchall('attorney');
+    foreach ($s as $row) {
+        echo '<tr>
+        
+      
+        <td>'.$row['name'].'</td>
+        <td>'.$row['position'].'</td>
+        <td>'.substr($row['comment'], 0, 100).' .....</td>
+        <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
+       
+       
+        <td><button class="btn btn-danger delattorney" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        </tr>';
+    }
+}

@@ -59,7 +59,7 @@
 <div class="col-12">
 <div class="QA_section">
 <div class="white_box_tittle list_header">
-<h4>Table</h4>
+<h4>Testimonies</h4>
 <div class="box_right d-flex lms_block">
 <div class="serach_field_2">
 <div class="search_inner">
@@ -85,6 +85,7 @@
 <th scope="col">Name</th>
 <th scope="col">Position</th>
 <th scope="col">Comment</th>
+<th scope="col">Image</th>
 
 <th scope="col">Action</th>
 </tr>
