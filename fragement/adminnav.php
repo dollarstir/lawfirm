@@ -167,12 +167,29 @@ function adminpa()
         echo '<tr>
         
         <td>'.$row['title'].'e</td>
-        <td>'.$row['content'].'</td>
+        <td>'.substr($row['content'], 0, 100).' .....</td>
         <td>'.$row['btntitle'].'</td>
         <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
        
        
         <td><button class="btn btn-danger delpractice" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        </tr>';
+    }
+}
+
+function adminawards()
+{
+    $s = fetchall('awards');
+    foreach ($s as $row) {
+        echo '<tr>
+        
+        <td>'.$row['title'].'e</td>
+        <td>'.substr($row['content'], 0, 100).' .....</td>
+        <td>'.$row['btntitle'].'</td>
+        <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
+       
+       
+        <td><button class="btn btn-danger delawards" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
         </tr>';
     }
 }

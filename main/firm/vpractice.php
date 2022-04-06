@@ -39,7 +39,8 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
-<?php echo Yolk::uicore('corecss'); ?>
+<?php echo Yolk::uicore('cssa'); ?>
+<?php echo Yolk::uicore('cssfa'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -90,14 +91,7 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-
-<td><button class="btn btn-danger"><?php echo Icons::far('trash'); ?></button></td>
-</tr>
+<?php adminpa(); ?>
 
 </tbody>
 </table>
