@@ -112,7 +112,7 @@ echo '<nav class="sidebar">
     </a>
     <ul>
     <li><a href="editcontact">Edit Contact</a></li>
-    <li><a href="viewcontact">View Contact</a></li>
+   
     
     </ul>
 </li>

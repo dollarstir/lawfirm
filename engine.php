@@ -101,5 +101,9 @@ $router = new Router([
     new Route('/adminlogout', function ($context) {
         return Viewer::view('main/firm/logout.php', $context);
     }),
+
+    new Route('/viewsliders', function ($context) {
+        return Viewer::view('main/firm/vslide.php', $context);
+    }),
 ]);
 $router->launch();
