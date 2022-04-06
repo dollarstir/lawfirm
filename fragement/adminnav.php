@@ -196,7 +196,7 @@ function adminawards()
 
 function admintestimony()
 {
-    $s = fetchall('awards');
+    $s = fetchall('testimony');
     foreach ($s as $row) {
         echo '<tr>
         
@@ -206,7 +206,7 @@ function admintestimony()
         <td>'.substr($row['content'], 0, 100).' .....</td>
        
        
-        <td><button class="btn btn-danger delawards" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        <td><button class="btn btn-danger deltestimony" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
         </tr>';
     }
 }
