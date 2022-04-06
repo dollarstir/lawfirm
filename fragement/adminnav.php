@@ -150,12 +150,12 @@ function adminslide()
     foreach ($s as $row) {
         echo '<tr>
         <!-- <th> <a href="main/firm/data_table.html#" class="question_content"> title here 1</a></th> -->
-        <td>SLide Title</td>
-        <td>Teacher James</td>
-        <td>Lessons name</td>
+        <td>'.$row['slidetitle'].'e</td>
+        <td>'.$row['slidesubtitle'].'</td>
+        <td><img src="yolkassets/upload/'.$row['slideimage'].'" width="100px"/></td>
         <td>16</td>
         <td>$25.00</td>
-        <td><button class="btn btn-danger">'.Icons::far('trash').'</button></td>
+        <td><button class="btn btn-danger delslide">'.Icons::far('trash').'</button></td>
         </tr>';
     }
 }
