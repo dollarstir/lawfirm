@@ -168,6 +168,12 @@ if (isset($_GET['action'])) {
                 ], $_FILES, '../yolkassets/upload/');
             break;
 
+        case 'delete':
+            $table = $_GET['table'];
+            $id = $_GET['id'];
+            echo $res = delete($table, [['id', '=', $id]]);
+            break;
+
         default:
 
         break;

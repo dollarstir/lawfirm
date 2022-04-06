@@ -39,7 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
-<?php echo Yolk::uicore('csscore'); ?>
+<?php echo Yolk::uicore('corecss'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -149,7 +149,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-<?php echo Yolk::uicore('jscore'); ?>
+<?php echo Yolk::uicore('corejs'); ?>
 <script src="main/firm/processor/processor.js"></script>
 </body>
 </html>

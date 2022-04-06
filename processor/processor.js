@@ -424,14 +424,17 @@ $('.addattorney').submit(function(e){
 });
 // deelting slide
 
-$('.delslide').submit(function(e){
+$('.delslide').click(function(e){
+
+  var id = $(this).attr('id');
+  // alert(id);
 
   e.preventDefault();
   
   var staff = {
-      url: 'processor/processor.php?action=addattorney',
+      url: 'processor/processor.php?action=delete&table=homeslide&id='+ id,
       type: 'post',
-      data: new FormData(this),
+      // data: new FormData(this),
       cache: false,
       contentType: false,
       processData: false,
@@ -442,6 +445,29 @@ $('.delslide').submit(function(e){
   $.ajax(staff);
 });
 
+
+// deleting practice
+
+$('.delpractice').click(function(e){
+
+  var id = $(this).attr('id');
+  // alert(id);
+
+  e.preventDefault();
+  
+  var staff = {
+      url: 'processor/processor.php?action=delete&table=practiceareas&id='+ id,
+      type: 'post',
+      // data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
 
 
     
