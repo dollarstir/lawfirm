@@ -158,7 +158,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-<?php echo Yolk::uicore('jscore'); ?>
+<?php echo Yolk::uicore('corejs'); ?>
 <script src="main/firm/processor/processor.js"></script>
 </body>
 </html>
