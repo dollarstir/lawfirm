@@ -153,9 +153,26 @@ function adminslide()
         <td>'.$row['slidetitle'].'e</td>
         <td>'.$row['slidesubtitle'].'</td>
         <td><img src="yolkassets/upload/'.$row['slideimage'].'" width="100px"/></td>
-        <td>16</td>
-        <td>$25.00</td>
+        <td>'.$row['btntitle'].'</td>
+        <td>'.$row['btnlink'].'</td>
         <td><button class="btn btn-danger delslide" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        </tr>';
+    }
+}
+
+function adminpa()
+{
+    $s = fetchall('practiceareas');
+    foreach ($s as $row) {
+        echo '<tr>
+        
+        <td>'.$row['title'].'e</td>
+        <td>'.$row['content'].'</td>
+        <td>'.$row['btntitle'].'</td>
+        <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
+       
+       
+        <td><button class="btn btn-danger delpractice" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
         </tr>';
     }
 }

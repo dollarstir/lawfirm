@@ -39,7 +39,7 @@
 
 <link rel="stylesheet" href="main/firm/css/style.css" />
 <link rel="stylesheet" href="main/firm/css/colors/default.css" id="colorSkinCSS">
-<?php echo Yolk::uicore('csscore'); ?>
+<?php echo Yolk::uicore('corecss'); ?>
 </head>
 <body class="crm_body_bg">
 
@@ -81,22 +81,21 @@
 <thead>
 <tr>
 
-<th scope="col">Category</th>
-<th scope="col">Teacher</th>
-<th scope="col">Lesson</th>
-<th scope="col">Enrolled</th>
-<th scope="col">Price</th>
+<th scope="col">Title</th>
+<th scope="col">Content</th>
+<th scope="col">Button  Text</th>
+<th scope="col">Image</th>
+
 <th scope="col">Action</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<!-- <th> <a href="main/firm/data_table.html#" class="question_content"> title here 1</a></th> -->
 <td>Category name</td>
 <td>Teacher James</td>
 <td>Lessons name</td>
 <td>16</td>
-<td>$25.00</td>
+
 <td><button class="btn btn-danger"><?php echo Icons::far('trash'); ?></button></td>
 </tr>
 
@@ -157,7 +156,7 @@
 
 
 <script src="main/firm/js/active_chart.js"></script>
-<?php echo Yolk::uicore('jscore'); ?>
+<?php echo Yolk::uicore('corejs'); ?>
 <script src="main/firm/processor/processor.js"></script>
 </body>
 </html>
