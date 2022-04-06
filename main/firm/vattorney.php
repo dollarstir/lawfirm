@@ -87,10 +87,10 @@
 <th scope="col">Image</th>
 <th scope="col">Bio</th>
 <th scope="col">Facebook</th>
+<th scope="col">Action</th>
 <th scope="col">Twitter</th>
 <th scope="col">Linkedin</th>
 <th scope="col">Skype</th>
-<th scope="col">Action</th>
 </tr>
 </thead>
 <tbody>
