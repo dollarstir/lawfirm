@@ -470,5 +470,28 @@ $('.delpractice').click(function(e){
 });
 
 
+// del awards
+$('.delawards').click(function(e){
+
+  var id = $(this).attr('id');
+  // alert(id);
+
+  e.preventDefault();
+  
+  var staff = {
+      url: 'processor/processor.php?action=delete&table=awards&id='+ id,
+      type: 'post',
+      // data: new FormData(this),
+      cache: false,
+      contentType: false,
+      processData: false,
+      beforeSend: before,
+      success: resp
+
+  };
+  $.ajax(staff);
+});
+
+
     
 })
