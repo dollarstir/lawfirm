@@ -143,3 +143,19 @@ echo '<nav class="sidebar">
 
 </ul>
 </nav>';
+
+function adminslide()
+{
+    $s = fetchall('homeslide');
+    foreach ($s as $row) {
+        echo '<tr>
+        <!-- <th> <a href="main/firm/data_table.html#" class="question_content"> title here 1</a></th> -->
+        <td>SLide Title</td>
+        <td>Teacher James</td>
+        <td>Lessons name</td>
+        <td>16</td>
+        <td>$25.00</td>
+        <td><button class="btn btn-danger">'.Icons::far('trash').'</button></td>
+        </tr>';
+    }
+}
