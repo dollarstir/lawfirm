@@ -201,9 +201,10 @@ function admintestimony()
         echo '<tr>
         
       
-        
+        <td>'.$row['name'].'</td>
+        <td>'.$row['position'].'</td>
+        <td>'.substr($row['comment'], 0, 100).' .....</td>
         <td><img src="yolkassets/upload/'.$row['image'].'" width="100px"/></td>
-        <td>'.substr($row['content'], 0, 100).' .....</td>
        
        
         <td><button class="btn btn-danger deltestimony" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
