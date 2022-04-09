@@ -5,7 +5,7 @@
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-<title>Finance</title>
+<title>Dashboard</title>
 
 
 <link rel="stylesheet" href="main/firm/css/bootstrap.min.css" />
@@ -62,9 +62,9 @@
 <div class="col-12">
 <div class="quick_activity_wrap">
 <div class="single_quick_activity">
-<h4>Total Income</h4>
-<h3>$ <span class="counter">5,79,000</span> </h3>
-<p>Saved 25%</p>
+<h4>Practice Areas</h4>
+<h3> <span class="counter"><?php echo countall('practiceareas'); ?></span> </h3>
+<!-- <p>Saved 25%</p> -->
 </div>
 <div class="single_quick_activity">
 <h4>Total Expences</h4>
