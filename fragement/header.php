@@ -11,7 +11,19 @@ $pe = $a->getall('contact');
 $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
 $favicon = $response[0]['favicon'];
-$p = fetchall('practiceareas');
+
+function parea()
+{
+    $p = fetchall('practiceareas');
+    $dd = '';
+
+    foreach ($p as $row) {
+        $dd .= '<li>
+    <a href="'.nel('areas/'.$row['id']).'">'.$row['title'].'</a></li>';
+    }
+
+    return $dd;
+}
 
 $img = path::rebase('yolkassets/upload/'.$logo);
 
@@ -68,21 +80,8 @@ echo '  <header>
                             <li>
                                 <a href="">PRACTICE AREAS</a>
                                 <ul>
-                                    <li>
-                                        <a href="">Family Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Crime Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Divorce Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Insdustrial Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Business Law</a>
-                                    </li>
+                                    
+                                    '.parea().'
                                     
                                 </ul>
                             </li>
@@ -129,21 +128,7 @@ echo '  <header>
                             <li>
                                 <a href="">PRACTICE AREAS</a>
                                 <ul>
-                                    <li>
-                                        <a href="">Family Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Crime Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Divorce Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Insdustrial Law</a>
-                                    </li>
-                                    <li>
-                                        <a href="">Business Law</a>
-                                    </li>
+                                    '.parea().'
                                     
                                 </ul>
                             </li>
