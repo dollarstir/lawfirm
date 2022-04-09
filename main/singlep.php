@@ -1,6 +1,7 @@
 <?php involve('title.php');
 $id = $context['id'];
 $r = customfetch('practiceareas', [['id', '=', $id]]);
+$rr = fetchAll('practiceareas');
 
 ?>
 <!doctype html>
@@ -127,7 +128,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                                     <ul>
                                         
                                         <?php
-                                            foreach ($r as $row) {
+                                            foreach ($rr as $row) {
                                                 echo '<li>
                                                 <a href="'.path::rebase('areas/'.$row['id']).'">'.$row['title'].'</a>
                                             </li>';
@@ -138,7 +139,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                                     </ul>
                                 </div>
                             </div>
-                            <div class="single-sidebar">
+                            <!-- <div class="single-sidebar">
                                 <h2>Recent Post</h2>
                                 <div class="sidebar-recent-post">
                                     <div class="media single-post">
@@ -190,8 +191,8 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="single-sidebar">
+                            </div> -->
+                            <!-- <div class="single-sidebar">
                                 <h2>Tags</h2>
                                 <div class="popular-tags">
                                     <ul>
@@ -222,7 +223,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
 
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -236,7 +237,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="make-appointment">
                             <h2>Need An Appointment For Legal HElp?</h2>
-                            <a href="main/single-practice.html#">Make An Appointment</a>
+                            <a href="<?php echo path::rebase('contactus'); ?>">Make An Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -244,7 +245,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
         </div>
         <!-- Make An Appointment Area End here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
+        <!-- <div class="client-logo-area">
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
@@ -299,7 +300,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
@@ -312,7 +313,7 @@ $r = customfetch('practiceareas', [['id', '=', $id]]);
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="main/contact.html">Get Free Consultation</a>
+                            <a href="<?php echo path::rebase('contactus'); ?>">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
