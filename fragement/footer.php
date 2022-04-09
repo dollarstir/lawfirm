@@ -4,7 +4,18 @@ $a = new Sel();
 $response = $a->getall('settings');
 $footer = $response[0]['footertext'];
 $add = $a->getall('contact');
+function parea()
+{
+    $p = fetchall('practiceareas');
+    $dd = '';
 
+    foreach ($p as $row) {
+        $dd .= '<li>
+    <a href="'.nel('areas/'.$row['id']).'">'.$row['title'].'</a></li>';
+    }
+
+    return $dd;
+}
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">
