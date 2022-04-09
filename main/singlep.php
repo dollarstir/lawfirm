@@ -1,10 +1,15 @@
+<?php involve('title.php');
+$id = $context['id'];
+$r = fetchall('practiceareas');
+
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Welcome | Single Practice </title>
+        <title><?php title($r[0]['title']); ?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
