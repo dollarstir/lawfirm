@@ -1,21 +1,26 @@
 <?php
 
+// function nell($link)
+// {
+//     return path::rebase($link);
+// }
 $a = new Sel();
 $response = $a->getall('settings');
 $footer = $response[0]['footertext'];
 $add = $a->getall('contact');
-function parea()
-{
-    $p = fetchall('practiceareas');
-    $dd = '';
 
-    foreach ($p as $row) {
-        $dd .= '<li>
-    <a href="'.nel('areas/'.$row['id']).'">'.$row['title'].'</a></li>';
-    }
+// function parea()
+// {
+//     $do = fetchall('practiceareas');
+//     $din = '';
 
-    return $dd;
-}
+//     foreach ($do as $row) {
+//         $din .= '<li>
+//     <a href="'.nel('areas/'.$row['id']).'">'.$row['title'].'</a></li>';
+//     }
+
+//     return $din;
+// }
 echo '   <footer>
 <div class="footer-top-area">
     <div class="container">
@@ -55,24 +60,7 @@ echo '   <footer>
                 <div class="footer footer-two">
                     <h2>Explore Our Work</h2>
                     <ul>
-                        <li>
-                            <a href="main/index.html#">Criminal law</a>
-                        </li>
-                        <li>
-                            <a href="main/index.html#">Accident law</a>
-                        </li>
-                        <li>
-                            <a href="main/index.html#">Devorce law</a>
-                        </li>
-                        <li>
-                            <a href="main/index.html#">Industrial law</a>
-                        </li>
-                        <li>
-                            <a href="main/index.html#">Business law</a>
-                        </li>
-                        <li>
-                            <a href="main/index.html#">Familly law</a>
-                        </li>
+                        '.parea().'
                     </ul>
                 </div>
             </div>

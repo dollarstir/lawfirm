@@ -321,7 +321,7 @@ $rr = fetchAll('practiceareas');
         </div>
         <!-- Get Free Consultation End Here -->
         <!-- Footer Area Start Here -->
-       <?php involve('footer'); ?>
+       <?php involve('footer.php'); ?>
         <!-- Footer Area End Here -->
         <!-- Preloader Start Here -->
         <div id="preloader"></div>
