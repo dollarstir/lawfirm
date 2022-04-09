@@ -1,11 +1,17 @@
 <?php
 
+function nel($link)
+{
+    return path::rebase($link);
+}
+
 $a = new Sel();
 $response = $a->getall('settings');
 $pe = $a->getall('contact');
 $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
 $favicon = $response[0]['favicon'];
+$p = fetchall('practiceareas');
 
 $img = path::rebase('yolkassets/upload/'.$logo);
 
@@ -57,7 +63,7 @@ echo '  <header>
                                 
                             </li>
                             <li>
-                                <a href="about">About Us</a>
+                                <a href="'.nel('about').'">About Us</a>
                             </li>
                             <li>
                                 <a href="">PRACTICE AREAS</a>
@@ -81,25 +87,25 @@ echo '  <header>
                                 </ul>
                             </li>
                             <li>
-                                <a href="awards">Awards</a>
+                                <a href="'.nel('awards').'">Awards</a>
                             </li>
                             
                             
                             <li>
-                                <a href="contactus">CONTACT US</a>
+                                <a href="'.nel('contactus').'">CONTACT US</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 hidden-sm col-sm-12">
+           <!-- <div class="col-lg-2 col-md-2 col-sm-2 hidden-sm col-sm-12">
                 <div class="search-area">
                     <span>
                         <i class="fa fa-search"></i>
                     </span>
                     <input type="text" placeholder="Search Here....">
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
 </div>
@@ -118,7 +124,7 @@ echo '  <header>
                                 
                             </li>
                             <li>
-                                <a href="about">About Us</a>
+                                <a href="'.nel('about').'">About Us</a>
                             </li>
                             <li>
                                 <a href="">PRACTICE AREAS</a>
@@ -142,12 +148,12 @@ echo '  <header>
                                 </ul>
                             </li>
                             <li>
-                                <a href="awards.html">Awards</a>
+                                <a href="'.nel('awards').'">Awards</a>
                             </li>
                             
                             
                             <li>
-                                <a href="contactus">CONTACT US</a>
+                                <a href="'.nel('contactus').'">CONTACT US</a>
                             </li>
                         </ul>
                     </nav>
