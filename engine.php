@@ -129,5 +129,9 @@ $router = new Router([
     new Route('/viewadmins', function ($context) {
         return Viewer::view('main/firm/vadmin.php', $context);
     }),
+
+    new Route('/areas/', function ($context) {
+        return Viewer::view('main/singlep.php', $context);
+    }),
 ]);
 $router->launch();

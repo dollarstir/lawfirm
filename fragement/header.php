@@ -7,6 +7,8 @@ $title = $response[0]['appname'];
 $logo = $response[0]['logo'];
 $favicon = $response[0]['favicon'];
 
+$img = path::rebase('yolkassets/upload/'.$logo);
+
 echo '  <header>
 <div class="header-area-top-area">
     <div class="container">
@@ -40,7 +42,7 @@ echo '  <header>
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
                     <a href="home">';
-                        echo $logo != '' ? '<img src="yolkassets/upload/'.$logo.'" alt="logo">' : '<img src="main/img/logo.png" alt="logo">';
+                        echo $logo != '' ? '<img src="'.$img.'" alt="logo">' : '<img src="main/img/logo.png" alt="logo">';
                    echo' </a>
                 </div>
             </div>
