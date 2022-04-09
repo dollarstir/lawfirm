@@ -171,7 +171,7 @@ function practice()
             </h3>
             <p>'.substr($row['content'], 0, 100).'...</p>
             <div class="read-more">
-                <a href="main/single-practice.html">Read More</a>
+                <a href="areas/'.$row['id'].'">Read More</a>
             </div>
         </div>
     </div>';
