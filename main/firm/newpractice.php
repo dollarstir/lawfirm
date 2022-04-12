@@ -62,7 +62,7 @@
 <h2 class="center-text">Practice Area </h2>
 </div>
 </div>
-<form class="   ">
+<form class="addpractice">
 <div class="form-group">
 <label for="exampleFormControlInput1">Practice area title</label>
 <input name="title" type="text" class="form-control" id="exampleFormControlInput1" placeholder="tile">
