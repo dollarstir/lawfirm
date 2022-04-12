@@ -247,7 +247,7 @@ function adminlist()
         <td>'.$row['email'].'</td>
         <td><img src="yolkassets/upload/'.$row['pic'].'" width="100px"/></td>
         
-        <td><button class="btn btn-danger delattorney" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        <td><button class="btn btn-danger deladmin" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
         
        
        
