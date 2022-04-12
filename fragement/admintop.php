@@ -34,8 +34,8 @@ echo '<div class="container-fluid no-gutters">
  <p>Welcome Admin!</p>
 <h5>'.$admin['name'].'</h5>
 <div class="profile_info_details">
-<a href="main/firm/index.html#">My Profile <i class="ti-user"></i></a>
-<a href="main/firm/index.html#">Settings <i class="ti-settings"></i></a>
+<a href="profile">My Profile <i class="ti-user"></i></a>
+<a href="appsettings">Settings <i class="ti-settings"></i></a>
 <button class="logi">Log Out <i class="ti-shift-left"></i></button>
 </div>
 </div>
