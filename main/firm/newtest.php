@@ -74,7 +74,7 @@
 </div>
 
 <div class="form-group">
-<label for="exampleFormControlInput1">Occupation</label>
+<label for="exampleFormControlInput1">Comment</label>
 <textarea  name="comment" class="form-control" id="exampleFormControlInput1" placeholder=""></textarea>
 </div>
 
