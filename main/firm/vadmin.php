@@ -81,24 +81,15 @@
 <thead>
 <tr>
 
-<th scope="col">Category</th>
-<th scope="col">Teacher</th>
-<th scope="col">Lesson</th>
-<th scope="col">Enrolled</th>
-<th scope="col">Price</th>
+<th scope="col">Name</th>
+<th scope="col">Email</th>
+<th scope="col">Picture</th>
+
 <th scope="col">Action</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<!-- <th> <a href="main/firm/data_table.html#" class="question_content"> title here 1</a></th> -->
-<td>Category name</td>
-<td>Teacher James</td>
-<td>Lessons name</td>
-<td>16</td>
-<td>$25.00</td>
-<td><button class="btn btn-danger"><?php echo Icons::far('trash'); ?></button></td>
-</tr>
+<?php adminlist(); ?>
 
 </tbody>
 </table>

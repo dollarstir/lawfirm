@@ -234,3 +234,23 @@ function adminattorney()
         </tr>';
     }
 }
+
+function adminlist()
+{
+    $s = fetchall('supper');
+    foreach ($s as $row) {
+        echo '<tr>
+        
+      
+       
+        <td>'.$row['name'].'</td>
+        <td>'.$row['email'].'</td>
+        <td><img src="yolkassets/upload/'.$row['pic'].'" width="100px"/></td>
+        
+        <td><button class="btn btn-danger delattorney" id="'.$row['id'].'">'.Icons::far('trash').'</button></td>
+        
+       
+       
+        </tr>';
+    }
+}
