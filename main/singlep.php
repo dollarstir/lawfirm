@@ -59,7 +59,7 @@ $rr = fetchAll('practiceareas');
         <link rel="stylesheet" href="/main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
-        <script src="main/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="/main/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body class="blog">
@@ -328,35 +328,35 @@ $rr = fetchAll('practiceareas');
         <!-- Preloader End Here -->
         <!-- jquery
 		============================================ -->
-        <script src="main/js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="/main/js/vendor/jquery-1.11.3.min.js"></script>
         <!-- bootstrap JS
 		============================================ -->
-        <script src="main/js/bootstrap.min.js"></script>
+        <script src="/main/js/bootstrap.min.js"></script>
         <!-- wow JS
 		============================================ -->
-        <script src="main/js/wow.min.js"></script>
+        <script src="/main/js/wow.min.js"></script>
         <!-- price-slider JS
 		============================================ -->
-        <script src="main/js/jquery-price-slider.js"></script>
+        <script src="/main/js/jquery-price-slider.js"></script>
         <!-- meanmenu JS
 		============================================ -->
-        <script src="main/js/jquery.meanmenu.js"></script>
+        <script src="/main/js/jquery.meanmenu.js"></script>
         <!-- owl.carousel JS
 		============================================ -->
-        <script src="main/js/owl.carousel.min.js"></script>
+        <script src="/main/js/owl.carousel.min.js"></script>
         <!-- scrollUp JS
 		============================================ -->
-        <script src="main/js/jquery.scrollUp.min.js"></script>
+        <script src="/main/js/jquery.scrollUp.min.js"></script>
         <!-- plugins JS
 		============================================ -->
-        <script src="main/js/plugins.js"></script>
+        <script src="/main/js/plugins.js"></script>
         <!-- Nivo slider js
         ============================================ -->
-        <script src="main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="main/custom-slider/home.js" type="text/javascript"></script>
+        <script src="/main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="/main/custom-slider/home.js" type="text/javascript"></script>
         <!-- main JS
 		============================================ -->
-        <script src="main/js/main.js"></script>
+        <script src="/main/js/main.js"></script>
     </body>
 
 </html>
