@@ -33,6 +33,19 @@ echo '
         <img src="'.($logo != '' ? $img : 'main/img/logo.png').'" alt="logo" class="img-fluid"/>
     </a>
 </div>
+<style>
+    @media only screen and (max-width: 768px) {
+        .mobile-menu-nav-back {
+            display: block;
+            text-align: center;
+        }
+
+        .mobile-menu-nav-back img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+</style>
 <header>
 <div class="header-area-top-area">
     <div class="container">

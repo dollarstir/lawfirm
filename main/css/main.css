@@ -282,14 +282,4 @@ textarea {
 }
 
 
-@media only screen and (max-width: 768px) {
-    .mobile-menu-nav-back {
-        display: block;
-        text-align: center;
-    }
 
-    .mobile-menu-nav-back img {
-        width: 80px;
-        height: 80px;
-    }
-}
