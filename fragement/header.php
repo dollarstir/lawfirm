@@ -27,7 +27,13 @@ function parea()
 
 $img = path::rebase('yolkassets/upload/'.$logo);
 
-echo '  <header>
+echo ' 
+<div style="display: none" class="mobile-menu-nav-back">
+    <a class="logo-mobile" href="index.html">
+        <img src="'.($logo != '' ? $img : 'main/img/logo.png').'" alt="logo" class="img-fluid"/>
+    </a>
+</div>
+<header>
 <div class="header-area-top-area">
     <div class="container">
         <div class="row">

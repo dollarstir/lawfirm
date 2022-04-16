@@ -16,6 +16,13 @@ html {
     line-height: 1.4;
 }
 
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu-nav-back {
+        display: block;
+    }
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
