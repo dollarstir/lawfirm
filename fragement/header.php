@@ -37,7 +37,7 @@ echo '
     @media only screen and (max-width: 768px) {
         .mobile-menu-nav-back {
             display: block !important;
-            text-align: center;
+            text-align: left;
         }
 
         .mobile-menu-nav-back img {
