@@ -17,12 +17,6 @@ html {
 }
 
 
-@media only screen and (max-width: 768px) {
-    .mobile-menu-nav-back {
-        display: block;
-        text-align: center;
-    }
-}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -284,5 +278,18 @@ textarea {
     h2,
     h3 {
         page-break-after: avoid;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .mobile-menu-nav-back {
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-menu-nav-back img {
+        width: 80px;
+        height: 80px;
     }
 }
