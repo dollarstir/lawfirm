@@ -36,7 +36,7 @@ echo '
 <style>
     @media only screen and (max-width: 768px) {
         .mobile-menu-nav-back {
-            display: block;
+            display: block !important;
             text-align: center;
         }
 
