@@ -15,48 +15,48 @@ $rr = fetchAll('practiceareas');
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- favicon
 		============================================ -->
-        <link rel="shortcut icon" type="image/x-icon" href="main/img/favicon.png">
+        <link rel="shortcut icon" type="image/x-icon" href="/main/img/favicon.png">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/main/css/bootstrap.min.css">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/main/css/font-awesome.min.css">
 
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="/main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- owl.carousel CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/owl.carousel.css">
-        <link rel="stylesheet" href="main/css/owl.theme.css">
-        <link rel="stylesheet" href="main/css/owl.transitions.css">
+        <link rel="stylesheet" href="/main/css/owl.carousel.css">
+        <link rel="stylesheet" href="/main/css/owl.theme.css">
+        <link rel="stylesheet" href="/main/css/owl.transitions.css">
         <!-- jquery-ui CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/jquery-ui.css">
+        <link rel="stylesheet" href="/main/css/jquery-ui.css">
         <!-- meanmenu CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/meanmenu.min.css">
+        <link rel="stylesheet" href="/main/css/meanmenu.min.css">
         <!-- animate CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/animate.css">
+        <link rel="stylesheet" href="/main/css/animate.css">
         <!-- normalize CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/normalize.css">
+        <link rel="stylesheet" href="/main/css/normalize.css">
         <!-- main CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/main.css">
+        <link rel="stylesheet" href="/main/css/main.css">
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="/main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- style CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/style.css">
+        <link rel="stylesheet" href="/main/style.css">
         <!-- Responsive CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/css/responsive.css">
+        <link rel="stylesheet" href="/main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
         <script src="main/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -64,7 +64,7 @@ $rr = fetchAll('practiceareas');
 
     <body class="blog">
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="/main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
@@ -81,7 +81,7 @@ $rr = fetchAll('practiceareas');
                             <div class="breadcumb">
                                 <ul>
                                     <li>
-                                        <a href="home">Home</a>
+                                        <a href="/home">Home</a>
                                     </li>
                                     <li>Single Practice</li>
                                 </ul>
@@ -99,7 +99,7 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
                         <div class="single-blog-post">
                             <div class="blog-image">
-                                <a href="main/single.html">
+                                <a href="/main/single.html">
                                     <img src="yolkassets/upload/<?php echo $r[0]['image']; ?>" alt="<?php echo $r[0]['title']; ?>">
                                 </a>
                             </div>
@@ -130,7 +130,7 @@ $rr = fetchAll('practiceareas');
                                         <?php
                                             foreach ($rr as $row) {
                                                 echo '<li>
-                                                <a href="'.path::rebase('areas/'.$row['id']).'">'.$row['title'].'</a>
+                                                <a href="/'.path::rebase('areas/'.$row['id']).'">'.$row['title'].'</a>
                                             </li>';
                                             }
 
@@ -144,48 +144,48 @@ $rr = fetchAll('practiceareas');
                                 <div class="sidebar-recent-post">
                                     <div class="media single-post">
                                         <div class="pull-left">
-                                            <a href="main/single.html">
+                                            <a href="/main/single.html">
                                                 <img class="media-object" src="main/img/blog/4.jpg" alt="post">
                                             </a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">
-                                                <a href="main/single.html">New Lawyer</a>
+                                                <a href="/main/single.html">New Lawyer</a>
                                             </h4>
                                             <div class="posted-date">
-                                                <a href="main/single.html">February 01, 2016</a>
+                                                <a href="/main/single.html">February 01, 2016</a>
                                             </div>
                                             <p>Lorem consectetur adipiscing elit.</p>
                                         </div>
                                     </div>
                                     <div class="media single-post">
                                         <div class="pull-left">
-                                            <a href="main/single.html">
+                                            <a href="/main/single.html">
                                                 <img class="media-object" src="main/img/blog/5.jpg" alt="post">
                                             </a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">
-                                                <a href="main/single.html">Law start</a>
+                                                <a href="/main/single.html">Law start</a>
                                             </h4>
                                             <div class="posted-date">
-                                                <a href="main/single.html">February 01, 2016</a>
+                                                <a href="/main/single.html">February 01, 2016</a>
                                             </div>
                                             <p>Lorem ipsum dolor sit ametet</p>
                                         </div>
                                     </div>
                                     <div class="media single-post">
                                         <div class="pull-left">
-                                            <a href="main/single.html">
+                                            <a href="/main/single.html">
                                                 <img class="media-object" src="main/img/blog/6.jpg" alt="post">
                                             </a>
                                         </div>
                                         <div class="media-body">
                                             <h4 class="media-heading">
-                                                <a href="main/single.html">Lawyer Said</a>
+                                                <a href="/main/single.html">Lawyer Said</a>
                                             </h4>
                                             <div class="posted-date">
-                                                <a href="main/single.html">February 01, 2016</a>
+                                                <a href="/main/single.html">February 01, 2016</a>
                                             </div>
                                             <p>Lorem ipsum dolor sit ametet</p>
                                         </div>
@@ -197,28 +197,28 @@ $rr = fetchAll('practiceareas');
                                 <div class="popular-tags">
                                     <ul>
                                         <li>
-                                            <a href="main/single.html">Dental</a>
+                                            <a href="/main/single.html">Dental</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Medicare</a>
+                                            <a href="/main/single.html">Medicare</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Medical</a>
+                                            <a href="/main/single.html">Medical</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Pharmacy</a>
+                                            <a href="/main/single.html">Pharmacy</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Boilogist</a>
+                                            <a href="/main/single.html">Boilogist</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">lipu</a>
+                                            <a href="/main/single.html">lipu</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Weight loss occurs</a>
+                                            <a href="/main/single.html">Weight loss occurs</a>
                                         </li>
                                         <li>
-                                            <a href="main/single.html">Corniya</a>
+                                            <a href="/main/single.html">Corniya</a>
                                         </li>
 
                                     </ul>
@@ -237,7 +237,7 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="make-appointment">
                             <h2>Need An Appointment For Legal HElp?</h2>
-                            <a href="<?php echo path::rebase('contactus'); ?>">Make An Appointment</a>
+                            <a href="/<?php echo path::rebase('contactus'); ?>">Make An Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -249,52 +249,52 @@ $rr = fetchAll('practiceareas');
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/4.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/5.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/7.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-practice.html#">
+                        <a href="/main/single-practice.html#">
                             <img src="main/img/client/3.jpg" alt="">
                         </a>
                     </div>
@@ -313,7 +313,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="<?php echo path::rebase('contactus'); ?>">Get Free Consultation</a>
+                            <a href="/<?php echo path::rebase('contactus'); ?>">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
