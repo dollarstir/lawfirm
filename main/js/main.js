@@ -246,6 +246,10 @@ Our Attorney
     //     siteLogo: "<div class='mobile-menu-nav-back'><a class='logo-mobile' href='index.html'><img src='img/logo-mobile.png' alt='logo' class='img-fluid'/></a></div>"
     // });
 
+    $('nav#dropdown').meanmenu({
+      siteLogo: "<div></div>"
+    });
+
      /*-------------------------------------
      Auto height for product listing
      -------------------------------------*/
