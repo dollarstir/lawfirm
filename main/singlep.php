@@ -132,7 +132,7 @@ $rr = fetchAll('practiceareas');
                                         <?php
                                             foreach ($rr as $row) {
                                                 echo '<li>
-                                                <a href="/'.path::rebase('areas/'.$row['id']).'">'.$row['title'].'</a>
+                                                <a href="'.path::rebase('areas/'.$row['id']).'">'.$row['title'].'</a>
                                             </li>';
                                             }
 
