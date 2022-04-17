@@ -101,8 +101,8 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
                         <div class="single-blog-post">
                             <div class="blog-image">
-                                <a href="/main/single.html">
-                                    <img src="yolkassets/upload/<?php echo $r[0]['image']; ?>" alt="<?php echo $r[0]['title']; ?>">
+                                <a href="">
+                                    <img src="/yolkassets/upload/<?php echo $r[0]['image']; ?>" alt="<?php echo $r[0]['title']; ?>">
                                 </a>
                             </div>
                             <h2><?php echo $r[0]['title']; ?></h2>
