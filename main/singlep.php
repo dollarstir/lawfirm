@@ -79,7 +79,7 @@ $rr = fetchAll('practiceareas');
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="main-bennar">
-                            <h2>Single Practice</h2>
+                            <h2><?php echo $r[0]['title']; ?></h2>
                             <div class="breadcumb">
                                 <ul>
                                     <li>
