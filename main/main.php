@@ -82,7 +82,7 @@
                                     <p class="call-now">Call Us Now</p>
                                     <p class="phone-number">
                                         <?php  $cal = fetchall('contact'); ?>
-                                        <a href="main/tel:+4411122233344"><?php echo call[0]['phone']; ?></a>
+                                        <a href="main/tel:+4411122233344"><?php echo $cal[0]['phone']; ?></a>
                                     </p>
                                 </div>
 
