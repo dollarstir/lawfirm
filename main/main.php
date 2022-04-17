@@ -78,10 +78,11 @@
                             <div class="content-area">
                                 <div class="first-box-content">
                                     <h3>Emergency Cases</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                                    <p>We are always at your service</p>
                                     <p class="call-now">Call Us Now</p>
                                     <p class="phone-number">
-                                        <a href="main/tel:+4411122233344">+44 (0)111 - 222 333 44</a>
+                                        <?php  $cal = fetchall('contact'); ?>
+                                        <a href="main/tel:+4411122233344"><?php echo call[0]['phone']; ?></a>
                                     </p>
                                 </div>
 
@@ -223,7 +224,7 @@
                     </div>
                 </div>
                 <div class="our-attorney">
-                    <?php attorney();?>
+                    <?php attorney(); ?>
                 </div>
             </div>
         </div>
