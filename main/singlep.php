@@ -83,9 +83,9 @@ $rr = fetchAll('practiceareas');
                             <div class="breadcumb">
                                 <ul>
                                     <li>
-                                        <a href="/home">Home</a>
+                                        <a href="/home">Practice Areas</a>
                                     </li>
-                                    <li>Single Practice</li>
+                                    <li><?php echo $r[0]['title']; ?></li>
                                 </ul>
                             </div>
                         </div>
