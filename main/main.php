@@ -96,9 +96,9 @@
                             <div class="slider-buttom-overlay"></div>
                             <div class="content-area">
                                 <h3>Need Legal Help?</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos, quod, earum aspernatur
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit eos, quod, earum aspernatur
                                     officiis.
-                                </p>
+                                </p> -->
                                 <a href="contactus" class="call-us-buttom">Make An Appointment</a>
 
                             </div>
