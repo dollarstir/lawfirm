@@ -29,7 +29,7 @@ $img = path::rebase('yolkassets/upload/'.$logo);
 
 echo ' 
 <div style="display: none" class="mobile-menu-nav-back">
-    <a class="logo-mobile" href="index.html">
+    <a class="logo-mobile" href="'.nel('home').'">
         <img src="'.($logo != '' ? $img : 'main/img/logo.png').'" alt="logo" class="img-fluid"/>
     </a>
 </div>
@@ -78,7 +78,7 @@ echo '
         <div class="row">
             <div class="col-lg-2 col-md-2 col-sm-12 col-sm-12">
                 <div class="logo-area">
-                    <a href="home">';
+                    <a href="'.nel('home').'">';
                         echo $logo != '' ? '<img src="'.$img.'" alt="logo">' : '<img src="main/img/logo.png" alt="logo">';
                    echo' </a>
                 </div>
