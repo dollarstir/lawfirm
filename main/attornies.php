@@ -103,7 +103,9 @@ $re = $a->getall('attorney');
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <?php
+                    foreach ($rel as $row) {
+                        echo '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
                                 <a href="main/single.html">
@@ -122,218 +124,17 @@ $re = $a->getall('attorney');
                                 </ul>
                             </div>
                             <h3>
-                                <a href="main/single.html">Is Going To Get Ugly ITher Isn't </a>
+                                <a href="main/single.html">Is Going To Get Ugly ITher Isn\'t </a>
                             </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
                                 culpa maxime provident quisquam, praesentium........</p>
                         </div>
-                    </div>
+                    </div>';
+                    }
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/2.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">Ugly ITher Isn't A Rebound Soon</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
+                    ?>
 
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/3.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">Going To Get Ugly ITher Isn't </a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/1.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02 </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">The Bond Market Is Going</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/2.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">The Bond Market Ugly</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/3.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">Going To Get Ugly ITher </a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/1.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02 </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">Market Is Going To Get </a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/2.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">The Bond Market Is</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        <div class="single-news-area">
-                            <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/3.jpg" alt="image">
-                                </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <h3>
-                                <a href="main/single.html">The Bond Market</a>
-                            </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="pagination-area">
                     <div class="row">
