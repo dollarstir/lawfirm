@@ -105,37 +105,28 @@ $rr = fetchAll('practiceareas');
                             </div>
                             <ul class="team-details-social">
                                 <li>
-                                    <a href="/main/single-attorney.html#">
+                                    <a href="<?php echo $r[0]['facebook']; ?>">
                                         <i aria-hidden="true" class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/main/single-attorney.html#">
+                                    <a href="<?php echo $r[0]['twitter']; ?>">
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/main/single-attorney.html#">
+                                    <a href="<?php echo $r[0]['linkedin']; ?>">
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/main/single-attorney.html#">
-                                        <i aria-hidden="true" class="fa fa-pinterest"></i>
+                                    <a href="<?php echo $r[0]['skype']; ?>">
+                                        <i aria-hidden="true" class="fa fa-skype"></i>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="/main/single-attorney.html#">
-                                        <i aria-hidden="true" class="fa fa-rss"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/main/single-attorney.html#">
-                                        <i aria-hidden="true" class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
+                               
                             </ul>
-                            <ul class="team-details-info">
+                            <!-- <ul class="team-details-info">
                                 <li>
                                     <i class="fa fa-map-marker"></i> 150 Torrent Court Street, UK</li>
                                 <li>
@@ -144,7 +135,7 @@ $rr = fetchAll('practiceareas');
                                     <i class="fa fa-envelope-o"></i> info@miakolwfirm.com</li>
                                 <li>
                                     <i class="fa fa-fax"></i> (123) 00 8888 999</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
