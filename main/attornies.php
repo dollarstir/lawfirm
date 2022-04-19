@@ -75,7 +75,7 @@ $re = $a->getall('attorney');
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="main-bennar">
-                            <h2>Blog</h2>
+                            <h2>ATTORNEY</h2>
                             <div class="breadcumb">
                                 <ul>
                                     <li>
