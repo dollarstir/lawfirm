@@ -150,13 +150,13 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                         <div class="team-details-content-holder">
                             <h3>M. Albert</h3>
-                            <h4 class="title-bar50">Lawyer & Founder</h4>
-                            <p>
+                            <h4 class="title-bar50"><?php echo $r[0]['position']; ?></h4>
+                            <!-- <p>
                                 <span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                                     pariatur. Ut enim ad minim.Duis aute irure dolor in reprehenderit in voluptate velit
                                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum dolor sit amet,
                                     consectetur adipisicing elit.</span>
-                            </p>
+                            </p> -->
                             <p><?php echo $r[0]['bio']; ?></p>
                             <!-- <div class="skill1-area">
                                 <div class="progress">
