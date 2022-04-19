@@ -300,7 +300,7 @@ function attorney()
         </div>
         <div class="attorney-content">
             <h3>
-                <a href="">'.$row['name'].'</a>
+                <a href="viewattorney/'.$row['id'].'">'.$row['name'].'</a>
             </h3>
             <p>'.$row['position'].'</p>
         </div>
