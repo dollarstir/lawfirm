@@ -104,7 +104,7 @@ $re = $a->getall('attorney');
                 </div>
                 <div class="row">
                     <?php
-                    foreach ($rel as $row) {
+                    foreach ($re as $row) {
                         echo '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
