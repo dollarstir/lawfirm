@@ -185,8 +185,8 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="section-title-area">
                             <h2>Our Attorney</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
-                                libero possimus sapien3e sint odit iusto blanditiis doloribus.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
+                                libero possimus sapien3e sint odit iusto blanditiis doloribus.</p> -->
                         </div>
                     </div>
                 </div>
@@ -448,7 +448,7 @@ $rr = fetchAll('practiceareas');
         </div>
         <!-- Our Attorney End Here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
+        <!-- <div class="client-logo-area">
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
@@ -503,7 +503,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
