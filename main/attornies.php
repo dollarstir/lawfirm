@@ -111,23 +111,12 @@ $re = $a->getall('attorney');
                                 <a href="">
                                     <img src="yolkassets/upload/'.$row['image'].'" alt="image" style="height:400px;width:100%;">
                                 </a>
-                                <ul>
-                                    <li class="active">Mar,13 2016</li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-user"> </i> by admin</a>
-                                    </li>
-                                    <li>
-                                        <a href="main/blog.html#">
-                                            <i class="fa fa-comments-o"></i> 02 </a>
-                                    </li>
-                                </ul>
+                                
                             </div>
                             <h3>
-                                <a href="main/single.html">Is Going To Get Ugly ITher Isn\'t </a>
+                                '.$row['name'].'
                             </h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem earum, laborum. Commodi nostrum
-                                culpa maxime provident quisquam, praesentium........</p>
+                            <p>'.$row['position'].'</p>
                         </div>
                     </div>';
                     }
