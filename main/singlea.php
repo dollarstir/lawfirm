@@ -149,7 +149,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                     <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                         <div class="team-details-content-holder">
-                            <h3>M. Albert</h3>
+                            <h3><?php echo $r[0]['name']; ?></h3>
                             <h4 class="title-bar50"><?php echo $r[0]['position']; ?></h4>
                             <!-- <p>
                                 <span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
