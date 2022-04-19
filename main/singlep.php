@@ -239,7 +239,7 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="make-appointment">
                             <h2>Need An Appointment For Legal HElp?</h2>
-                            <a href="/<?php echo path::rebase('contactus'); ?>">Make An Appointment</a>
+                            <a href="<?php echo path::rebase('contactus'); ?>">Make An Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -315,7 +315,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="/<?php echo path::rebase('contactus'); ?>">Get Free Consultation</a>
+                            <a href="<?php echo path::rebase('contactus'); ?>">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
