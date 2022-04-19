@@ -14,7 +14,7 @@ $re = $a->getall('contact');
         <!-- favicon
 		============================================ -->
         <link rel="shortcut icon" href="main/img/favicon.ico" type="image/x-icon">
-<link rel="icon" href="main/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="main/img/favicon.ico" type="image/x-icon">
 
         <!-- Bootstrap CSS
 		============================================ -->
@@ -80,7 +80,7 @@ $re = $a->getall('contact');
                             <div class="breadcumb">
                                 <ul>
                                     <li>
-                                        <a href="main/index.html">Home</a>
+                                        <a href="home">Home</a>
                                     </li>
                                     <li>Contact Us</li>
                                 </ul>
