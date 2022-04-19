@@ -108,13 +108,13 @@ $re = $a->getall('attorney');
                         echo '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
-                                <a href="">
+                                <a href="viewattorney/'.$row['id'].'">
                                     <img src="yolkassets/upload/'.$row['image'].'" alt="image" style="height:400px;width:100%;">
                                 </a>
                                 
                             </div>
                             <h3>
-                                '.$row['name'].'
+                                <a href="viewattorney/'.$row['id'].'">'.$row['name'].'</a>
                             </h3>
                             <p>'.$row['position'].'</p>
                         </div>
