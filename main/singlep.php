@@ -16,7 +16,7 @@ $rr = fetchAll('practiceareas');
         <!-- favicon
 		============================================ -->
         <link rel="shortcut icon" href="/main/img/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/main/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/main/img/favicon.ico" type="image/x-icon">
 
         <!-- Bootstrap CSS
 		============================================ -->
