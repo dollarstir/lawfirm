@@ -191,7 +191,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                 </div>
                 <div class="our-attorney">
-                <?php attorney(); ?>
+                <?php attorney1(); ?>
                 </div>
             </div>
         </div>

@@ -308,6 +308,56 @@ function attorney()
     }
 }
 
+function attorney1()
+{
+    $a = fetchall('attorney');
+
+    foreach ($a as $row) {
+        echo '<div class="single-attorney">
+        <div class="attorney-picture">
+            <a href="">
+                <img src="/yolkassets/upload/'.$row['image'].'" alt="">
+            </a>
+            <div class="overlay">
+                <h2>
+                    <a href="/viewattorney/'.$row['id'].'">View Bio</a>
+                </h2>
+                <div class="social-media">
+                    <ul>
+                        <li>
+                            <a href="'.$row['facebook'].'">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['twitter'].'">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['linkedin'].'">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="'.$row['skype'].'">
+                                <i class="fa fa-skype"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="attorney-content">
+            <h3>
+                <a href="/viewattorney/'.$row['id'].'">'.$row['name'].'</a>
+            </h3>
+            <p>'.$row['position'].'</p>
+        </div>
+    </div>';
+    }
+}
+
 function simages()
 {
     $i = 0;
