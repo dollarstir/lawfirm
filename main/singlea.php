@@ -100,7 +100,7 @@ $rr = fetchAll('practiceareas');
                         <div class="team-details-img-wraper">
                             <div class="team-details-img-holder">
                                 <a href="/main/single-attorney.html#">
-                                    <img src="yolkassets/upload/<?php echo $r[0]['image']; ?>" alt="attorney" class="img-responsive">
+                                    <img src="/yolkassets/upload/<?php echo $r[0]['image']; ?>" alt="attorney" class="img-responsive">
                                 </a>
                             </div>
                             <ul class="team-details-social">
