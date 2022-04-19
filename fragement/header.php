@@ -266,12 +266,12 @@ function attorney()
         echo '<div class="single-attorney">
         <div class="attorney-picture">
             <a href="">
-                <img src="yolkassets/upload/'.$row['image'].'" alt="">
+                <img src="yolkassets/upload/'.$row['image'].'" alt="" style="width:100%;height:400px;">
             </a>
             <div class="overlay">
-                <!--<h2>
-                    <a href="main/index.html#">View Bio</a>
-                </h2>-->
+            <h2>
+                <a href="viewattorney/'.$row['id'].'">View Bio</a>
+             </h2>
                 <div class="social-media">
                     <ul>
                         <li>
