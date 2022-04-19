@@ -141,5 +141,9 @@ $router = new Router([
     new Route('/areas/{id}', function ($context) {
         return Viewer::view('main/singlep.php', $context);
     }),
+
+    new Route('/viewattorney/{id}', function ($context) {
+        return Viewer::view('main/singlea.php', $context);
+    }),
 ]);
 $router->launch();
