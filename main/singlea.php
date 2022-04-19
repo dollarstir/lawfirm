@@ -157,19 +157,7 @@ $rr = fetchAll('practiceareas');
                                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum dolor sit amet,
                                     consectetur adipisicing elit.</span>
                             </p>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                pariatur. Ut enim ad minim.Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                ad minim. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Ut enim ad minim.Duis aute irure dolor in reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                aliqua. Ut enim ad minim.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati laborum ipsa, a voluptates
-                                libero possimus sapien3e sint odit iusto blanditiis doloribus. Duis aute irure dolor in reprehenderit
-                                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum
-                                dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p><?php echo $r[0]['bio']; ?></p>
                             <!-- <div class="skill1-area">
                                 <div class="progress">
                                     <div class="lead">Family Law</div>
