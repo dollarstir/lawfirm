@@ -96,6 +96,10 @@ echo '
                             <li>
                                 <a href="'.nel('about').'">About Us</a>
                             </li>
+
+                            <li>
+                                <a href="'.nel('attorney').'">Our Attorney</a>
+                            </li>
                             <li>
                                 <a href="">PRACTICE AREAS</a>
                                 <ul>
