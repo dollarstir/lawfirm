@@ -108,8 +108,8 @@ $re = $a->getall('attorney');
                         echo '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="single-news-area">
                             <div class="news-featured-image">
-                                <a href="main/single.html">
-                                    <img src="main/img/blog/1.jpg" alt="image">
+                                <a href="">
+                                    <img src="yolkassets/upload/'.$row['image'].'" alt="image">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
@@ -136,7 +136,7 @@ $re = $a->getall('attorney');
 
                     
                 </div>
-                <div class="pagination-area">
+                <!-- <div class="pagination-area">
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="pagination">
@@ -160,7 +160,7 @@ $re = $a->getall('attorney');
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Latest News Area End Here -->
@@ -171,7 +171,7 @@ $re = $a->getall('attorney');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="make-appointment">
                             <h2>Need An Appointment For Legal HElp?</h2>
-                            <a href="main/blog.html#">Make An Appointment</a>
+                            <a href="contactus">Make An Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -179,62 +179,7 @@ $re = $a->getall('attorney');
         </div>
         <!-- Make An Appointment Area End here -->
         <!-- Partner Logo Area Start Here -->
-        <div class="client-logo-area">
-            <div class="container">
-                <div class="client-logo">
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/7.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/1.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="single-logo">
-                        <a href="main/blog.html#">
-                            <img src="main/img/client/3.jpg" alt="">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+      
         <!-- Partner Logo Area End Here -->
         <!-- Get Free Consultation Start Here -->
         <div class="get-free-consultation-area">
