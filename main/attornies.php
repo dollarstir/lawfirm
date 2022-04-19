@@ -109,7 +109,7 @@ $re = $a->getall('attorney');
                         <div class="single-news-area">
                             <div class="news-featured-image">
                                 <a href="">
-                                    <img src="yolkassets/upload/'.$row['image'].'" alt="image" style="height:300px;width:100%;">
+                                    <img src="yolkassets/upload/'.$row['image'].'" alt="image" style="height:400px;width:100%;">
                                 </a>
                                 <ul>
                                     <li class="active">Mar,13 2016</li>
