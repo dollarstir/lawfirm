@@ -170,7 +170,7 @@ $rr = fetchAll('practiceareas');
                                 libero possimus sapien3e sint odit iusto blanditiis doloribus. Duis aute irure dolor in reprehenderit
                                 in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint.Lorem ipsum
                                 dolor sit amet,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div class="skill1-area">
+                            <!-- <div class="skill1-area">
                                 <div class="progress">
                                     <div class="lead">Family Law</div>
                                     <div data-wow-delay="1.2s" data-wow-duration="1.5s" style="width: 95%; visibility: visible; animation-duration: 1.5s; animation-delay: 1.2s; animation-name: fadeInLeft;"
@@ -192,7 +192,7 @@ $rr = fetchAll('practiceareas');
                                         <span>70%</span>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
