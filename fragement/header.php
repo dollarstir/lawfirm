@@ -88,7 +88,7 @@ echo '
                     <nav>
                         <ul>
                             <li class="current">
-                                <a href="home">
+                                <a href="'.nel('home').'">
                                     <i class="fa fa-home"></i>
                                 </a>
                                 
