@@ -1,3 +1,9 @@
+<?php involve('title.php');
+$id = $context['id'];
+$r = customfetch('attorney', [['id', '=', $id]]);
+$rr = fetchAll('practiceareas');
+
+?>
 <!doctype html>
 <html class="no-js" lang="">
 
