@@ -19,52 +19,52 @@ $rr = fetchAll('practiceareas');
         <link rel="icon" href="/main/img/favicon.ico" type="image/x-icon">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/main/css/bootstrap.min.css">
         <!-- Bootstrap CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/main/css/font-awesome.min.css">
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="/main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- owl.carousel CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/owl.carousel.css">
-        <link rel="stylesheet" href="main/css/owl.theme.css">
-        <link rel="stylesheet" href="main/css/owl.transitions.css">
+        <link rel="stylesheet" href="/main/css/owl.carousel.css">
+        <link rel="stylesheet" href="/main/css/owl.theme.css">
+        <link rel="stylesheet" href="/main/css/owl.transitions.css">
         <!-- jquery-ui CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/jquery-ui.css">
+        <link rel="stylesheet" href="/main/css/jquery-ui.css">
         <!-- meanmenu CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/meanmenu.min.css">
+        <link rel="stylesheet" href="/main/css/meanmenu.min.css">
         <!-- animate CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/animate.css">
+        <link rel="stylesheet" href="/main/css/animate.css">
         <!-- normalize CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/normalize.css">
+        <link rel="stylesheet" href="/main/css/normalize.css">
         <!-- main CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/css/main.css">
+        <link rel="stylesheet" href="/main/css/main.css">
         <!-- nivo slider CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/custom-slider/css/nivo-slider.css" type="text/css" />
-        <link rel="stylesheet" href="main/custom-slider/css/preview.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="/main/custom-slider/css/nivo-slider.css" type="text/css" />
+        <link rel="stylesheet" href="/main/custom-slider/css/preview.css" type="text/css" media="screen" />
         <!-- style CSS
 		============================================ -->
-        <link rel="stylesheet" href="main/style.css">
+        <link rel="stylesheet" href="/main/style.css">
         <!-- Responsive CSS
         ============================================ -->
-        <link rel="stylesheet" href="main/css/responsive.css">
+        <link rel="stylesheet" href="/main/css/responsive.css">
         <!-- modernizr JS
 		============================================ -->
-        <script src="main/js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="/main/js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
 
     <body class="about-us">
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="/main/http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
@@ -99,38 +99,38 @@ $rr = fetchAll('practiceareas');
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="team-details-img-wraper">
                             <div class="team-details-img-holder">
-                                <a href="main/single-attorney.html#">
+                                <a href="/main/single-attorney.html#">
                                     <img src="yolkassets/upload/<?php echo $r[0]['image']; ?> ?>" alt="attorney" class="img-responsive">
                                 </a>
                             </div>
                             <ul class="team-details-social">
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-pinterest"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-rss"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i aria-hidden="true" class="fa fa-google-plus"></i>
                                     </a>
                                 </li>
@@ -214,32 +214,32 @@ $rr = fetchAll('practiceareas');
                 <div class="our-attorney">
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/3.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/3.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -249,39 +249,39 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">Jhon Doe</a>
+                                <a href="/main/single-attorney.html#">Jhon Doe</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/1.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -291,39 +291,39 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">M.Albert</a>
+                                <a href="/main/single-attorney.html#">M.Albert</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/2.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -333,39 +333,39 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">Jhon Doe</a>
+                                <a href="/main/single-attorney.html#">Jhon Doe</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/4.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/4.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -375,39 +375,39 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">M.Albert</a>
+                                <a href="/main/single-attorney.html#">M.Albert</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/1.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/1.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -417,39 +417,39 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">Jhon Doe</a>
+                                <a href="/main/single-attorney.html#">Jhon Doe</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
                     </div>
                     <div class="single-attorney">
                         <div class="attorney-picture">
-                            <a href="main/single-attorney.html#">
-                                <img src="main/img/attorney/2.jpg" alt="">
+                            <a href="/main/single-attorney.html#">
+                                <img src="/main/img/attorney/2.jpg" alt="">
                             </a>
                             <div class="overlay">
                                 <h2>
-                                    <a href="main/single-attorney.html#">View Bio</a>
+                                    <a href="/main/single-attorney.html#">View Bio</a>
                                 </h2>
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -459,7 +459,7 @@ $rr = fetchAll('practiceareas');
                         </div>
                         <div class="attorney-content">
                             <h3>
-                                <a href="main/single-attorney.html#">Jhon Doe</a>
+                                <a href="/main/single-attorney.html#">Jhon Doe</a>
                             </h3>
                             <p class="designation">Lawyer & Founder</p>
                         </div>
@@ -473,53 +473,53 @@ $rr = fetchAll('practiceareas');
             <div class="container">
                 <div class="client-logo">
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/1.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/2.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/3.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/4.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/4.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/5.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/5.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/6.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/6.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/7.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/7.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/1.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/1.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/2.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/2.jpg" alt="">
                         </a>
                     </div>
                     <div class="single-logo">
-                        <a href="main/single-attorney.html#">
-                            <img src="main/img/client/3.jpg" alt="">
+                        <a href="/main/single-attorney.html#">
+                            <img src="/main/img/client/3.jpg" alt="">
                         </a>
                     </div>
                 </div>
@@ -537,7 +537,7 @@ $rr = fetchAll('practiceareas');
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                         <div class="contact-buttom">
-                            <a href="main/contact.html">Get Free Consultation</a>
+                            <a href="/main/contact.html">Get Free Consultation</a>
                         </div>
                     </div>
                 </div>
@@ -558,22 +558,22 @@ $rr = fetchAll('practiceareas');
                                 <div class="social-media">
                                     <ul>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-facebook"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="main/single-attorney.html#">
+                                            <a href="/main/single-attorney.html#">
                                                 <i class="fa fa-skype"></i>
                                             </a>
                                         </li>
@@ -586,22 +586,22 @@ $rr = fetchAll('practiceareas');
                                 <h2>Explore Our Work</h2>
                                 <ul>
                                     <li>
-                                        <a href="main/single-attorney.html#">Criminal law</a>
+                                        <a href="/main/single-attorney.html#">Criminal law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">Accident law</a>
+                                        <a href="/main/single-attorney.html#">Accident law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">Devorce law</a>
+                                        <a href="/main/single-attorney.html#">Devorce law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">Industrial law</a>
+                                        <a href="/main/single-attorney.html#">Industrial law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">Business law</a>
+                                        <a href="/main/single-attorney.html#">Business law</a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">Familly law</a>
+                                        <a href="/main/single-attorney.html#">Familly law</a>
                                     </li>
                                 </ul>
                             </div>
@@ -628,28 +628,28 @@ $rr = fetchAll('practiceareas');
                                 <h2>flickr GALLERY</h2>
                                 <ul>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/1.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/2.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/3.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/3.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/1.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/1.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/2.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/2.jpg" alt=""> </a>
                                     </li>
                                     <li>
-                                        <a href="main/single-attorney.html#">
-                                            <img src="main/img/blog/3.jpg" alt=""> </a>
+                                        <a href="/main/single-attorney.html#">
+                                            <img src="/main/img/blog/3.jpg" alt=""> </a>
                                     </li>
                                 </ul>
                             </div>
@@ -663,7 +663,7 @@ $rr = fetchAll('practiceareas');
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="footer-buttom">
                                 <div class="scrollup">
-                                    <a href="main/single-attorney.html#">
+                                    <a href="/main/single-attorney.html#">
                                         <i class="fa fa-chevron-up"></i>
                                     </a>
                                 </div>
@@ -680,35 +680,35 @@ $rr = fetchAll('practiceareas');
         <!-- Preloader End Here -->
         <!-- jquery
 		============================================ -->
-        <script src="main/js/vendor/jquery-1.11.3.min.js"></script>
+        <script src="/main/js/vendor/jquery-1.11.3.min.js"></script>
         <!-- bootstrap JS
 		============================================ -->
-        <script src="main/js/bootstrap.min.js"></script>
+        <script src="/main/js/bootstrap.min.js"></script>
         <!-- wow JS
 		============================================ -->
-        <script src="main/js/wow.min.js"></script>
+        <script src="/main/js/wow.min.js"></script>
         <!-- price-slider JS
 		============================================ -->
-        <script src="main/js/jquery-price-slider.js"></script>
+        <script src="/main/js/jquery-price-slider.js"></script>
         <!-- meanmenu JS
 		============================================ -->
-        <script src="main/js/jquery.meanmenu.js"></script>
+        <script src="/main/js/jquery.meanmenu.js"></script>
         <!-- owl.carousel JS
 		============================================ -->
-        <script src="main/js/owl.carousel.min.js"></script>
+        <script src="/main/js/owl.carousel.min.js"></script>
         <!-- scrollUp JS
 		============================================ -->
-        <script src="main/js/jquery.scrollUp.min.js"></script>
+        <script src="/main/js/jquery.scrollUp.min.js"></script>
         <!-- plugins JS
 		============================================ -->
-        <script src="main/js/plugins.js"></script>
+        <script src="/main/js/plugins.js"></script>
         <!-- Nivo slider js
         ============================================ -->
-        <script src="main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
-        <script src="main/custom-slider/home.js" type="text/javascript"></script>
+        <script src="/main/custom-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+        <script src="/main/custom-slider/home.js" type="text/javascript"></script>
         <!-- main JS
 		============================================ -->
-        <script src="main/js/main.js"></script>
+        <script src="/main/js/main.js"></script>
 
     </body>
 
