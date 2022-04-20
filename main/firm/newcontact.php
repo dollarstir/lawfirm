@@ -87,6 +87,12 @@ $row = fetchall('contact');
 <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['email']; ?>">
 </div>
 
+
+<div class="form-group">
+<label for="exampleFormControlInput1">Email</label>
+<input type="email" name="email2" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['email2']; ?>">
+</div>
+
 <div class="form-group">
 <label for="exampleFormControlInput1">Telephone</label>
 <input type="number" name="telephone" class="form-control" id="exampleFormControlInput1" placeholder="" value="<?php echo $row[0]['telephone']; ?>">
