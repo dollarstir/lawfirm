@@ -149,6 +149,7 @@ if (isset($_GET['action'])) {
                 [
                     'address' => $address,
                     'email' => $email,
+                    'email2' => $email2,
                     'phone' => $phone,
                     'telephone' => $telephone,
                 ]);
