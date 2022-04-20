@@ -163,7 +163,7 @@ $re = $a->getall('contact');
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/contact.html#">
+                                    <a href="tel:<?php echo $re[0]['telephone']; ?>">
                                         <i class="fa fa-building-o"></i>
                                         <span><?php echo $re[0]['telephone']; ?></span>
                                     </a>
