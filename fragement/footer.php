@@ -76,6 +76,8 @@ echo '   <footer>
                             <i class="fa fa-phone"></i> '.$add[0]['phone'].'</li>
                         <li>
                             <i class="fa fa-envelope-o"></i> '.$add[0]['email'].'</li>
+                            <li>
+                            <i class="fa fa-envelope-o"></i> '.$add[0]['email2'].'</li>
                         <li>
                             <i class="fa fa-fax"></i> '.$add[0]['telephone'].'</li>
                     </ul>
