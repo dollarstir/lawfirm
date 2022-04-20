@@ -144,15 +144,22 @@ $re = $a->getall('contact');
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/contact.html#">
+                                    <a href="tel:<?php $re[0]['phone']; ?>">
                                         <i class="fa fa-phone"></i>
                                         <span><?php echo $re[0]['phone']; ?></span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="main/contact.html#">
+                                    <a href="mailto:<?php $re[0]['email']; ?>">
                                         <i class="fa fa-envelope-o"></i>
                                         <span><?php echo $re[0]['email']; ?></span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="mailto:<?php $re[0]['email2']; ?>">
+                                        <i class="fa fa-envelope-o"></i>
+                                        <span><?php echo $re[0]['email2']; ?></span>
                                     </a>
                                 </li>
                                 <li>
